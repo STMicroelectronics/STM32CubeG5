@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:14:00.530Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1441ce090fdee9687e3628e246f4677be4b26c17c274139b338bd1445f4b298a"
+      },
+      "file": "freertos_low_power.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8b4b73e9471e4dc7612a05a1db6201b5e72be5be488e0247bc92b4b21a0757f4"
+      },
+      "file": "project/freertos_low_power.cproject.yml"
+    }
+  ]
+}

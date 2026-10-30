@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T05:09:11.718Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7db2f09b9528a1e32c5adea36d2af64c1c3c78d3b21583cddbb4d7c54aac0694"
+      },
+      "file": "stfcf_sign_verify_rsa_v2_2_std.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a0a45dc2c697a08348878ed7189ef735c0aaaede04dbf54e3651dd8e9e4eaf50"
+      },
+      "file": "project/stfcf_sign_verify_rsa_v2_2_std.cproject.yml"
+    }
+  ]
+}

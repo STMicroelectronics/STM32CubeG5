@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:19:55.683Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "6e6da882640c9274c4a07fef98ed48956f4896168782cfab02441ecc41012629"
+      },
+      "file": "ll_lpuart_wakeup_from_stop.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d7e69e5e3a499b11c8cb02044579a0fc85b97a00bc455395a5427a9fba18ed30"
+      },
+      "file": "project/ll_lpuart_wakeup_from_stop.cproject.yml"
+    }
+  ]
+}

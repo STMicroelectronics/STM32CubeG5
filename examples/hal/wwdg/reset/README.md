@@ -1,0 +1,174 @@
+<img src="doc/subbrand-stm32.svg" width="50" alt="STM32 Subbrand Logo"/>
+
+# __Example: *hal_wwdg_reset*__
+
+**Example version:** 2.0.6
+
+[![User Manual](doc/read_the-UM.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/index.html "An offline version is also available in the STM32Cube firmware package.")
+
+How to use the WWDG HAL API to refresh the watchdog and let it reset the MCU on purpose.
+
+
+## __1. Detailed scenario__
+
+__Initialization phase__: At main program start, the `mx_system_init()` function is called. It initializes the peripherals, nonvolatile memory (such as flash memory, NVM, or external memories), MPU regions (if applicable), the system clock, and the SysTick.
+
+The application executes the following __example steps__:
+
+__Step 1__: Initializes the WWDG by app_init(). Due to the initialization parameters,
+the value of the WWDG_MAX_TIME_VALUE corresponds to 209 milliseconds and WWDG_MIN_TIME_VALUE corresponds to 78 milliseconds.
+Both values are chosen arbitrarily and the WWDG_MIN_TIME_VALUE should be less or equal than the WWDG_MAX_TIME_VALUE.
+
+__Step 2__: The WWDG is refreshed inside the window a certain number of times (PROCESS_LOOP_NUMBER).
+
+__Step 3__: The watchdog is refreshed outside the window to trigger the WWDG reset.
+
+__Step 4__: The device is restarted due to WWDG.
+
+__End of example__: After step 4, the example is completed. You can verify that the example runs properly via the user
+LED and the `ExecStatus` variable.
+
+If you enable `USE_TRACE`, you can follow these execution steps in the terminal logs:
+
+```text
+[INFO] Step 1: Device initialization COMPLETED.
+[INFO] Step 2: WWDG refreshed.
+[INFO] Step 2: WWDG refreshed.
+[INFO] Step 2: WWDG refreshed.
+[INFO] Step 3: WWDG refreshed outside the window.
+[INFO] Step 4: Device's restart completed due to WWDG.
+```
+
+
+## __2. Example configuration__
+
+[![Configuration Manual](doc/configure_with-ConfigurationMa.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/configure/config_toc.html "An offline version is also available in the STM32Cube firmware package.")
+> The WWDG_WINDOW, PRESCALER and RELOAD parameters are calculated based on WWDG_MIN_TIME_VALUE(ms) and WWDG_MAX_TIME_VALUE(ms) in the function HAL_WWDG_Start().
+> To ensure that the WWDG operates correctly, the application must reload the counter value within the specified window. The reload operation should occur when the counter value is between the window register value and 0x3F, and the value written to the WWDG_CR register must be between 0xFF and 0xC0.
+> The WWDG_TIMEOUT value is calculated as follows: `WWDG_TIMEOUT = tPCLK x 4096 x 2^WDGTB[2:0] x (T[5:0] + 1)`
+> Consequently, the maximum and minimum values depends on the tPCLK which is the APB clock period.
+
+We want to set the WWDG timeout to be 209ms. So the tPCLK clock should be set accordingly to be sure this value can be reached.
+
+
+## __3. Hardware environment and setup__
+
+### __3.1. Generic Setup__
+
+The frequency used for the WWDG_TIMEOUT parameter calculation depends on the board and setup you are using. So, you have to be sure the WWDG can perform a timeout for your case. You can refer to the datasheet to retrieve typical timeout values configuration.
+The following section provide some explanation on the maximal timeout reachable according to the series.
+
+### __3.2. Specific board setups__
+
+<details>
+  <summary>On STM32G5 series.</summary>
+  <details>
+    <summary>Common configuration.</summary>
+
+<!--
+@startuml
+@startditaa{doc/stm32g5_peripherals_clocks.png}
+ +---------+
+ | clock   |
+ | source  |
+ | control |
+ +---+-----+
+ |
+ ++-\
+--+  |
+  |  |
+  |  |
+--+  |           +---------------+        +--------------+
+  |  |  SYSCLCK  |  AHB          |  HCLK  |  APBx        |  PCLKx
+  |  +-----------+  PRESC        +----+---+  PRESC       +--------------------------------
+--+  |           |  / 1,2,...512 |        | / 1,2,4,8,16 |          To APBx peripherals
+  |  |           +---------------+        +--------------+
+  |  |                                
+--+  |                                
+  |  |                                                                       
+  +--/
+@endditaa
+@enduml
+-->
+      ![clocks](doc/stm32g5_peripherals_clocks.png)
+
+  - The WWDG input clock is set to the APB clock.
+  - The AHB and APB prescalers are set to 1.
+  - fPCLK = HCLK = SYSCLK (system clock)
+
+  Here the system clock is set to 280 MHz, so:
+  - fPCLK = 280 MHz
+
+  With this configuration, we can detuct the maximal value for the WWDG_TIMEOUT:
+
+    WWDG_TIMEOUT_MAX = tPCLK x 4096 x 2^7 * 64 =  (1 / 280MHz) * 4096 * 128 * 64 = 936,228 ms
+
+  </details>
+
+  <details>
+    <summary>On board NUCLEO-G564RE.</summary>
+
+  |  MCU pin  |  Signal name  |  User Label   |
+  |:---------:|:-------------:|:-------------:|
+  |    PG3    |     GPIO      | MX_STATUS_LED |
+  |    PA2    |   USART2_TX   |       -       |
+
+  </details>
+</details>
+  
+
+  
+</details>
+
+
+## __4. Troubleshooting__
+
+[![Troubleshooting](doc/debug_with-Troubleshooting.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/debug/debug_toc.html "An offline version is also available in the STM32Cube firmware package.")
+
+Note: The value of WWDG_MAX_TIME_VALUE must be lower than WWDG_ALLOWED_MAX_TIME.
+WWDG_ALLOWED_MAX_TIME depends on the time unit and the WWDG clock frequency, and is computed in the driver file.
+
+__WWDG initialization__:
+If the following message appears when using the basic trace utility, check the WWDG initialization.
+
+```text
+[ERROR] The WWDG is supposed to reset before reaching this stage due to the Step 3.
+```
+
+__Low reload value and the basic trace utility__:
+Enabling the trace can cause issues when the watchdog is configured with a low reload value.
+
+The time spent by the trace mechanism alone may be enough to trigger a watchdog timeout.
+To avoid this, we recommend setting the watchdog reload value to at least 60 when the trace is enabled.
+
+__Maximal timeout value__:
+The maximal timeout value for the WWDG depends on the clock used by the counter.
+You might need to adapt this clock to be sure the WWDG handle the specified timeout.
+
+__Debug limitation__:
+Be careful when trying to debug this application. Once the WWDG has started, it cannot be stopped.
+So the watchdog can trigger anytime, especially on the step it is not supposed to.
+Some series support the WWDG_STOP feature in the DBG block, allowing to stop the watchdog.
+
+
+## __5. See Also__
+
+[![SeeAlso](doc/go_further_with-STM32.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/more/more_toc.html "An offline version is also available in the STM32Cube firmware package.")
+
+This [application note](https://www.st.com/resource/en/application_note/an5701-stm32cube-mcu-package-examples-for-stm32u5-series-stmicroelectronics.pdf)
+explains further this WWDG feature.
+
+The documentation of the drivers of the relevant STM32 series contains more detailed information.
+
+For instance for the STM32C5 series: [HAL documentation](https://dev.st.com/stm32cube-docs/stm32c5xx-hal-drivers/latest/en/index.html).
+
+More information about the STM32 ecosystem can be found in the [STM32 MCU Developer Zone](https://www.st.com/content/st_com/en/stm32-mcu-developer-zone/embedded-software.html).
+
+
+## __6. License__
+
+Copyright (c) 2026 STMicroelectronics.
+
+This software is licensed under terms that can be found in the LICENSE file in the root directory
+of this software component.
+If no LICENSE file comes with this software, it is provided AS-IS.

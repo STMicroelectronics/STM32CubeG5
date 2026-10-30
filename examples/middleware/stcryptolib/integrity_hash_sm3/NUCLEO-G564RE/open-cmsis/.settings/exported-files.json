@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T04:01:13.555Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b9e634bea7a7bf60caa1443bbd1cc6cbe784c053ebb3d1aebb7ab42286e6f2a8"
+      },
+      "file": "stcryptolib_integrity_hash_sm3.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0a3e84c5c98b80c2aeafe7db8aa01cf8552ebd560961bf546a5e0fcd637667b8"
+      },
+      "file": "project/stcryptolib_integrity_hash_sm3.cproject.yml"
+    }
+  ]
+}

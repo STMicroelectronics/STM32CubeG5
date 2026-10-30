@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:22:06.014Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9e2f4b0b828476d6968cdef23e9018a276e259b02422f657ee9310f73799bc61"
+      },
+      "file": "w25q128j_read_write_dma.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/w25q128j_read_write_dma.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "801b989f3916015c10933348a86f3f438193b98b5350bdb950c334f87908e166"
+      },
+      "file": "project/w25q128j_read_write_dma.ewp"
+    }
+  ]
+}

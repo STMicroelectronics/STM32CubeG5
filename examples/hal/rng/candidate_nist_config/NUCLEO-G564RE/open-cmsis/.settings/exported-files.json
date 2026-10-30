@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:14:11.485Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "11d3a65e20928e050e33d81fe20712dacd16671ad53ac9ca924a516b4346000c"
+      },
+      "file": "hal_rng_candidate_nist_config.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7c2f9a60ef37adbf2e50d44f0ca4b77d66e8c1ec394c81c71359f4ff1f7f76b1"
+      },
+      "file": "project/hal_rng_candidate_nist_config.cproject.yml"
+    }
+  ]
+}

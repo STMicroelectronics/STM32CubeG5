@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T18:30:34.201Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f7ff469b43bf0971a1d54d6e97e6c8e4305ecc9967a222d161d5c71516c40d2b"
+      },
+      "file": "hal_flash_erase_program.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_flash_erase_program.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5737674e064ba501b4eadccf44d22b5ab37903c420a93eaee747ba7f5ff992ae"
+      },
+      "file": "project/hal_flash_erase_program.ewp"
+    }
+  ]
+}

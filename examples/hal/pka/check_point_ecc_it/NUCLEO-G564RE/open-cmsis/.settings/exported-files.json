@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:14:33.128Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "05450e46b0c8f30eb3cc3d31f1b8010dba3b5bedcfd8d49a040597d62a2eda21"
+      },
+      "file": "hal_pka_check_point_ecc_it.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5799d697de3278f12cc9965414cc0c809d154137f184bf3e5850c6e0f2a3b246"
+      },
+      "file": "project/hal_pka_check_point_ecc_it.cproject.yml"
+    }
+  ]
+}

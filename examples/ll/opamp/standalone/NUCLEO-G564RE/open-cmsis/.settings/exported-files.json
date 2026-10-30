@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:24:37.741Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "63c373666f99daf05070cb7e9f3788cc7bb68f478e57267c7d82d91935adbc44"
+      },
+      "file": "ll_opamp_standalone.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "447a2dd438e697f8ec6489b4dcfd4606a3739577dd11330450ad816ddae8f421"
+      },
+      "file": "project/ll_opamp_standalone.cproject.yml"
+    }
+  ]
+}

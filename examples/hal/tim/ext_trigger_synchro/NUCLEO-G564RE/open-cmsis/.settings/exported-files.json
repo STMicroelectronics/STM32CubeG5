@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:50:44.453Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "bcbf0daeca5de6213ce85a09de26d6666c60770a53d37813cc059e180e5fb461"
+      },
+      "file": "hal_tim_ext_trigger_synchro.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3ae5a54c51d2ebd0e14befaf9da8e931e96d5cbff15a8db1c68bed14f99a8c4d"
+      },
+      "file": "project/hal_tim_ext_trigger_synchro.cproject.yml"
+    }
+  ]
+}

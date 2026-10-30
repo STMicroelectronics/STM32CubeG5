@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:41:41.966Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "26641809343b5b50ec89a393d21b18a2d2d8a99dc0cc9c57b8a7938da3938cbd"
+      },
+      "file": "ll_rtc_calib_output_frequency.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/ll_rtc_calib_output_frequency.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9e89319b23a7d64e47177e4c0fdd5a086af03cd884e5926ba9fa3a614d9448ca"
+      },
+      "file": "project/ll_rtc_calib_output_frequency.ewp"
+    }
+  ]
+}

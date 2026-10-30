@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:29:11.972Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "56a753f600c9eafb881de3ac78589b13071e39cce886c84372b8f626d01649e2"
+      },
+      "file": "hal_comp_dac_it.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_comp_dac_it.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "afda00bc56ad9c986dc3e1a30e943eac60ace716830b78434bc4f71d42f79ef4"
+      },
+      "file": "project/hal_comp_dac_it.ewp"
+    }
+  ]
+}

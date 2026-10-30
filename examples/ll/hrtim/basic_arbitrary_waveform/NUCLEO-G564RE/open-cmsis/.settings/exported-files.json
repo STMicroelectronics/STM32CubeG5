@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T01:42:32.071Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b6b20e8ba4b3aa8d19cbdbbe28d607c4ce58b3b62d81119911368290a366384b"
+      },
+      "file": "ll_hrtim_basic_arbitrary_waveform.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ece7ad740ea1afd6aa0b5089a3945efb098d3adc16d82a8560302f94e4c273b9"
+      },
+      "file": "project/ll_hrtim_basic_arbitrary_waveform.cproject.yml"
+    }
+  ]
+}

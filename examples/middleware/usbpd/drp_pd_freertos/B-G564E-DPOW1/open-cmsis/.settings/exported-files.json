@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T05:15:47.675Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b74d231dae150affa051d8c27ce8c774aadd363f71d86ca0bbeb946001572957"
+      },
+      "file": "usbpd_drp_pd_freertos.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "cf37e1d592fd2ce6c7f83886243730aad85b531345087bed83ec08e992f7dccd"
+      },
+      "file": "project/usbpd_drp_pd_freertos.cproject.yml"
+    }
+  ]
+}

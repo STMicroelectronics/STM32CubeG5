@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:03:30.122Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "fc517ed968baab9096419e669744dcb3e15d1458e443d40993d49803d8bcface"
+      },
+      "file": "ll_uart_reception_to_idle_circular_dma.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/ll_uart_reception_to_idle_circular_dma.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7dbf38f962c6ae4eea83cb662368eda15439b2f3cc7ee3f51a1c01555edfc13a"
+      },
+      "file": "project/ll_uart_reception_to_idle_circular_dma.ewp"
+    }
+  ]
+}

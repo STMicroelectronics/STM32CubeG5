@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:55:24.715Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "60cfcf0b1dc58a7f3d19f5ec4112a9697629e188738025b2f537a395e219e752"
+      },
+      "file": "hal_dac_signal_generation_dma_silent_tim.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_dac_signal_generation_dma_silent_tim.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "6af800b334b6cb386e412804b09b91b213b3d745070a97964d4220837187c4af"
+      },
+      "file": "project/hal_dac_signal_generation_dma_silent_tim.ewp"
+    }
+  ]
+}

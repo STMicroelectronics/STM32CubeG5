@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:47:15.204Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "426e63f574857af033b3c15bd16bba2dd22416166f537309544ebd63a1d98a0b"
+      },
+      "file": "hal_tim_encoder_index_pulse_on_compare.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a0e9b7fa7d4fa1eaf1fd68f67af63a3f251d68d4515d8c4586cfd04ac55f68d5"
+      },
+      "file": "project/hal_tim_encoder_index_pulse_on_compare.cproject.yml"
+    }
+  ]
+}

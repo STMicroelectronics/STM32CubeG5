@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:46:58.976Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "dfd6a7a8e49f54262e9e4155718192f50f565e3f23d1e0c6d0876c52779e8de2"
+      },
+      "file": "hal_crc_user_defined_polynomial.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "afda6eb8eabd804abeaf2f0bb2187291980cb3fc2cb5bc611d79246b79a72c54"
+      },
+      "file": "project/hal_crc_user_defined_polynomial.cproject.yml"
+    }
+  ]
+}

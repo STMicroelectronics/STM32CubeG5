@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T20:25:41.438Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5f7a818a9583b4195efcafbf791843bfd7b023cd8d57df068593cde80f2e8066"
+      },
+      "file": "hal_i3c_sensor_direct_dma_controller.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_i3c_sensor_direct_dma_controller.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "037af57014f1fd39c3181b033a20e28169f78e76b3340c5a5d9cf7aec0692d05"
+      },
+      "file": "project/hal_i3c_sensor_direct_dma_controller.ewp"
+    }
+  ]
+}

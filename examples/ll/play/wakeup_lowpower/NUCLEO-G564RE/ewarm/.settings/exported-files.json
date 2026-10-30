@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:28:25.253Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "94cb15dd98c6328762327aca3d7d93e4c8ded1e83ca1e87694cf4ce1452fa43f"
+      },
+      "file": "ll_play_wakeup_lowpower.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/ll_play_wakeup_lowpower.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0e2cea40406f7175f2469b9a5f759bee27ccbd9199a7b525c2bc4e52289c3ad4"
+      },
+      "file": "project/ll_play_wakeup_lowpower.ewp"
+    }
+  ]
+}

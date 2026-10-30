@@ -1,0 +1,116 @@
+[submodule "arch/cmsis"]
+	path = arch/cmsis
+	url = https://github.com/STMicroelectronics/cmsis-core.git
+	branch = master
+[submodule "arch/cmsis_dsp"]
+	path = arch/cmsis_dsp
+	url = https://github.com/STMicroelectronics/cmsis-dsp.git
+	branch = main
+[submodule "stm32g5xx_dfp"]
+	path = stm32g5xx_dfp
+	url = https://github.com/STMicroelectronics/stm32g5xx-dfp.git
+	branch = main
+[submodule "stm32g5xx_drivers"]
+	path = stm32g5xx_drivers
+	url = https://github.com/STMicroelectronics/stm32g5xx-drivers.git
+	branch = main
+[submodule "part_drivers/button"]
+	path = part_drivers/button
+	url = https://github.com/STMicroelectronics/stm32-button-part-drivers.git
+	branch = main
+[submodule "part_drivers/joystick"]
+	path = part_drivers/joystick
+	url = https://github.com/STMicroelectronics/stm32-joystick-part-drivers.git
+	branch = main
+[submodule "part_drivers/led"]
+	path = part_drivers/led
+	url = https://github.com/STMicroelectronics/stm32-led-part-drivers.git
+	branch = main
+[submodule "part_drivers/potentiometer"]
+	path = part_drivers/potentiometer
+	url = https://github.com/STMicroelectronics/stm32-potentiometer-part-drivers.git
+	branch = main
+[submodule "part_drivers/rgbled"]
+	path = part_drivers/rgbled
+	url = https://github.com/STMicroelectronics/stm32-rgbled-part-drivers.git
+	branch = main
+[submodule "part_drivers/tcpp0203"]
+	path = part_drivers/tcpp0203
+	url = https://github.com/STMicroelectronics/stm32-tcpp0203-part-drivers.git
+	branch = main
+[submodule "part_drivers/w25n01gvxx"]
+	path = part_drivers/w25n01gvxx
+	url = https://github.com/STMicroelectronics/stm32-w25n01gvxx-part-drivers.git
+	branch = main
+[submodule "part_drivers/w25q128j"]
+	path = part_drivers/w25q128j
+	url = https://github.com/STMicroelectronics/stm32-w25q128j-part-drivers.git
+	branch = main
+[submodule "middleware/filex"]
+	path = middleware/filex
+	url = https://github.com/STMicroelectronics/stm32-mw-filex.git
+	branch = hal2
+[submodule "middleware/freertos"]
+	path = middleware/freertos
+	url = https://github.com/STMicroelectronics/stm32-mw-freertos.git
+	branch = hal2
+[submodule "middleware/levelx"]
+	path = middleware/levelx
+	url = https://github.com/STMicroelectronics/stm32-mw-levelx.git
+	branch = hal2
+[submodule "middleware/mbedtls"]
+	path = middleware/mbedtls
+	url = https://github.com/STMicroelectronics/stm32-mw-mbedtls.git
+	branch = hal2
+[submodule "middleware/mcuboot"]
+	path = middleware/mcuboot
+	url = https://github.com/STMicroelectronics/stm32-mw-mcuboot.git
+	branch = hal2
+[submodule "middleware/open_bootloader"]
+	path = middleware/open_bootloader
+	url = https://github.com/STMicroelectronics/stm32-mw-openbl.git
+	branch = hal2
+[submodule "middleware/stcryptolib"]
+	path = middleware/stcryptolib
+	url = https://github.com/STMicroelectronics/stm32-mw-stcryptolib.git
+	branch = hal2
+[submodule "middleware/stfcf"]
+	path = middleware/stfcf
+	url = https://github.com/STMicroelectronics/stm32-mw-stfcf.git
+	branch = hal2
+[submodule "middleware/usbpd"]
+	path = middleware/usbpd
+	url = https://github.com/STMicroelectronics/stm32-mw-usbpd.git
+	branch = hal2
+[submodule "middleware/usbx"]
+	path = middleware/usbx
+	url = https://github.com/STMicroelectronics/stm32-mw-usbx.git
+	branch = hal2
+[submodule "utilities/advanced_trace"]
+	path = utilities/advanced_trace
+	url = https://github.com/STMicroelectronics/stm32-util-advanced-trace.git
+	branch = main
+[submodule "utilities/basic_stdio"]
+	path = utilities/basic_stdio
+	url = https://github.com/STMicroelectronics/stm32-util-basic-stdio.git
+	branch = main
+[submodule "utilities/eeprom_emulation"]
+	path = utilities/eeprom_emulation
+	url = https://github.com/STMicroelectronics/stm32-util-eeprom-emulation.git
+	branch = main
+[submodule "utilities/rot_provisioning"]
+	path = utilities/rot_provisioning
+	url = https://github.com/STMicroelectronics/stm32-util-rot-provisioning.git
+	branch = main
+[submodule "utilities/sequencer"]
+	path = utilities/sequencer
+	url = https://github.com/STMicroelectronics/stm32-util-sequencer.git
+	branch = main
+[submodule "utilities/syscalls"]
+	path = utilities/syscalls
+	url = https://github.com/STMicroelectronics/stm32-util-syscalls.git
+	branch = main
+[submodule "utilities/thread_safe_libc"]
+	path = utilities/thread_safe_libc
+	url = https://github.com/STMicroelectronics/stm32-util-thread-safe-libc.git
+	branch = main

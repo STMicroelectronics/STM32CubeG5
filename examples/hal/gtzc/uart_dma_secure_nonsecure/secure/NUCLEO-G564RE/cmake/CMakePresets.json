@@ -1,0 +1,44 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/${presetName}"
+        },
+        {
+            "name": "release_GCC_NUCLEO-G564RE",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "${presetName}",
+                "BUILD_TYPE": "release_GCC",
+                "TOOLCHAIN_FILE": "GCC.14.3.1.cmake"
+            },
+            "inherits": "default"
+        },
+        {
+            "name": "debug_GCC_NUCLEO-G564RE",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "${presetName}",
+                "BUILD_TYPE": "debug_GCC",
+                "TOOLCHAIN_FILE": "GCC.14.3.1.cmake"
+            },
+            "inherits": "default"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "configurePreset": "default"
+        },
+        {
+            "name": "release_GCC_NUCLEO-G564RE",
+            "configurePreset": "release_GCC_NUCLEO-G564RE"
+        },
+        {
+            "name": "debug_GCC_NUCLEO-G564RE",
+            "configurePreset": "debug_GCC_NUCLEO-G564RE"
+        }
+    ]
+}

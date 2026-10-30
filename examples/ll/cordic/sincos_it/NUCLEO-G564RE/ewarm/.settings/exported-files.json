@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T01:23:15.990Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "11a80d89cfc39e425042c48cc66d6e2dd91f633fdcbe93644e5a21406148d7f4"
+      },
+      "file": "ll_cordic_sincos_it.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/ll_cordic_sincos_it.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7415c9bbf3595236e0075975b78586a0da8aff9ee48a245b27b85829ecae28e3"
+      },
+      "file": "project/ll_cordic_sincos_it.ewp"
+    }
+  ]
+}

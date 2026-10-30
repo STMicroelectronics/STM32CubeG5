@@ -1,0 +1,119 @@
+{
+  "general": {
+    "bootpath": "STiRoT",
+    "isolation": false
+  },
+  "board": {
+    "name": "NUCLEO-G564RE",
+    "device": "STM32G564RET3",
+    "serie": "STM32G5",
+    "trustzone": true,
+    "lifecycle": "PRODUCT_STATE",
+    "da": true,
+    "obk": true,
+    "max_clock_speed_mhz": 280
+  },
+  "memory": {
+    "type": "flash",
+    "block_type": "page",
+    "block_size": "0x2000",
+    "prog_size": "16",
+    "bank_nb": 2,
+    "bank_size": "0x40000",
+    "total_size": "0x80000",
+    "wrpgrp_size": 4,
+    "wrpgrp_ob_length": 1,
+    "vtor_alignment": "0x400",
+    "base": "0x0C000000"
+  },
+  "obk": {
+    "base": "0x0FFD0000",
+    "hdpl2_offset": "0x0900",
+    "hdpl2_size": "0x700",
+    "reserved": "0x10",
+    "prog_size": "0x10"
+  },
+  "mcuboot": {
+    "data_image_header_size": "0x20",
+    "image_install_req_size": "0x10",
+    "image_version_offset": "0x14",
+    "image_version_size": "0x8",
+    "image_max_align_size": "0x10"
+  },
+  "lifecycle": {
+    "ob_name": "PRODUCT_STATE",
+    "states": [
+      {"name": "OPEN", "is_open": true, "is_provisioning": false, "prevents_reconnect": false, "ob_value": "0xED", "hal_define": "HAL_FLASH_ITF_OB_PRODUCT_STATE_OPEN"},
+      {"name": "PROVISIONING", "is_open": false, "is_provisioning": true, "prevents_reconnect": false, "ob_value": "0x17", "hal_define": "HAL_FLASH_ITF_OB_PRODUCT_STATE_PROVISIONING"},
+      {"name": "IROT-PROVISIONED", "is_open": false, "is_provisioning": false, "prevents_reconnect": true, "ob_value": "0x2E", "hal_define": "HAL_FLASH_ITF_OB_PRODUCT_STATE_IROT_PROVISIONED"},
+      {"name": "TZ-CLOSED", "is_open": false, "is_provisioning": false, "prevents_reconnect": true, "ob_value": "0xC6", "hal_define": "HAL_FLASH_ITF_OB_PRODUCT_STATE_TZ_CLOSED"},
+      {"name": "CLOSED", "is_open": false, "is_provisioning": false, "prevents_reconnect": true, "ob_value": "0x72", "hal_define": "HAL_FLASH_ITF_OB_PRODUCT_STATE_CLOSED"},
+      {"name": "LOCKED", "is_open": false, "is_provisioning": false, "prevents_reconnect": true, "ob_value": "0x5C", "hal_define": "HAL_FLASH_ITF_OB_PRODUCT_STATE_LOCKED"}
+    ]
+  },
+  "option_bytes": {
+    "default": [
+      {
+        "reset": false,
+        "mode": "ur",
+        "static_values": {
+          "TZEN": "0xB4"
+        }
+      },
+      {
+        "reset": false,
+        "mode": "ur",
+        "static_values": {
+          "BOOTLOCK": "0xC3",
+          "SBOOT_LOCK": "0xC3"
+        }
+      },
+      {
+        "reset": false,
+        "mode": "ur",
+        "static_values": {
+          "SECWM1_STRT": "0x0",
+          "SECWM1_END": "0xFF",
+          "SECWM2_STRT": "0x0",
+          "SECWM2_END": "0xFF",
+          "WRPG1": "0xFF",
+          "WRPG2": "0xFF",
+          "HDP1_STRT": 1,
+          "HDP1_END": 0,
+          "HDP2_STRT": 1,
+          "HDP2_END": 0,
+          "BOOT_UBE": "0xB4",
+          "SBOOTADD": "0x0C0000",
+          "SRAM2_ECC":0,
+          "SRAM2_RST":0,
+          "SWAP_LOCK": "0xC3",
+          "IWDG_SW": 1,
+          "WWDG_SW": 1,
+          "SBOOT_LOCK": "0xC3"
+        }
+      }
+    ],
+    "postflash": [
+      {
+        "reset": false,
+        "mode": "ur",
+        "dynamic_values": [
+          {
+            "type": "ECC",
+            "ob_name": "SRAM2_ECC",
+            "field_name": "SRAM2 ECC management activation",
+            "invert_value": false
+          }
+        ]
+      }
+    ],
+    "postobk": [
+      {
+        "reset": false,
+        "static_values": {
+          "BOOT_UBE":"0xC3"
+        }
+      }
+    ]
+  }
+}

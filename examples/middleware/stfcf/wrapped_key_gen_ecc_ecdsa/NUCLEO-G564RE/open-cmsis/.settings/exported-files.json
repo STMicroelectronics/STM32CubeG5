@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T05:11:57.675Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5187e4ede023813dfc8f836f765ecbd006d5f3dfce49b32a022b22159c376612"
+      },
+      "file": "stfcf_wrapped_key_gen_ecc_ecdsa.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "213cba2fbda409450ea9221d82439e7ba595039043f4c5877db48d4c9527c68e"
+      },
+      "file": "project/stfcf_wrapped_key_gen_ecc_ecdsa.cproject.yml"
+    }
+  ]
+}

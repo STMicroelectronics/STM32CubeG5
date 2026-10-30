@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:37:46.218Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d174be2c1e38da524db755efe1fba7f650a00c0ecd6d9c1b666730b55e95e315"
+      },
+      "file": "template_start_from_nucleo.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/template_start_from_nucleo.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "64cab79bca7f84c112e24ff6020089ca86303fd80507d91e6a7d1c1178cb766d"
+      },
+      "file": "project/template_start_from_nucleo.ewp"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+/**
+  ******************************************************************************
+  * @file           : mx_fdcan1.c
+  * @brief          : FDCAN1 Peripheral initialization
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2026 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the mx_stm32g5xx_hal_drivers_license.md file
+  * in the same directory as the generated code.
+  * If no mx_stm32g5xx_hal_drivers_license.md file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+
+/* Includes ------------------------------------------------------------------*/
+#include "mx_fdcan1.h"
+
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private functions prototype------------------------------------------------*/
+/* Exported variables by reference--------------------------------------------*/
+static hal_fdcan_handle_t hFDCAN1;
+/******************************************************************************/
+/* Exported functions for FDCAN1 in HAL layer                                 */
+/******************************************************************************/
+hal_fdcan_handle_t *mx_fdcan1_init(void)
+{
+  hal_fdcan_config_t fdcan_config;
+
+  HAL_RCC_FDCAN_EnableClock();
+
+  if (HAL_FDCAN_Init(&hFDCAN1, HAL_FDCAN1) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  if (HAL_RCC_FDCAN_SetKernelClkSource(HAL_RCC_FDCAN_CLK_SRC_PLL1Q) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* FDCAN configuration */
+
+  /* FDCAN clock Divider                      = 1 */
+  /* FDCAN clock frequency after prescaler    = 186.667 MHz */
+
+  /* Nominal bitrate                          = 499.110 kbps */
+  /* Nominal time quanta                      = 10.71 ns */
+  /* Nominal sample point                     = 74.87 % */
+
+  hal_fdcan_nominal_bit_timing_t fdcan_nominal_bit_timing;
+  fdcan_nominal_bit_timing.nominal_prescaler  = 2;
+  fdcan_nominal_bit_timing.nominal_time_seg1  = 139;
+  fdcan_nominal_bit_timing.nominal_time_seg2  = 47;
+  fdcan_nominal_bit_timing.nominal_jump_width = 1;
+
+  /* Data bitrate                             = 2007.172 kbps */
+  /* Data time quanta                         = 16.07 ns */
+  /* Data sample point                        = 80.65 % */
+
+  hal_fdcan_data_bit_timing_t fdcan_data_bit_timing;
+  fdcan_data_bit_timing.data_prescaler        = 3;
+  fdcan_data_bit_timing.data_time_seg1        = 24;
+  fdcan_data_bit_timing.data_time_seg2        = 6;
+  fdcan_data_bit_timing.data_jump_width       = 1;
+
+  fdcan_config.nominal_bit_timing   = fdcan_nominal_bit_timing;
+  fdcan_config.data_bit_timing      = fdcan_data_bit_timing;
+
+  fdcan_config.frame_format         = HAL_FDCAN_FRAME_FORMAT_FD_BRS;
+  fdcan_config.mode                 = HAL_FDCAN_MODE_EXTERNAL_LOOPBACK;
+  fdcan_config.auto_retransmission  = HAL_FDCAN_AUTO_RETRANSMISSION_ENABLE;
+  fdcan_config.transmit_pause       = HAL_FDCAN_TRANSMIT_PAUSE_DISABLE;
+  fdcan_config.protocol_exception   = HAL_FDCAN_PROTOCOL_EXCEPTION_ENABLE;
+  fdcan_config.std_filters_nbr      = 1U;
+  fdcan_config.ext_filters_nbr      = 1U;
+  fdcan_config.tx_fifo_queue_mode   = HAL_FDCAN_TX_MODE_FIFO;
+
+  if (HAL_FDCAN_SetConfig(&hFDCAN1, &fdcan_config) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  if (HAL_FDCAN_SetClockDivider(&hFDCAN1, HAL_FDCAN_CLOCK_DIV_1) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Standard filters: 1 of 1 are configured, the remaining(s) is(are) allocated but not configured */
+
+  hal_fdcan_filter_t filter_cfg;
+
+  /* Standard filter 0 */
+  filter_cfg.filter_index    = 0U;
+  filter_cfg.id_type         = HAL_FDCAN_ID_STANDARD;
+  filter_cfg.filter_type     = HAL_FDCAN_FILTER_TYPE_CLASSIC;
+  filter_cfg.filter_config   = HAL_FDCAN_FILTER_TO_RX_FIFO_0;
+  filter_cfg.filter_id1      = 0x101;
+  filter_cfg.filter_id2      = 0x7FF;
+
+  if (HAL_FDCAN_SetFilter(&hFDCAN1, &filter_cfg) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Extended filters: 1 of 1 are configured, the remaining(s) is(are) allocated but not configured */
+
+  /* Extended filter 0 */
+  filter_cfg.filter_index    = 0U;
+  filter_cfg.id_type         = HAL_FDCAN_ID_EXTENDED;
+  filter_cfg.filter_type     = HAL_FDCAN_FILTER_TYPE_CLASSIC;
+  filter_cfg.filter_config   = HAL_FDCAN_FILTER_TO_RX_FIFO_1;
+  filter_cfg.filter_id1      = 0x18000002;
+  filter_cfg.filter_id2      = 0x1FFFFFFF;
+
+  if (HAL_FDCAN_SetFilter(&hFDCAN1, &filter_cfg) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Configure the global filter acceptance/rejection rules */
+  hal_fdcan_global_filter_config_t global_filter_cfg;
+  global_filter_cfg.acceptance_non_matching_std = HAL_FDCAN_NO_MATCH_REJECT;
+  global_filter_cfg.acceptance_non_matching_ext = HAL_FDCAN_NO_MATCH_REJECT;
+  global_filter_cfg.acceptance_remote_std       = HAL_FDCAN_REMOTE_REJECT;
+  global_filter_cfg.acceptance_remote_ext       = HAL_FDCAN_REMOTE_REJECT;
+  if (HAL_FDCAN_SetGlobalFilter(&hFDCAN1, &global_filter_cfg) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* ### FDCAN1 GPIO Configuration ########################### */
+  /* GPIO Clocks activation */
+  HAL_RCC_GPIOB_EnableClock();
+
+  hal_gpio_config_t  gpio_config;
+
+  /**
+    [GPIO Pin] ------> [Signal Name]
+
+       PB13    ------>   FDCAN1_TX
+       PB12    ------>   FDCAN1_RX
+    **/
+  gpio_config.mode        = HAL_GPIO_MODE_ALTERNATE;
+  gpio_config.output_type = HAL_GPIO_OUTPUT_PUSHPULL;
+  gpio_config.pull        = HAL_GPIO_PULL_NO;
+  gpio_config.speed       = HAL_GPIO_SPEED_FREQ_LOW;
+  gpio_config.alternate   = HAL_GPIO_AF_13;
+  HAL_GPIO_Init(HAL_GPIOB, HAL_GPIO_PIN_13 | HAL_GPIO_PIN_12, &gpio_config);
+
+  return &hFDCAN1;
+}
+
+void mx_fdcan1_deinit(void)
+{
+  /* Deinitialize the FDCAN peripheral */
+  (void)HAL_FDCAN_DeInit(&hFDCAN1);
+
+  /* De-initialize all GPIOB pins associated with FDCAN1 */
+  HAL_GPIO_DeInit(HAL_GPIOB, HAL_GPIO_PIN_12 | HAL_GPIO_PIN_13);
+}
+
+hal_fdcan_handle_t *mx_fdcan1_gethandle(void)
+{
+  return &hFDCAN1;
+}

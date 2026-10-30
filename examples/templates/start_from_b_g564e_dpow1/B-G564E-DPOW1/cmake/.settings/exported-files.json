@@ -1,0 +1,63 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:31:06.767Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d3f150ea9d140e3f01c4cefdeb26afab99098d0a9f74a3698f0b4b6c56d02e2d"
+      },
+      "file": "CMakeLists.txt"
+    },
+    {
+      "fileGroup": "generated",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ebef65e64be33083c1c19254187e6737339984bce67cb7c69e439fca6dc107d9"
+      },
+      "file": "CMakePresets.json"
+    },
+    {
+      "fileGroup": "generated",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4dd88fc36774ef644dd867b2363cd1f8e52e8e0320c67c1deef0c3bb0bd2eb24"
+      },
+      "file": "cmake/GCC.14.3.1.cmake"
+    },
+    {
+      "fileGroup": "generated",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e18adaef1e00e6669722f38e57a5b1933fb77f90a1a0bf269dd24c0c6caaf2ea"
+      },
+      "file": "cmake/components.cmake"
+    },
+    {
+      "fileGroup": "generated",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7d603610634ae6476a39c17f9c7dacd023c5b6b239c67591596d2524de402b76"
+      },
+      "file": "cmake/files.cmake"
+    },
+    {
+      "fileGroup": "generated",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b8e368cfe0b62a00a54d519f16b5162ca3ae65d20b401fb7e4668ce075526936"
+      },
+      "file": "cmake/flags.cmake"
+    },
+    {
+      "fileGroup": "generated",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "08c450b59718edd54d48575e5e4cd12de3b552c487efc876949946d2632a39bc"
+      },
+      "file": "cmake/target.cmake"
+    }
+  ]
+}

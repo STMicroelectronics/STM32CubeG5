@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SCHVerif.xsd">
+<Obdata>
+	<Info>
+        <Title>STiRoT data OBK HDPL2</Title>
+        <ObDestAddress>0xffd0900</ObDestAddress>
+        <DoEncryption>1</DoEncryption>
+        <GlobalAlign>16</GlobalAlign>
+    </Info>
+    <File>
+        <Name>Data init image</Name>
+        <Value>..\..\bin\appli\appli_data_provisioning_sign.bin</Value>
+        <Align>4</Align>
+        <KeyType>ecdsa-p256</KeyType>
+        <Type />
+        <Hidden>1</Hidden>
+        <Default>appli_data_provisioning_sign.bin</Default>
+        <Tooltip>Select the data image to put in OBK HDPL2</Tooltip>
+    </File>
+    <Output>
+        <Name>Output File</Name>
+        <Value>..\..\obk\appli_data_sign.obk</Value>
+        <Default>data_init_sign.obk</Default>
+    </Output>
+</Obdata>
+</Root>

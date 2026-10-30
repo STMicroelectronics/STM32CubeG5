@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:12:21.353Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "009b75e3967b6c2a49cecdfafa6003514a1cb79db80b8549c28b5f8c67a7f4c3"
+      },
+      "file": "rgbled_multi_color_set.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b473377f69df472a4b8d68c9552388831e418d308474402cc683c09164ff988e"
+      },
+      "file": "project/rgbled_multi_color_set.cproject.yml"
+    }
+  ]
+}

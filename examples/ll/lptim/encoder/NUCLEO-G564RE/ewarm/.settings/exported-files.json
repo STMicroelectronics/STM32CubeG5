@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:08:27.983Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f22d06b2a202d5ef0b8c6805646450c63d1394bffe829ac41143ced0c5e7e444"
+      },
+      "file": "ll_lptim_encoder.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/ll_lptim_encoder.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "784cd359dddd3169b338e60072500935892b858815a4cda3de733258d53aff22"
+      },
+      "file": "project/ll_lptim_encoder.ewp"
+    }
+  ]
+}

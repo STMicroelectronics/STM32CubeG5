@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:26:34.797Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "08ff0350558ee00a49650990fc5a3ec6a697bad8a6a99456eaf4e13d41d919fe"
+      },
+      "file": "ll_play_gate_xor.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/ll_play_gate_xor.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2a767e0d169ecfaf4fd0cbccee6f9e55819a0ebcc587ce55372f4c45a3a5088d"
+      },
+      "file": "project/ll_play_gate_xor.ewp"
+    }
+  ]
+}

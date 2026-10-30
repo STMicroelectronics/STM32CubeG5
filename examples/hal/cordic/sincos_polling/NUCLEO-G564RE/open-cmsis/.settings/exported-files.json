@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:38:44.833Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "751ffeeb5762e3dfff17569c2e5768722b2eaaf19f6fc7e83d6483fe1e8916cf"
+      },
+      "file": "hal_cordic_sincos_polling.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "dca0317adf6e57cdd57dfac79901c09c68b28fed19fb9ce470b52bac4d6db89f"
+      },
+      "file": "project/hal_cordic_sincos_polling.cproject.yml"
+    }
+  ]
+}

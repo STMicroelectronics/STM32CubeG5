@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T16:53:13.372Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "16c8ac47c6da6891029ef035ebd1c957071378d88d4811b8ea9a6a9670f1b43a"
+      },
+      "file": "hal_adc_single_conv_trigger_sw_polling.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "560cb15b671e6638ef13769b31d2a403393324f882820fa5b42696a838d7d4a7"
+      },
+      "file": "project/hal_adc_single_conv_trigger_sw_polling.cproject.yml"
+    }
+  ]
+}

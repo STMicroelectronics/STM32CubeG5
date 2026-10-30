@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:57:59.880Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "270cb32680eecc540ce57d09443bc49c2b4bd55fd627d4c20e0dc39298dd35a9"
+      },
+      "file": "hal_pwr_stop.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_pwr_stop.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "955bd700b4ca35e6d9a69c2c8508942664db85b500214fb590ecef645fc0d4e4"
+      },
+      "file": "project/hal_pwr_stop.ewp"
+    }
+  ]
+}

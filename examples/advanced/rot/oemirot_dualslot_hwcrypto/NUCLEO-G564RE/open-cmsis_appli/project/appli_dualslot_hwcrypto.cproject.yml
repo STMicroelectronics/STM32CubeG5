@@ -1,0 +1,154 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/cproject.schema.json
+project:
+  processor:
+    trustzone: secure-only
+    dsp: on
+  rte:
+    base-dir: $SolutionDir()$/../appli/user_modifiable
+  generators:
+    base-dir: generated
+  output:
+    base-name: ../../../bin/appli
+    type:
+      - elf
+      - bin
+      - hex
+  setups:
+    - setup: release_AC6
+      misc:
+        - ASM:
+            - -Oz
+            - -g
+          C:
+            - -Oz
+            - -std=gnu11
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -g
+            - -Wmissing-prototypes
+          CPP:
+            - -Oz
+            - -std=gnu++14
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -g
+            - -Wmissing-prototypes
+          for-compiler: AC6
+          Link-C:
+            - --map
+            - --library_type=microlib
+            - --symbols
+            - --show_full_path
+            - --inline
+            - --any_contingency
+            - --scatter=../../../appli/user_modifiable/Device/STM32G564RET3/stm32g564xe_flash.sct
+          Link-CPP:
+            - --map
+            - --library_type=microlib
+            - --symbols
+            - --show_full_path
+            - --inline
+            - --any_contingency
+      for-context:
+        - .release_AC6
+  components:
+    - component: STMicroelectronics::CMSIS:CORE
+    - component: STMicroelectronics::Device:STM32 HAL:CORTEX
+    - component: STMicroelectronics::Device:STM32 HAL:CRC
+    - component: STMicroelectronics::Device:STM32 HAL:Core
+    - component: STMicroelectronics::Device:STM32 HAL:DMA
+    - component: STMicroelectronics::Device:STM32 HAL:FLASH
+    - component: STMicroelectronics::Device:STM32 HAL:FLASH_ITF
+    - component: STMicroelectronics::Device:STM32 HAL:GPIO
+    - component: STMicroelectronics::Device:STM32 HAL:ICACHE
+    - component: STMicroelectronics::Device:STM32 HAL:PWR
+    - component: STMicroelectronics::Device:STM32 HAL:Q
+    - component: STMicroelectronics::Device:STM32 HAL:RCC
+    - component: STMicroelectronics::Device:STM32 HAL:UART
+    - component: STMicroelectronics::Device:STM32 HAL:timebases&SYSTICK
+    - component: STMicroelectronics::Device:STM32 LL:BUS
+    - component: STMicroelectronics::Device:STM32 LL:CRC
+    - component: STMicroelectronics::Device:STM32 LL:Common
+    - component: STMicroelectronics::Device:STM32 LL:DMA
+    - component: STMicroelectronics::Device:STM32 LL:EXTI
+    - component: STMicroelectronics::Device:STM32 LL:FLASH
+    - component: STMicroelectronics::Device:STM32 LL:GPIO
+    - component: STMicroelectronics::Device:STM32 LL:ICACHE
+    - component: STMicroelectronics::Device:STM32 LL:PWR
+    - component: STMicroelectronics::Device:STM32 LL:RCC
+    - component: STMicroelectronics::Device:STM32 LL:USART
+    - component: STMicroelectronics::Device:STM32 LL:UTILS
+    - component: STMicroelectronics::Device:STM32CubeMX2 Codegen:Generated Code
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORE
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX MPU
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX NVIC
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CRC
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:FLASH
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:ICACHE
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:RCC
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:System
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:UART
+    - component: STMicroelectronics::Device:Startup
+    - component: STMicroelectronics::Utility:Basic stdio:Core
+    - component: STMicroelectronics::Utility:Basic stdio:itf_io&UART
+    - component: STMicroelectronics::Utility:STM32CubeMX2 Config:Basic stdio
+    - component: STMicroelectronics::Utility:STM32CubeMX2 Config:syscalls
+    - component: STMicroelectronics::Utility:syscalls&Standalone syscalls
+    - component: STMicroelectronics::Utility:sysmem&Standalone sysmem
+  define:
+    - USE_TRACE: 0
+  executes:
+    - execute: prebuild
+      run: python ./../../../appli/project_appli.py prebuild --compiler $Compiler$
+      always:
+      for-context:
+        - .release_AC6
+    - execute: postbuild
+      run: python ./../../../appli/project_appli.py postbuild
+      input:
+        - $elf()$
+      for-context:
+        - .release_AC6
+  groups:
+    - group: appli
+      files:
+        - file: ../../appli/com.c
+          category: source
+        - file: ../../appli/common.c
+          category: source
+        - file: ../../appli/data.c
+          category: source
+        - file: ../../appli/fw_update_app.c
+          category: source
+        - file: ../../appli/low_level_device.c
+          category: source
+        - file: ../../appli/low_level_flash.c
+          category: source
+        - file: ../../appli/main.c
+          category: source
+        - file: ../../appli/ymodem.c
+          category: source
+        - file: ../../appli/appli_flash_layout.h
+          category: header
+        - file: ../../appli/com.h
+          category: header
+        - file: ../../appli/common.h
+          category: header
+        - file: ../../appli/data.h
+          category: header
+        - file: ../../appli/Driver_Common.h
+          category: header
+        - file: ../../appli/Driver_Flash.h
+          category: header
+        - file: ../../appli/fw_update_app.h
+          category: header
+        - file: ../../appli/low_level_flash.h
+          category: header
+        - file: ../../appli/main.h
+          category: header
+        - file: ../../appli/ymodem.h
+          category: header
+        - file: ../../appli/user_modifiable/Device/STM32G564RET3/system_stm32g5xx.c
+          category: source

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T00:26:29.283Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7b79af3358b7af5ebceeb4e6c3436d20a9720c2a1c2ce3917a68d6b5b939e035"
+      },
+      "file": "hal_uart_two_boards_com_dma_controller.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_uart_two_boards_com_dma_controller.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4274a11759e67ebadea78f48d90d426fb3b45b4d7a4088ca820d9f415c2fcac9"
+      },
+      "file": "project/hal_uart_two_boards_com_dma_controller.ewp"
+    }
+  ]
+}

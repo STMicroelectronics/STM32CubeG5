@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T05:01:29.167Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "cae023b44d112a95ac339d8c0a3df6541b1523b94ab640b0e06bbc7a7cf9f570"
+      },
+      "file": "stfcf_sign_verify_rsa_v1_5_crt.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/stfcf_sign_verify_rsa_v1_5_crt.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "336ae03d929d6f98842856a634856b49f95e68f2900db72ca632984f69678640"
+      },
+      "file": "project/stfcf_sign_verify_rsa_v1_5_crt.ewp"
+    }
+  ]
+}

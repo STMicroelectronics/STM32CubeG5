@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T01:58:50.236Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a5d40d862a7f33f9433dc1fb0d5ed0bc44af0a53da5bb3a9644ae65f60a6fa92"
+      },
+      "file": "ll_i3c_hotjoin_it_controller.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/ll_i3c_hotjoin_it_controller.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0a0e689a0af1b3a67fa7af041b34355224d09c149d9f02b824e84ebf8c5c95ea"
+      },
+      "file": "project/ll_i3c_hotjoin_it_controller.ewp"
+    }
+  ]
+}

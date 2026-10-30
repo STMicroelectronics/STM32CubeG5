@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:22:38.535Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "59917c2a438122f5c4d2eff38a17bbc87f5e5e1558b8aacb756924a57e777597"
+      },
+      "file": "hal_aes_cipher_saes_cbc_sharedkey.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_aes_cipher_saes_cbc_sharedkey.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0183fadcd0f6c525f9b5210d4845eeadc619043eedbf4cfa0f62c0b9006e3c44"
+      },
+      "file": "project/hal_aes_cipher_saes_cbc_sharedkey.ewp"
+    }
+  ]
+}

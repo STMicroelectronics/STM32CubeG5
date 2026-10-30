@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:27:28.844Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9133c0e3b59ecc157f191233a9cba9588d3cd15e2ab1a5051ec795ce39add49b"
+      },
+      "file": "levelx_nand_rw_data_no_os.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c33bfe5d29a290997a1b350ab9d515ccb45fac87a30e896c01c54bd385a07da0"
+      },
+      "file": "project/levelx_nand_rw_data_no_os.cproject.yml"
+    }
+  ]
+}

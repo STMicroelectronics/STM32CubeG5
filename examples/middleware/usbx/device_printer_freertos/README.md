@@ -1,0 +1,114 @@
+<img src="doc/subbrand-stm32.svg" width="50" alt="STM32 Subbrand Logo"/>
+
+# __Example: *usbx_device_printer_freertos*__
+
+**Example version:** 2.0.0
+
+[![User Manual](doc/read_the-UM.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/index.html "An offline version is also available in the STM32Cube firmware package.")
+
+How to configure a USB Device Printer class in RTOS mode based on USBX stack.
+
+
+## __1. Detailed scenario__
+
+__Initialization phase__: At main program start, the `mx_system_init()` function is called. It initializes the peripherals, nonvolatile memory (such as flash memory, NVM, or external memories), MPU regions (if applicable), the system clock, and the SysTick.
+
+The application executes the following __example steps__:
+
+- __Step 1__: USB PCD initialization
+
+- __Step 2__: Initialization of USBX stack.
+
+- __Step 3__: Initialization and registration of the USBX Device Printer Class.
+
+- __Step 4__: Creation and start of the printer read/write threads.
+
+__End of example__: After Step 4, the USB Printer device class is ready to interact with the USB host. The device is able to receive text data sent by the host and handle it as a basic printer implementation.
+
+In case of successful operations:
+
+- LED remains turned on
+- Global variable `ExecStatus` set to EXEC_STATUS_INIT_OK
+
+You can verify the USBX stack operates as expected:
+
+- Plug the device running the USBX Printer example into a USB port on the PC and verify that it enumerates as a USB Printer device.
+
+- From the host PC, send a simple text print job to the device printer and confirm that the application receives the data. You can monitor the UART logs or inspect the debugger variables.
+
+In case of failure:
+
+- LED toggles continuously
+- Global variable `ExecStatus` set to EXEC_STATUS_ERROR
+
+
+## __2. Example configuration__
+
+[![Configuration Manual](doc/configure_with-ConfigurationMa.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/configure/config_toc.html "An offline version is also available in the Cube Firmware package.")
+
+This example uses the following peripheral:
+
+__USB PCD FS__: is configured as indicated below:
+
+  - Full-speed operation
+  - Embedded PHY Interface
+
+
+## __3. Hardware environment and setup__
+
+### __3.1. Generic Setup__
+
+- Make sure the STM32 board is powered
+- Plug the STM32 device into a host PC via the USB connector.
+
+### __3.2. Specific board setups__
+
+This section describes the exact hardware configurations of your project.
+
+<details>
+  <summary>On STM32G5 series.</summary>
+  <details>
+    <summary>On board B-G564E-DPOW1.</summary>
+
+  |  MCU pin  |  Signal name  |  User Label   |
+  |:---------:|:-------------:|:-------------:|
+  |    PA5    |     GPIO      | MX_STATUS_LED |
+  |   PC15    |   UART5_TX    |     PC15      |
+
+  </details>
+</details>
+
+
+## __4. Troubleshooting__
+
+[![Troubleshooting](doc/debug_with-Troubleshooting.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/debug/debug_toc.html "An offline version is also available in the Cube Firmware package.")
+
+Here are the points of attention for this specific example:
+
+  1. If there is an issue, remember to check that:
+
+    - The STM32 is powered.
+    - The STM32 USB connector is connected to a USB port in the host.
+  2. Depending on STM32 series, and USB instance used (FS/HS) specific USB configurations must be respected (Endpoint Max Packet Size, Clock)
+
+For details, refer to the reference manual of your MCU.
+
+
+## __5. See Also__
+
+[![SeeAlso](doc/go_further_with-STM32.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/more/more_toc.html "An offline version is also available in the Cube Firmware package.")
+
+More information on USB and STM32: [Introduction to USB with STM32](https://wiki.st.com/stm32mcu/wiki/Introduction_to_USB_with_STM32).
+
+More information about the STM32 Cube Drivers can be found in the drivers' user manual of the STM32 series you are using.
+
+More information about the STM32 ecosystem can be found in the [STM32 MCU Developer Zone](https://www.st.com/content/st_com/en/stm32-mcu-developer-zone/embedded-software.html).
+
+
+## __6. License__
+
+Copyright (c) 2026 STMicroelectronics.
+
+This software is licensed under terms that can be found in the LICENSE file in the root directory
+of this software component.
+If no LICENSE file comes with this software, it is provided AS-IS.

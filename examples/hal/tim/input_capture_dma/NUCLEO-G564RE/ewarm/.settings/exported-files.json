@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:57:25.889Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2d1fbe2352fa20b602f76754ffae1878701b801302f15f38c9b380c6d2fdbd7b"
+      },
+      "file": "hal_tim_input_capture_dma.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_tim_input_capture_dma.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "6dbf05353a9e282c956081cd41a8efb291a574d98c83184c245037f7f14d7985"
+      },
+      "file": "project/hal_tim_input_capture_dma.ewp"
+    }
+  ]
+}

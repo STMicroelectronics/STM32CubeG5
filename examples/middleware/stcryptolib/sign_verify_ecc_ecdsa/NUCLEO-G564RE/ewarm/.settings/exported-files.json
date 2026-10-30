@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T04:11:04.522Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "77b0559c65cf8470de1c5ac0e2ee5fe0ed4de88381613ae2e657e24218c591e8"
+      },
+      "file": "stcryptolib_sign_verify_ecc_ecdsa.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/stcryptolib_sign_verify_ecc_ecdsa.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "bb48eaa16a31a448b350721991375c6d3d770a79e59a4968e558affc0c186b6b"
+      },
+      "file": "project/stcryptolib_sign_verify_ecc_ecdsa.ewp"
+    }
+  ]
+}

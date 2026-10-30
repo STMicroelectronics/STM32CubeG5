@@ -1,0 +1,217 @@
+/**
+  ******************************************************************************
+  * @file           : mx_uart4.c
+  * @brief          : UART4 Peripheral initialization
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2026 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the mx_stm32g5xx_hal_drivers_license.md file
+  * in the same directory as the generated code.
+  * If no mx_stm32g5xx_hal_drivers_license.md file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+
+/* Includes ------------------------------------------------------------------*/
+#include "mx_uart4.h"
+
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private functions prototype------------------------------------------------*/
+/* Exported variables by reference--------------------------------------------*/
+/* Handle for UART */
+static hal_uart_handle_t hUART4;
+
+static hal_dma_handle_t hGPDMA1_CH0;
+static hal_dma_handle_t hGPDMA1_CH1;
+
+/* Exported function definition ----------------------------------------------*/
+
+/******************************************************************************/
+/* Exported functions for UART in HAL layer */
+/******************************************************************************/
+
+hal_uart_handle_t *mx_uart4_uart_init(void)
+{
+  hal_uart_config_t uart_config;
+
+  /* Basic configuration */
+  if (HAL_UART_Init(&hUART4, HAL_UART4) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  HAL_RCC_UART4_EnableClock();
+
+  if (HAL_RCC_UART4_SetKernelClkSource(HAL_RCC_UART4_CLK_SRC_PCLK1) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  uart_config.baud_rate = 115200;
+  uart_config.clock_prescaler = HAL_UART_PRESCALER_DIV1;
+  uart_config.word_length = HAL_UART_WORD_LENGTH_8_BIT;
+  uart_config.stop_bits = HAL_UART_STOP_BIT_1;
+  uart_config.parity = HAL_UART_PARITY_NONE;
+  uart_config.direction = HAL_UART_DIRECTION_TX_RX;
+  uart_config.hw_flow_ctl = HAL_UART_HW_CONTROL_NONE;
+  uart_config.oversampling = HAL_UART_OVERSAMPLING_16;
+  uart_config.one_bit_sampling = HAL_UART_ONE_BIT_SAMPLE_DISABLE;
+
+  if (HAL_UART_SetConfig(&hUART4, &uart_config) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* ### UART4 GPIO Configuration ########################### */
+  /* GPIO Clocks activation */
+  HAL_RCC_GPIOD_EnableClock();
+
+  hal_gpio_config_t  gpio_config;
+
+  /**
+    [GPIO Pin] ------> [Signal Name]
+
+       PD11    ------>   UART4_RX
+       PD12    ------>   UART4_TX
+    **/
+  gpio_config.mode        = HAL_GPIO_MODE_ALTERNATE;
+  gpio_config.output_type = HAL_GPIO_OUTPUT_PUSHPULL;
+  gpio_config.pull        = HAL_GPIO_PULL_NO;
+  gpio_config.speed       = HAL_GPIO_SPEED_FREQ_LOW;
+  gpio_config.alternate   = HAL_GPIO_AF_8;
+  HAL_GPIO_Init(HAL_GPIOD, HAL_GPIO_PIN_11 | HAL_GPIO_PIN_12, &gpio_config);
+
+  /* Enable UART instance interrupt */
+  HAL_CORTEX_NVIC_SetPriority(UART4_IRQn, HAL_CORTEX_NVIC_PREEMP_PRIORITY_0, HAL_CORTEX_NVIC_SUB_PRIORITY_0);
+  HAL_CORTEX_NVIC_EnableIRQ(UART4_IRQn);
+
+  /* Configure the DMA TX */
+
+  /* Configure the GPDMA1_CH0 DMA channel for UART4 TX */
+  if (HAL_DMA_Init(&hGPDMA1_CH0, HAL_GPDMA1_CH0) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  HAL_RCC_GPDMA1_EnableClock();
+
+  hal_dma_direct_xfer_config_t xfer_cfg_uart4_tx_dma;
+  xfer_cfg_uart4_tx_dma.request         = HAL_GPDMA1_REQUEST_UART4_TX;
+  xfer_cfg_uart4_tx_dma.direction       = HAL_DMA_DIRECTION_MEMORY_TO_PERIPH;
+  xfer_cfg_uart4_tx_dma.src_inc         = HAL_DMA_SRC_ADDR_INCREMENTED;
+  xfer_cfg_uart4_tx_dma.dest_inc        = HAL_DMA_DEST_ADDR_FIXED;
+  xfer_cfg_uart4_tx_dma.src_data_width  = HAL_DMA_SRC_DATA_WIDTH_BYTE;
+  xfer_cfg_uart4_tx_dma.dest_data_width = HAL_DMA_DEST_DATA_WIDTH_BYTE;
+  xfer_cfg_uart4_tx_dma.priority        = HAL_DMA_PRIORITY_HIGH;
+
+  if (HAL_DMA_SetConfigPeriphDirectXfer(&hGPDMA1_CH0, &xfer_cfg_uart4_tx_dma) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Enable the interruption for GPDMA1_CH0 */
+  HAL_CORTEX_NVIC_SetPriority(GPDMA1_CH0_IRQn, HAL_CORTEX_NVIC_PREEMP_PRIORITY_0, HAL_CORTEX_NVIC_SUB_PRIORITY_0);
+  HAL_CORTEX_NVIC_EnableIRQ(GPDMA1_CH0_IRQn);
+
+  /* Link the Transmit DMA handle to the UART handle */
+  if (HAL_UART_SetTxDMA(&hUART4, &hGPDMA1_CH0) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Configure the DMA RX */
+
+  /* Configure the GPDMA1_CH1 DMA channel for UART4 RX */
+  if (HAL_DMA_Init(&hGPDMA1_CH1, HAL_GPDMA1_CH1) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  hal_dma_direct_xfer_config_t xfer_cfg_uart4_rx_dma;
+  xfer_cfg_uart4_rx_dma.request         = HAL_GPDMA1_REQUEST_UART4_RX;
+  xfer_cfg_uart4_rx_dma.direction       = HAL_DMA_DIRECTION_PERIPH_TO_MEMORY;
+  xfer_cfg_uart4_rx_dma.src_inc         = HAL_DMA_SRC_ADDR_FIXED;
+  xfer_cfg_uart4_rx_dma.dest_inc        = HAL_DMA_DEST_ADDR_INCREMENTED;
+  xfer_cfg_uart4_rx_dma.src_data_width  = HAL_DMA_SRC_DATA_WIDTH_BYTE;
+  xfer_cfg_uart4_rx_dma.dest_data_width = HAL_DMA_DEST_DATA_WIDTH_BYTE;
+  xfer_cfg_uart4_rx_dma.priority        = HAL_DMA_PRIORITY_HIGH;
+
+  if (HAL_DMA_SetConfigPeriphDirectXfer(&hGPDMA1_CH1, &xfer_cfg_uart4_rx_dma) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Enable the interruption for GPDMA1_CH1 */
+  HAL_CORTEX_NVIC_SetPriority(GPDMA1_CH1_IRQn, HAL_CORTEX_NVIC_PREEMP_PRIORITY_0, HAL_CORTEX_NVIC_SUB_PRIORITY_0);
+  HAL_CORTEX_NVIC_EnableIRQ(GPDMA1_CH1_IRQn);
+
+  /* Link the Receive DMA handle to the UART handle */
+  if (HAL_UART_SetRxDMA(&hUART4, &hGPDMA1_CH1) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  return &hUART4;
+}
+
+void mx_uart4_uart_deinit(void)
+{
+  /* Disable UART instance interrupt */
+  HAL_CORTEX_NVIC_DisableIRQ(UART4_IRQn);
+
+  /* De-initialize the UART instance */
+  (void)HAL_UART_DeInit(&hUART4);
+
+  HAL_RCC_UART4_Reset();
+
+  HAL_RCC_UART4_DisableClock();
+
+  /* De-initialize all GPIOD pins associated with UART4 */
+  HAL_GPIO_DeInit(HAL_GPIOD, HAL_GPIO_PIN_11 | HAL_GPIO_PIN_12);
+
+  /* De-initialize the DMA channel */
+  HAL_DMA_DeInit(&hGPDMA1_CH0);
+
+  /* Disable the interruption for DMA */
+  HAL_CORTEX_NVIC_DisableIRQ(GPDMA1_CH0_IRQn);
+
+  /* De-initialize the DMA channel */
+  HAL_DMA_DeInit(&hGPDMA1_CH1);
+
+  /* Disable the interruption for DMA */
+  HAL_CORTEX_NVIC_DisableIRQ(GPDMA1_CH1_IRQn);
+}
+hal_uart_handle_t *mx_uart4_uart_gethandle(void)
+{
+  return &hUART4;
+}
+
+/******************************************************************************/
+/*                           UART4 global interrupt                           */
+/******************************************************************************/
+void UART4_IRQHandler(void)
+{
+  HAL_UART_IRQHandler(&hUART4);
+}
+
+/******************************************************************************/
+/*                     GPDMA1 channel 0 global interrupt                      */
+/******************************************************************************/
+void GPDMA1_CH0_IRQHandler(void)
+{
+  HAL_DMA_IRQHandler(&hGPDMA1_CH0);
+}
+
+/******************************************************************************/
+/*                     GPDMA1 channel 1 global interrupt                      */
+/******************************************************************************/
+void GPDMA1_CH1_IRQHandler(void)
+{
+  HAL_DMA_IRQHandler(&hGPDMA1_CH1);
+}

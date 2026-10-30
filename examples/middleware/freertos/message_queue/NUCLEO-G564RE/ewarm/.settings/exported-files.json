@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:16:59.174Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e3c3e496f6cfe50862d3a1936be3ef1574cafd22df2be4a8ff36fcc9acb65c51"
+      },
+      "file": "freertos_message_queue.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/freertos_message_queue.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "423514f62e33093abc0ba2832b2c89b05ffb86fab777dfe0e798ea5e77588b3f"
+      },
+      "file": "project/freertos_message_queue.ewp"
+    }
+  ]
+}

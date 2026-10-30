@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:09:58.202Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f330f7fcd4a5e41d87bb490ed2bdb937566393df1abcf417b0afda60fdc39b18"
+      },
+      "file": "ll_lptim_input_capture.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b7449737c3bc753b2da6eaa85f35a82e36ba29b4a7565a87a791b4d402d55753"
+      },
+      "file": "project/ll_lptim_input_capture.cproject.yml"
+    }
+  ]
+}

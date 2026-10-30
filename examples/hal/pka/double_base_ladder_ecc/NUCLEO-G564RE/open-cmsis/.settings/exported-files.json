@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:17:30.490Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "45ff217f3d28a5ab1ae4f6f61da91b1aa4238fed7db7a91bdc431ad7521095fe"
+      },
+      "file": "hal_pka_double_base_ladder_ecc.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0a96c5df6e484095b48d56e3e0f091af692d2f885407c149f57dae7951542ac3"
+      },
+      "file": "project/hal_pka_double_base_ladder_ecc.cproject.yml"
+    }
+  ]
+}

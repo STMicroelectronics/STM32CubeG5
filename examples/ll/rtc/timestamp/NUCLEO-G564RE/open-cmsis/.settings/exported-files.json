@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:43:05.828Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7ca8656723d824803a4cd155e637ef3a66256ab5a66436cd3b0f35698a85c553"
+      },
+      "file": "ll_rtc_timestamp.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7b0e183f2e5fed8b205bbffe8a2129898b359e9311cb90fbc802756f2ee156a2"
+      },
+      "file": "project/ll_rtc_timestamp.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T16:50:33.303Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8d9917305174f260f76f0d550fc85450a7225f5d989ac6db6ffd554ff79ddfc2"
+      },
+      "file": "hal_adc_regular_injected.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_adc_regular_injected.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "508aca45d7b0d48ea48532edfb5b511e822d55f7589a334a945043764d44038c"
+      },
+      "file": "project/hal_adc_regular_injected.ewp"
+    }
+  ]
+}

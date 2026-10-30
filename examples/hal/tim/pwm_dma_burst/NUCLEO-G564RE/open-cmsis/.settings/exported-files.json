@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T00:06:53.107Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "701219a5155a2895cc554a4eb660add84fb4fe87cbd7e8a8280719cca70a9acb"
+      },
+      "file": "hal_tim_pwm_dma_burst.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "6604a08895961cb1a6e2980a0820485508b2a65b183491229560dc5a04fc907f"
+      },
+      "file": "project/hal_tim_pwm_dma_burst.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T19:25:11.455Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e25b193c0c28a767d812b1e5b8b85380fa1eec8cccf0ce2abce831cce13e3ebb"
+      },
+      "file": "hal_hrtim_high_resolution_pwm.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_hrtim_high_resolution_pwm.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e327eb992d0009d4cf22539c0694bb7ffcbcc266c0e68dfb6380e42f4b429587"
+      },
+      "file": "project/hal_hrtim_high_resolution_pwm.ewp"
+    }
+  ]
+}

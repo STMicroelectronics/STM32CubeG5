@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T20:14:38.182Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "84d467b86448aff87860b0461b621dd295ed8e74799edc5cc8fdb54bd85ceb51"
+      },
+      "file": "hal_i3c_ibi_wakeup_from_stop_controller.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a952641861ff90e1835b50267e75b7aaefd87af533573ce5b7b065e325eb4e27"
+      },
+      "file": "project/hal_i3c_ibi_wakeup_from_stop_controller.cproject.yml"
+    }
+  ]
+}

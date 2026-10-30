@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:50:16.154Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1ef1a8f68ad146ea516ae8c7fbd6de86895dcac437f86009f4c614844c01d2b1"
+      },
+      "file": "hal_pwr_sleep.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c65836ab90baddac711ccc7feed4e17e486ca2760e34719cc2236c0e048dafb5"
+      },
+      "file": "project/hal_pwr_sleep.cproject.yml"
+    }
+  ]
+}

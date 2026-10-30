@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T18:30:06.980Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ef28add011fb384a950cfe32a809c11b250d0a11eeed5cba876ca4b67fabd698"
+      },
+      "file": "hal_flash_erase_program.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b84efb0c96d9b558525cae77e74b186cdb2e3d535d6f9566f54fabc22e15a62d"
+      },
+      "file": "project/hal_flash_erase_program.cproject.yml"
+    }
+  ]
+}

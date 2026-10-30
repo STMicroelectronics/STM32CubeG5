@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T19:34:08.491Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "92128ffee10a4536151a519f70d1f15b8b14495294c795a8bce49b23f563ae73"
+      },
+      "file": "hal_i2c_two_boards_com_it_controller.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9c6cbf3a761683ed513c4c5fc9cff331bc000ff64fee2ffb24fb303bae0d3e45"
+      },
+      "file": "project/hal_i2c_two_boards_com_it_controller.cproject.yml"
+    }
+  ]
+}

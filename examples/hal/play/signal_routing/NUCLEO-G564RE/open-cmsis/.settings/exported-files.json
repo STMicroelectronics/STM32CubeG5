@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:43:58.113Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f047ec0d2cdc6df2f71327a4d151920efe153bc446c52acc3da9f600e658ef66"
+      },
+      "file": "hal_play_signal_routing.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "010be63fe6789f259c4249e3158352853e5b20acf80db259f085938dff8c7d4d"
+      },
+      "file": "project/hal_play_signal_routing.cproject.yml"
+    }
+  ]
+}

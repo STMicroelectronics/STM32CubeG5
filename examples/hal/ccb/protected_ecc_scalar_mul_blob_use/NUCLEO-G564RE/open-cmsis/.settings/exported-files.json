@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:25:19.692Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "368e2608f79adac0d43ce0585cf1de8fe738705bbceb25fa9ed7fc45da384843"
+      },
+      "file": "hal_ccb_protected_ecc_scalar_mul_blob_use.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "30ddcb64d9c7238472163046a7268aa77baea94316f2f49360c6bbb13e379184"
+      },
+      "file": "project/hal_ccb_protected_ecc_scalar_mul_blob_use.cproject.yml"
+    }
+  ]
+}

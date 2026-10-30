@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:06:24.470Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "29e6f5942504de96e1d778f2b78c9b48e064bf6ad1ecb20696ae062c081cdcda"
+      },
+      "file": "hal_opamp_programmable_gain_amplifier.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b4e0a5347ba7bd4d6bd9d4fa5b7f9624c89c413e627e59d13c48a606db6a4ef4"
+      },
+      "file": "project/hal_opamp_programmable_gain_amplifier.cproject.yml"
+    }
+  ]
+}

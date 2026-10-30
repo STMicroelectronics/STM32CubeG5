@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:52:10.136Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ffa99b179e7ac7804ad528fd3aefaa2eec7b0ef43cad01a75a84d1a62178bae9"
+      },
+      "file": "stcryptolib_drbg.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/stcryptolib_drbg.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c0631efc234d59136b5c23c7df2d3aa6fb23476ba3524e361541682629721550"
+      },
+      "file": "project/stcryptolib_drbg.ewp"
+    }
+  ]
+}

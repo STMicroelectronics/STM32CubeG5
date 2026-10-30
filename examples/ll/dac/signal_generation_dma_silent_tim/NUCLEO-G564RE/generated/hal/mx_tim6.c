@@ -1,0 +1,70 @@
+/**
+  ******************************************************************************
+  * @file           : mx_tim6.c
+  * @brief          : Peripheral initialization
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2026 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the mx_stm32g5xx_hal_drivers_license.md file
+  * in the same directory as the generated code.
+  * If no mx_stm32g5xx_hal_drivers_license.md file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+
+/* Includes ------------------------------------------------------------------*/
+#include "mx_tim6.h"
+
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private functions prototype------------------------------------------------*/
+/* Exported variables by reference--------------------------------------------*/
+
+/* Exported function definition ----------------------------------------------*/
+/******************************************************************************/
+/* Exported functions for TIM6 in LL layer */
+/******************************************************************************/
+
+TIM_TypeDef *mx_tim6_init(void)
+{
+  LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_TIM6);
+
+  /* Timer configuration to reach the output frequency at 59.995 kHz */
+  /* LL_TIM_SetPrescaler(TIM6, 0); */ /* Configuration matches register reset state at startup. */
+  /* LL_TIM_SetCounterMode(TIM6, LL_TIM_COUNTERMODE_UP); */ /* Configuration matches register reset state at startup. */
+  LL_TIM_SetAutoReload(TIM6, 4666);
+  /* LL_TIM_SetClockSource(TIM6, LL_TIM_CLK_INTERNAL); */ /* Configuration matches register reset state at startup. */
+
+  /* Disable update interrupt with update generation (UG)
+     by changing update request source (URS) to avoid update flag (UIF) */
+  LL_TIM_SetUpdateSource(TIM6, LL_TIM_UPDATESOURCE_COUNTER);
+  /* Generate an update event to reload the prescaler
+     and the repetition counter (if applicable) values immediately */
+  LL_TIM_GenerateEvent_UPDATE(TIM6);
+
+  /* Update Event Management */
+  LL_TIM_SetUpdateSource(TIM6, LL_TIM_UPDATESOURCE_REGULAR);
+  /* LL_TIM_EnableUpdateEvent(TIM6); */ /* Configuration matches register reset state at startup. */
+
+  /* Master Mode Configuration */
+  LL_TIM_SetTriggerOutput(TIM6, LL_TIM_TRGO_UPDATE);
+
+  /* No GPIO configuration required for TIM6 */
+
+  return TIM6;
+}
+
+void mx_tim6_deinit(void)
+{
+  LL_APB1_GRP1_DisableClock(LL_APB1_GRP1_PERIPH_TIM6);
+
+  LL_APB1_GRP1_ForceReset(LL_APB1_GRP1_PERIPH_TIM6);
+  LL_APB1_GRP1_ReleaseReset(LL_APB1_GRP1_PERIPH_TIM6);
+
+  /* No GPIO de-initialization required for TIM6 */
+}

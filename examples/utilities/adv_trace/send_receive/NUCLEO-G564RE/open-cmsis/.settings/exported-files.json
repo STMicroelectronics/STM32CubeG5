@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:40:18.591Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "dd331288034d5c281edc9995d24427de5791ef0e325736bd452308afa637f239"
+      },
+      "file": "adv_trace_send_receive.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "622fe2e36a41b899e176f1d04eec60aba9e1a230d095bb9a09bf497aef6f5488"
+      },
+      "file": "project/adv_trace_send_receive.cproject.yml"
+    }
+  ]
+}

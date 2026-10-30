@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T05:27:48.125Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "789118ab0674a30745e1aeb0a7d638fefaac7485a29789c01ebd6fe248747496"
+      },
+      "file": "usbx_device_printer_freertos.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "bfbb6a9d93499c4d77d893297a11ce6400993ce1faa0175daaa789b556314ff0"
+      },
+      "file": "project/usbx_device_printer_freertos.cproject.yml"
+    }
+  ]
+}

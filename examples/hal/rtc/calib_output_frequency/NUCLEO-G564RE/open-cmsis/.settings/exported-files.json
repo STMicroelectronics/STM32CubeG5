@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:25:20.727Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ec038c1783c677893b11f612bf2fc65208fa829a1bb8f6b6f0e2376244dbdc1c"
+      },
+      "file": "hal_rtc_calib_output_frequency.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3db92f5c9ea994a0cdf644d3c8885a1e7c33080534b761ed00bfd7775a751b49"
+      },
+      "file": "project/hal_rtc_calib_output_frequency.cproject.yml"
+    }
+  ]
+}

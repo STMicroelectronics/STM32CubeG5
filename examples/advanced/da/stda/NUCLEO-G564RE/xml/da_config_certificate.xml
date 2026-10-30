@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SCHVerif.xsd">
+<Obdata>
+	<Info>
+		<Title>STM32G564RE - Debug Authentication Configuration</Title>
+		<ObDestAddress>0x0ffd0100</ObDestAddress>
+		<DoEncryption>1</DoEncryption>
+		<GlobalAlign>32</GlobalAlign>
+		<MCU>STM32G564RE</MCU>
+	</Info>
+	<Hash>
+	</Hash>
+	<DA>
+	</DA>
+	<File>
+		<Name>Debug Authentication root key</Name>
+		<Value>../keys/private-key.pem</Value>
+		<Align>4</Align>
+		<KeyType>ecdsa-p256</KeyType>
+		<Type>Public</Type>
+		<Default></Default>
+		<Tooltip>Select the key used as root for authentication debug certificate chain. When this key is regenerated, all certificates must be regenerated as well</Tooltip>
+	</File>
+	<Data>
+		<Name>Reserved0_0</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved0_1</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved0_2</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved0_3</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved0_4</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved0_5</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved0_6</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved0_7</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Magic</Name>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x53544441</Default>
+		<Tooltip>Magic value: 'STDA' support only</Tooltip>
+	</Data>
+	<Data>
+		<Name>Key type</Name>
+		<Value>0x01</Value>
+		<Width>1</Width>
+		<Hidden>1</Hidden>
+		<Default>0x01</Default>
+		<Tooltip>Enter key type: 0x01 for ECDSA P256 key / 0x80 for ST password key</Tooltip>
+	</Data>
+	<Data>
+		<Name>Reserved1_1</Name>
+		<Value>0x00</Value>
+		<Width>3</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+		<Tooltip>Reserved, do not modify</Tooltip>
+	</Data>
+	<Data>
+		<Name>Reserved1_2</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+		<Tooltip>Reserved, do not modify</Tooltip>
+	</Data>
+	<Data>
+		<Name>Reserved2_0</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved2_1</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved2_2</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Data>
+		<Name>Reserved2_3</Name>
+		<Value>0x00</Value>
+		<Width>8</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00</Default>
+	</Data>
+	<Permission>
+		<Name>Permission</Name>
+		<Value>0x40000000000000000000000000005077</Value>
+		<Width>16</Width>
+		<Default>0x40000000000000000000000000005077</Default>
+		<Tooltip>Enter Permission</Tooltip>
+	</Permission>
+	<Output>
+		<Name>Output File</Name>
+		<Value>../obk/da_config_certificate.obk</Value>
+		<Default></Default>
+		<Tooltip>Select the output file .obk including DA configuration</Tooltip>
+	</Output>
+</Obdata>
+</Root>

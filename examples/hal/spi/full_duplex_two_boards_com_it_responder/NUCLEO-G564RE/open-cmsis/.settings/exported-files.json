@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:01:17.861Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "adff8ebe554ca4ef0da7ad31be406a67631345f606af4bee5bcd678c7fd2d6d7"
+      },
+      "file": "hal_spi_full_duplex_two_boards_com_it_responder.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "47f9fd5566d3472b324d17e5a5024c8735d6104677231b86c64b7fedcf082b03"
+      },
+      "file": "project/hal_spi_full_duplex_two_boards_com_it_responder.cproject.yml"
+    }
+  ]
+}

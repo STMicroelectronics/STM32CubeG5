@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:27:40.156Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3fb446ff24ab59e91f0616c73ce742149cac43d3fea50f1f43d0619f6b4ff95b"
+      },
+      "file": "hal_pka_sign_verify_ecc_ecdsa_it.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_pka_sign_verify_ecc_ecdsa_it.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "44ddb0178d4a35ac4e3df6b70a92bf4bba651b7e2f90d3252ea2ac7d8ed00c22"
+      },
+      "file": "project/hal_pka_sign_verify_ecc_ecdsa_it.ewp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:09:25.571Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4ba714934bad3ded13cc03f1b081c023fc8a51c1351ed3250c58647f2159c216"
+      },
+      "file": "hal_aes_cipher_cbc.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ea2f72a8167bf6a582b59bdce89f43abbe05d86c0e3b4ce82a62a875cf16bf35"
+      },
+      "file": "project/hal_aes_cipher_cbc.cproject.yml"
+    }
+  ]
+}

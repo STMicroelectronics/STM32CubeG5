@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:47:25.263Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2f069af142399284011a48a18c0d0a7ee494d1462809491a8de6eab0b046b7e9"
+      },
+      "file": "ll_spi_half_duplex_one_board_com_it.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f0291ae3fc14e173e438f2dae77c7d2b30a37625c25af07aeb384e1e74f575a6"
+      },
+      "file": "project/ll_spi_half_duplex_one_board_com_it.cproject.yml"
+    }
+  ]
+}

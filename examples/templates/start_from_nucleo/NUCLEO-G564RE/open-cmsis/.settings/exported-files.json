@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:37:13.935Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "18c35ca0bb43d7ffb0bff1c3b7734eaeec727a1f618ec6893cf1209fdd90cbfd"
+      },
+      "file": "template_start_from_nucleo.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8decc4f229534c179bbc47baea561499abb4469481f7c9c7cd81bfe351ad1661"
+      },
+      "file": "project/template_start_from_nucleo.cproject.yml"
+    }
+  ]
+}

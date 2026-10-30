@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:02:07.839Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "354e92a2d34c03b9ed5b899eacde676dded8e3ef4e45373e9d0ce1d93364098b"
+      },
+      "file": "joystick_adc_control.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d61bd30427581ea41a20c42d036d976d7068af6f9c4409592e5e1cf9ad3df61c"
+      },
+      "file": "project/joystick_adc_control.cproject.yml"
+    }
+  ]
+}

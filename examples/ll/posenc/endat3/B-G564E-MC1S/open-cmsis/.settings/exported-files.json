@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:29:59.259Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "39bdb513c054cc56eac2071eda8cb270d8a075cf3e4e05517292db5fca0921a9"
+      },
+      "file": "ll_posenc_endat3.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3d87f77bf777fa5c52c489fa78cbdac0ecefba7b4e3e8a5c999016a21dcbecb0"
+      },
+      "file": "project/ll_posenc_endat3.cproject.yml"
+    }
+  ]
+}

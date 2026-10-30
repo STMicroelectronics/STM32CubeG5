@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:04:57.275Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ebdbf7deee1d1acc1453b964a3d14db40ad1042eb6d351542fedf1ff9940bb9f"
+      },
+      "file": "ll_usart_two_boards_com_dma_controller.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "08786e7711e5681419986c44efb45a27280256bb53eabdb4947ec4ebf72684be"
+      },
+      "file": "project/ll_usart_two_boards_com_dma_controller.cproject.yml"
+    }
+  ]
+}

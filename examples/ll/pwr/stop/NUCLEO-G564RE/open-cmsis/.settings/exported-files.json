@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:36:51.517Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e7bbf20e131a75e0b72ca67ee494217990a8ef871ecfdeccf72f1afbde37cfa9"
+      },
+      "file": "ll_pwr_stop.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e4d39ad720b12cb884ec3d045518d91442e81db8e52c7bd349f1d694d7e20725"
+      },
+      "file": "project/ll_pwr_stop.cproject.yml"
+    }
+  ]
+}

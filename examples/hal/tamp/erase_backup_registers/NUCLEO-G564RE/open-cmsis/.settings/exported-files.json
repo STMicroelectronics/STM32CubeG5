@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:24:03.505Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1c1fa72b9b21eb31d55e10fdcadaf724a86eed1a57b4d34653235a1987415bff"
+      },
+      "file": "hal_tamp_erase_backup_registers.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f5976412382893bbba2735cc93aa7a5a42ad5fc696c25c4b6dca1d31b918455d"
+      },
+      "file": "project/hal_tamp_erase_backup_registers.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:45:40.315Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4efdeed3b44cfe87e09f21ec3b54e886305770e3acf79f8959ade5a51091e03e"
+      },
+      "file": "hal_smbus_two_boards_com_it_responder.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_smbus_two_boards_com_it_responder.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "85db2d6fe35d1462db05bc5d51f4bd449e1099f576d7b26b091d05c76a4876f9"
+      },
+      "file": "project/hal_smbus_two_boards_com_it_responder.ewp"
+    }
+  ]
+}

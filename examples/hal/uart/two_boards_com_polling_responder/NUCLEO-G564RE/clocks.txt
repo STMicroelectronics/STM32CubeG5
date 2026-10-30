@@ -1,0 +1,480 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "LSI",
+      "value": 32000
+    },
+    {
+      "id": "LSE",
+      "value": 32768
+    },
+    {
+      "id": "HSE",
+      "value": 24000000
+    },
+    {
+      "id": "HSI",
+      "value": 64000000
+    },
+    {
+      "id": "HSI48",
+      "value": 48000000
+    },
+    {
+      "id": "RTC_Clock_Source"
+    },
+    {
+      "id": "RTC_Input_Clock",
+      "value": 32000
+    },
+    {
+      "id": "HSIDIV",
+      "value": 1
+    },
+    {
+      "id": "HSEDIV",
+      "value": 2
+    },
+    {
+      "id": "System_Clock_Source"
+    },
+    {
+      "id": "USART3_Clock_Source"
+    },
+    {
+      "id": "USART1_Clock_Source"
+    },
+    {
+      "id": "USART2_Clock_Source"
+    },
+    {
+      "id": "UART4_Clock_Source"
+    },
+    {
+      "id": "UART5_Clock_Source"
+    },
+    {
+      "id": "UART6_Clock_Source"
+    },
+    {
+      "id": "SPI1_Clock_Source"
+    },
+    {
+      "id": "SPI2_Clock_Source"
+    },
+    {
+      "id": "SPI3_Clock_Source"
+    },
+    {
+      "id": "HSI_comp_Div",
+      "value": 8
+    },
+    {
+      "id": "HSI_DIV2",
+      "value": 2
+    },
+    {
+      "id": "HSI_CAL",
+      "value": 1024
+    },
+    {
+      "id": "HPRE",
+      "value": 1
+    },
+    {
+      "id": "HPRE_DIV8",
+      "value": 8
+    },
+    {
+      "id": "SYSTICKSEL"
+    },
+    {
+      "id": "CPU_Input_Clock",
+      "value": 35000000
+    },
+    {
+      "id": "RCC_CPU_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "HCLKM_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "AHB1_Peripheral_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "APB1_Clock_Divider",
+      "value": "2"
+    },
+    {
+      "id": "APB1_Peripheral_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "TIMx_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "AHB2_Peripheral_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "APB2_Clock_Divider",
+      "value": "2"
+    },
+    {
+      "id": "APB2_Peripheral_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "TIMy_Input_Clocks",
+      "value": 280000000
+    },
+    {
+      "id": "HRTIM1_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "HRTPRE",
+      "value": 1
+    },
+    {
+      "id": "AHB3_Peripheral_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "APB3_Clock_Divider",
+      "value": "2"
+    },
+    {
+      "id": "APB3_Peripheral_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "AHB4_Peripheral_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "AHB5_Peripheral_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "I2C1_Clock_Source"
+    },
+    {
+      "id": "USART3_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "USART1_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "USART2_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "UART4_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "UART5_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "UART6_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "LPUART1_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "I2C1_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "I2C2_Clock_Source"
+    },
+    {
+      "id": "I2C2_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "I2C3_Clock_Source"
+    },
+    {
+      "id": "I2C3_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "I2C4_Clock_Source"
+    },
+    {
+      "id": "I2C4_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "I3C1_Clock_Source"
+    },
+    {
+      "id": "I3C1_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "POSEN1SRC"
+    },
+    {
+      "id": "POSENC1_Input_Clock",
+      "value": 186666666.66666666
+    },
+    {
+      "id": "POSENC2_Clock_Source"
+    },
+    {
+      "id": "POSENC2_Input_Clock",
+      "value": 186666666.66666666
+    },
+    {
+      "id": "PLAYSEL_Clock_Source"
+    },
+    {
+      "id": "PLAYDIV",
+      "value": 1
+    },
+    {
+      "id": "PLAY_Input_Clock",
+      "value": 32768
+    },
+    {
+      "id": "ADC_Clock_Source"
+    },
+    {
+      "id": "ADCDIV",
+      "value": "4"
+    },
+    {
+      "id": "ADC12_Input_Clock",
+      "value": 70000000
+    },
+    {
+      "id": "ADC3_Input_Clock",
+      "value": 70000000
+    },
+    {
+      "id": "DAC5_Clock_Source"
+    },
+    {
+      "id": "DAC5_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC6_Clock_Source"
+    },
+    {
+      "id": "DAC6_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC7_Clock_Source"
+    },
+    {
+      "id": "DAC7_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC8_Clock_Source"
+    },
+    {
+      "id": "DAC8_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC9_Clock_Source"
+    },
+    {
+      "id": "DAC9_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC10_Clock_Source"
+    },
+    {
+      "id": "DAC10_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC1_Clock_Source"
+    },
+    {
+      "id": "DAC1_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC2_Clock_Source"
+    },
+    {
+      "id": "DAC2_Input_Clock",
+      "value": 280000000
+    },
+    {
+      "id": "DAC1SH_Clock_Source"
+    },
+    {
+      "id": "DAC1SH_Input_Clock",
+      "value": 32768
+    },
+    {
+      "id": "DAC2SH_Clock_Source"
+    },
+    {
+      "id": "DAC2SH_Input_Clock",
+      "value": 32768
+    },
+    {
+      "id": "FDCAN_Clock_Source"
+    },
+    {
+      "id": "FDCAN_Input_Clock",
+      "value": 24000000
+    },
+    {
+      "id": "XSPI1_Clock_Source"
+    },
+    {
+      "id": "XSPI1_Input_Clock",
+      "value": 24000000
+    },
+    {
+      "id": "SPI1_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "SPI2_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "SPI3_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "LPTIM1_Input_Clock",
+      "value": 140000000
+    },
+    {
+      "id": "UCPD1_Clock_Source"
+    },
+    {
+      "id": "UCPD1_Input_Clock",
+      "value": 64000000
+    },
+    {
+      "id": "USB_Clock_Source"
+    },
+    {
+      "id": "USB_Input_Clock",
+      "value": 48000000
+    },
+    {
+      "id": "PLL1_Clock_Source"
+    },
+    {
+      "id": "PLL2_Clock_Source"
+    },
+    {
+      "id": "PLL1M",
+      "value": "32"
+    },
+    {
+      "id": "PLL2M",
+      "value": "4"
+    },
+    {
+      "id": "MCO1_Clock_Source"
+    },
+    {
+      "id": "MCO1_div_Clock",
+      "value": 1
+    },
+    {
+      "id": "MCO1_Input_Source",
+      "value": 64000000
+    },
+    {
+      "id": "MCO2_Clock_Source"
+    },
+    {
+      "id": "MCO2_div_Clock",
+      "value": 1
+    },
+    {
+      "id": "MCO2_Input_Source",
+      "value": 280000000
+    },
+    {
+      "id": "PLL1N",
+      "value": "280"
+    },
+    {
+      "id": "PLL2N",
+      "value": "35"
+    },
+    {
+      "id": "PLL1P",
+      "value": "2"
+    },
+    {
+      "id": "PLL2P",
+      "value": 1
+    },
+    {
+      "id": "PLL1Q",
+      "value": "3"
+    },
+    {
+      "id": "PLL2Q",
+      "value": 1
+    },
+    {
+      "id": "PLL1R",
+      "value": 1
+    },
+    {
+      "id": "PLL2R",
+      "value": 1
+    },
+    {
+      "id": "ICLK1DIV",
+      "value": 3
+    },
+    {
+      "id": "ICLK2DIV",
+      "value": 3
+    },
+    {
+      "id": "System_Clock_Frequency",
+      "value": 280000000
+    },
+    {
+      "id": "LPUART1_Clock_Source"
+    },
+    {
+      "id": "AUDIO_Source",
+      "value": 4800
+    },
+    {
+      "id": "LPTIM1_Clock_Source"
+    },
+    {
+      "id": "PLL1FRACN",
+      "value": 0
+    },
+    {
+      "id": "PLL2FRACN",
+      "value": 0
+    }
+  ]
+}

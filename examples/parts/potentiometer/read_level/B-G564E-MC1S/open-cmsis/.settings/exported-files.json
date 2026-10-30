@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:09:35.607Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "896d8e7879468f90a7b1db40365248689d0ff6f865b5f608025a3103176d124a"
+      },
+      "file": "potentiometer_read_level.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "095d37d80b1b975d08e81f08e972880b2ca745cee94ad860e532f67450e144ef"
+      },
+      "file": "project/potentiometer_read_level.cproject.yml"
+    }
+  ]
+}

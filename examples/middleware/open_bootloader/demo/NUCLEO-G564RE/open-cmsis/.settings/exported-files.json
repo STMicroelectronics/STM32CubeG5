@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:30:20.327Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a056a61fb2337cd562f4efa167a5340d249a3b3e603d43318503a9df74b5b162"
+      },
+      "file": "open_bootloader_demo.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "940ed6be36f8da6df07ec78569160b14f32d7cf6f410a6d7fab71f078e0a9f12"
+      },
+      "file": "project/open_bootloader_demo.cproject.yml"
+    }
+  ]
+}

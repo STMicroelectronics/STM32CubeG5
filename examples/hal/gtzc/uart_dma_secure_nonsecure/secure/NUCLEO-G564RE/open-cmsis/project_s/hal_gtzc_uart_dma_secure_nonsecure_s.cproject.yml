@@ -1,0 +1,116 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/cproject.schema.json
+project:
+  processor:
+    trustzone: secure
+    dsp: on
+  rte:
+    base-dir: ../../user_modifiable
+  generators:
+    options:
+      - generator: stm32g5xx_hal_mx2codegen
+        path: ../../generated/hal
+  output:
+    base-name: $Project$
+    type:
+      - elf
+      - bin
+      - hex
+  setups:
+    - setup: release_AC6
+      misc:
+        - ASM:
+            - -Oz
+            - -g
+          C:
+            - -Oz
+            - -std=gnu11
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -g
+            - -Wmissing-prototypes
+          CPP:
+            - -Oz
+            - -std=gnu++14
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -g
+            - -Wmissing-prototypes
+          for-compiler: AC6
+          Link-C:
+            - --map
+            - --library_type=microlib
+            - --symbols
+            - --show_full_path
+            - --inline
+            - --any_contingency
+          Link-CPP:
+            - --library_type=microlib
+            - --symbols
+            - --map
+            - --show_full_path
+            - --inline
+            - --any_contingency
+      for-context:
+        - .release_AC6
+  components:
+    - component: STMicroelectronics::CMSIS:CORE
+    - component: STMicroelectronics::Device:STM32 HAL:CORTEX
+    - component: STMicroelectronics::Device:STM32 HAL:Core
+    - component: STMicroelectronics::Device:STM32 HAL:DMA
+    - component: STMicroelectronics::Device:STM32 HAL:FLASH
+    - component: STMicroelectronics::Device:STM32 HAL:FLASH_ITF
+    - component: STMicroelectronics::Device:STM32 HAL:GPIO
+    - component: STMicroelectronics::Device:STM32 HAL:GTZC
+    - component: STMicroelectronics::Device:STM32 HAL:PWR
+    - component: STMicroelectronics::Device:STM32 HAL:RCC
+    - component: STMicroelectronics::Device:STM32 HAL:Q
+    - component: STMicroelectronics::Device:STM32 HAL:timebases&SYSTICK
+    - component: STMicroelectronics::Device:STM32 LL:BUS
+    - component: STMicroelectronics::Device:STM32 LL:Common
+    - component: STMicroelectronics::Device:STM32 LL:FLASH
+    - component: STMicroelectronics::Device:STM32 LL:PWR
+    - component: STMicroelectronics::Device:STM32 LL:DMA
+    - component: STMicroelectronics::Device:STM32 LL:RCC
+    - component: STMicroelectronics::Device:STM32 LL:GPIO
+    - component: STMicroelectronics::Device:STM32 LL:SBS
+    - component: STMicroelectronics::Device:STM32 LL:GTZC
+    - component: STMicroelectronics::Device:STM32 LL:UTILS
+    - component: STMicroelectronics::Device:STM32 LL:EXTI
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORE
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX SCB
+    - component: STMicroelectronics::Device:STM32CubeMX2 Codegen:Generated Code
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:GTZC
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:RCC
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:System
+    - component: STMicroelectronics::Device:Startup
+    - component: STMicroelectronics::Utility:syscalls&Template syscalls
+  groups:
+    - files:
+        - file: ../../../application/main.h
+          category: header
+        - file: ../../../application/main.c
+          category: source
+        - file: ../../../../secure_nsclib/secure_nsclib.h
+          category: header
+        - file: ../../../application/secure_nsclib.c
+          category: source
+        - file: ../../../application/example.h
+          category: header
+        - file: ../../../application/example.c
+          category: source
+        - file: ../../../../README.md
+          category: doc
+      group: UserCode
+    - group: generated
+      files:
+        - file: ../../generated/hal/partition_stm32g564xx.h
+  executes:
+    - execute: copy-cmse-lib
+      run: ${CMAKE_COMMAND} -E copy $input$ $output$
+      input:
+        - $cmse-lib(hal_gtzc_uart_dma_secure_nonsecure_s)$
+      output:
+        - ../../../../secure_nsclib/$TargetType$/$BuildType$/secure_nsclib.o
+      for-context: .release_AC6

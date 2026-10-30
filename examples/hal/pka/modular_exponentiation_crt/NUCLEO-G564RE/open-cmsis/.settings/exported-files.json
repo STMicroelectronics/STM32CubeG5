@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:20:37.763Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7f92212dfb1b5027427e7279b82137138adbf5de2aa81a5238903a309b2b05fb"
+      },
+      "file": "hal_pka_modular_exponentiation_crt.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "07fc6295894462221c1ada8eb372e06242a5167c9715dc93024ca27cc0342efc"
+      },
+      "file": "project/hal_pka_modular_exponentiation_crt.cproject.yml"
+    }
+  ]
+}

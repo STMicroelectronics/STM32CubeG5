@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:21:34.337Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d561beece5f26e8249852613f2f17d2f7467fe074e8d37d11e6e43436dd75701"
+      },
+      "file": "hal_tamp_active_detect.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_tamp_active_detect.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b521844c945884f8eaf4f160445b34cf47768699bf574398209c2c5168e2bbbe"
+      },
+      "file": "project/hal_tamp_active_detect.ewp"
+    }
+  ]
+}

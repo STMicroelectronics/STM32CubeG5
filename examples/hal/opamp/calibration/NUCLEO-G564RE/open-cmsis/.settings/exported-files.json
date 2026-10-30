@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T20:57:43.847Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2a1bc0e1d6ebf38538d90a97ad2dc1b126a7ba98cd9b6178516ffe7a1d73245b"
+      },
+      "file": "hal_opamp_calibration.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "538f2af3069a5bba6db653809ec02380b0f1463fb4b2818568d664a38948aeb9"
+      },
+      "file": "project/hal_opamp_calibration.cproject.yml"
+    }
+  ]
+}

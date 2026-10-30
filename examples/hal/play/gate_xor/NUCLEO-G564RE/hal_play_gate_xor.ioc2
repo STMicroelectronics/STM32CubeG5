@@ -1,0 +1,5006 @@
+"File: .settings/application-project.store.json" = """
+{
+  "cube.application-project": {}
+}"""
+"File: .settings/clock.store.json" = """
+{
+  "userSettings": [
+    {
+      "id": "LSI",
+      "value": 32000,
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "LSE",
+      "value": 32768,
+      "isLocked": false,
+      "outFrequency": 32768
+    },
+    {
+      "id": "HSE",
+      "value": 24000000,
+      "isLocked": false,
+      "outFrequency": 24000000
+    },
+    {
+      "id": "HSI",
+      "value": 64000000,
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "HSI48",
+      "value": 48000000,
+      "isLocked": false,
+      "outFrequency": 48000000
+    },
+    {
+      "id": "RTC_Clock_Source",
+      "value": "LSI_inputid",
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "RTC_Input_Clock",
+      "value": 32000,
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "HSIDIV",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "HSEDIV",
+      "value": 2,
+      "isLocked": false,
+      "outFrequency": 12000000
+    },
+    {
+      "id": "System_Clock_Source",
+      "value": "PLL1P_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "USART3_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "USART1_Clock_Source",
+      "value": "APB2_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "USART2_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "UART4_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "UART5_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "UART6_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "SPI1_Clock_Source",
+      "value": "APB2_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "SPI2_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "SPI3_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "HSI_comp_Div",
+      "value": 8,
+      "isLocked": false,
+      "outFrequency": 8000000
+    },
+    {
+      "id": "HSI_DIV2",
+      "value": 2,
+      "isLocked": false,
+      "outFrequency": 32000000
+    },
+    {
+      "id": "HSI_CAL",
+      "value": 1024,
+      "isLocked": false,
+      "outFrequency": 62500
+    },
+    {
+      "id": "HPRE",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "HPRE_DIV8",
+      "value": 8,
+      "isLocked": false,
+      "outFrequency": 35000000
+    },
+    {
+      "id": "SYSTICKSEL",
+      "value": "HPRE_DIV8_inputid",
+      "isLocked": false,
+      "outFrequency": 35000000
+    },
+    {
+      "id": "CPU_Input_Clock",
+      "value": 35000000,
+      "isLocked": false,
+      "outFrequency": 35000000
+    },
+    {
+      "id": "RCC_CPU_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "HCLKM_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "AHB1_Peripheral_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "APB1_Clock_Divider",
+      "value": "2",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "APB1_Peripheral_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "TIMx_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "TIMz_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "AHB2_Peripheral_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "APB2_Clock_Divider",
+      "value": "2",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "APB2_Peripheral_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "TIMy_Input_Clocks",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "HRTIM1_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "HRTPRE",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "AHB3_Peripheral_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "APB3_Clock_Divider",
+      "value": "2",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "APB3_Peripheral_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "AHB4_Peripheral_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "AHB5_Peripheral_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "I2C1_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "USART3_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "USART1_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "USART2_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "UART4_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "UART5_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "UART6_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "LPUART1_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I2C1_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I2C2_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I2C2_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I2C3_Clock_Source",
+      "value": "APB3_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I2C3_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I2C4_Clock_Source",
+      "value": "APB3_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I2C4_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I3C1_Clock_Source",
+      "value": "APB1_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "I3C1_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "POSEN1SRC",
+      "value": "PLL1Q_inputid",
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "POSENC1_Input_Clock",
+      "value": 186666666.66666666,
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "POSENC2_Clock_Source",
+      "value": "PLL1Q_inputid",
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "POSENC2_Input_Clock",
+      "value": 186666666.66666666,
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "PLAYSEL_Clock_Source",
+      "value": "LSI_inputid",
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "PLAYDIV",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "PLAY_Input_Clock",
+      "value": 32000,
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "ADC_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "ADCDIV",
+      "value": "4",
+      "isLocked": false,
+      "outFrequency": 70000000
+    },
+    {
+      "id": "ADC12_Input_Clock",
+      "value": 70000000,
+      "isLocked": false,
+      "outFrequency": 70000000
+    },
+    {
+      "id": "ADC3_Input_Clock",
+      "value": 70000000,
+      "isLocked": false,
+      "outFrequency": 70000000
+    },
+    {
+      "id": "DAC5_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC5_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC6_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC6_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC7_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC7_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC8_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC8_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC9_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC9_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC10_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC10_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC1_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC1_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC2_Clock_Source",
+      "value": "HPRE_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC2_Input_Clock",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "DAC1SH_Clock_Source",
+      "value": "LSI_inputid",
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "DAC1SH_Input_Clock",
+      "value": 32000,
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "DAC2SH_Clock_Source",
+      "value": "LSI_inputid",
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "DAC2SH_Input_Clock",
+      "value": 32000,
+      "isLocked": false,
+      "outFrequency": 32000
+    },
+    {
+      "id": "FDCAN_Clock_Source",
+      "value": "PLL1Q_inputid",
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "FDCAN_Input_Clock",
+      "value": 186666666.66666666,
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "XSPI1_Clock_Source",
+      "value": "HSIDIV_inputid",
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "XSPI1_Input_Clock",
+      "value": 64000000,
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "SPI1_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "SPI2_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "SPI3_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "LPTIM1_Input_Clock",
+      "value": 140000000,
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "UCPD1_Clock_Source",
+      "value": "HSIDIV_inputid",
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "UCPD1_Input_Clock",
+      "value": 64000000,
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "USB_Clock_Source",
+      "value": "HSI48_inputid",
+      "isLocked": false,
+      "outFrequency": 48000000
+    },
+    {
+      "id": "USB_Input_Clock",
+      "value": 48000000,
+      "isLocked": false,
+      "outFrequency": 48000000
+    },
+    {
+      "id": "PLL1_Clock_Source",
+      "value": "HSIDIV_inputid",
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "PLL2_Clock_Source",
+      "value": "HSIDIV_inputid",
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "PLL1M",
+      "value": "32",
+      "isLocked": false,
+      "outFrequency": 2000000
+    },
+    {
+      "id": "PLL2M",
+      "value": "4",
+      "isLocked": false,
+      "outFrequency": 16000000
+    },
+    {
+      "id": "MCO1_Clock_Source",
+      "value": "HSIDIV_inputid",
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "MCO1_div_Clock",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "MCO1_Input_Source",
+      "value": 64000000,
+      "isLocked": false,
+      "outFrequency": 64000000
+    },
+    {
+      "id": "MCO2_Clock_Source",
+      "value": "System_Clock_Frequency_inputid",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "MCO2_div_Clock",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "MCO2_Input_Source",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "PLL1N",
+      "value": "280",
+      "isLocked": false,
+      "outFrequency": 560000000
+    },
+    {
+      "id": "PLL2N",
+      "value": "35",
+      "isLocked": false,
+      "outFrequency": 560000000
+    },
+    {
+      "id": "PLL1P",
+      "value": "2",
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "PLL2P",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 560000000
+    },
+    {
+      "id": "PLL1Q",
+      "value": "3",
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "PLL2Q",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 560000000
+    },
+    {
+      "id": "PLL1R",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 560000000
+    },
+    {
+      "id": "PLL2R",
+      "value": 1,
+      "isLocked": false,
+      "outFrequency": 560000000
+    },
+    {
+      "id": "ICLK1DIV",
+      "value": 3,
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "ICLK2DIV",
+      "value": 3,
+      "isLocked": false,
+      "outFrequency": 186666666.66666666
+    },
+    {
+      "id": "System_Clock_Frequency",
+      "value": 280000000,
+      "isLocked": false,
+      "outFrequency": 280000000
+    },
+    {
+      "id": "LPUART1_Clock_Source",
+      "value": "APB3_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "AUDIO_Source",
+      "value": 4800,
+      "isLocked": false,
+      "outFrequency": 4800
+    },
+    {
+      "id": "LPTIM1_Clock_Source",
+      "value": "APB3_Peripheral_Clock_inputid",
+      "isLocked": false,
+      "outFrequency": 140000000
+    },
+    {
+      "id": "PLL1FRACN",
+      "value": 0,
+      "isLocked": false,
+      "outFrequency": 2000000
+    },
+    {
+      "id": "PLL2FRACN",
+      "value": 0,
+      "isLocked": false,
+      "outFrequency": 16000000
+    }
+  ]
+}"""
+"File: .settings/dma.store.json" = """
+{
+  "version": 2,
+  "resourcesAllocations": [],
+  "resourcesNeeds": [],
+  "resourceReservations": []
+}"""
+"File: .settings/envModelStore.store.json" = """
+{
+  "envVar": {
+    "CORE_PROJECT_TIMEBASE": {
+      "name": "CORE_PROJECT_TIMEBASE",
+      "value": "SYSTICK",
+      "originator": "ac3b9c88-6461-4c3d-b2d5-3c1ce377bea7"
+    },
+    "HAL_CORTEX_CORE_ENABLED": {
+      "name": "HAL_CORTEX_CORE_ENABLED",
+      "value": true,
+      "originator": "2062d096-de99-4715-8436-50c9b393e280"
+    },
+    "HAL_CORTEX_PROJECT_USE_HAL": {
+      "name": "HAL_CORTEX_PROJECT_USE_HAL",
+      "value": 2,
+      "originator": "sw-config-semaphore"
+    },
+    "HAL_ICACHE_CORE_ENABLED": {
+      "name": "HAL_ICACHE_CORE_ENABLED",
+      "value": true,
+      "originator": "e823492e-144d-43b7-9205-e651bd773607"
+    },
+    "HAL_ICACHE_PROJECT_USE_HAL": {
+      "name": "HAL_ICACHE_PROJECT_USE_HAL",
+      "value": 1,
+      "originator": "sw-config-semaphore"
+    },
+    "HAL_RCC_PROJECT_USE_HAL": {
+      "name": "HAL_RCC_PROJECT_USE_HAL",
+      "value": 1,
+      "originator": "sw-config-semaphore"
+    },
+    "SYSTEM_PROJECT_CODEGEN_STRATEGY": {
+      "name": "SYSTEM_PROJECT_CODEGEN_STRATEGY",
+      "value": "HW",
+      "originator": "6f77de66-7fa6-4311-a083-96ab8a774d01"
+    },
+    "SYSTEM_SINGLE_INTERRUPT_FILE": {
+      "name": "SYSTEM_SINGLE_INTERRUPT_FILE",
+      "value": false,
+      "originator": "6f77de66-7fa6-4311-a083-96ab8a774d01"
+    },
+    "SYSTEM_PROJECT_MODEL_STRATEGY": {
+      "name": "SYSTEM_PROJECT_MODEL_STRATEGY",
+      "value": 0,
+      "originator": "6f77de66-7fa6-4311-a083-96ab8a774d01"
+    },
+    "SYSTEM_PROJECT_LL_TIMEOUT_MECHANISM": {
+      "name": "SYSTEM_PROJECT_LL_TIMEOUT_MECHANISM",
+      "value": 0,
+      "originator": "6f77de66-7fa6-4311-a083-96ab8a774d01"
+    },
+    "HAL_SYSTEM_CORE_EXTI_CALLBACK_USER_DATA": {
+      "name": "HAL_SYSTEM_CORE_EXTI_CALLBACK_USER_DATA",
+      "value": false,
+      "originator": "6f77de66-7fa6-4311-a083-96ab8a774d01"
+    },
+    "HAL_GPIO_PROJECT_USE_HAL": {
+      "name": "HAL_GPIO_PROJECT_USE_HAL",
+      "value": 6,
+      "originator": "sw-config-semaphore"
+    },
+    "HAL_UART_PROJECT_USE_HAL": {
+      "name": "HAL_UART_PROJECT_USE_HAL",
+      "value": 1,
+      "originator": "sw-config-semaphore"
+    },
+    "HAL_PLAY_PROJECT_USE_HAL": {
+      "name": "HAL_PLAY_PROJECT_USE_HAL",
+      "value": 1,
+      "originator": "sw-config-semaphore"
+    },
+    "RCC_PROJECT_LSE_STARTUP_TIME": {
+      "name": "RCC_PROJECT_LSE_STARTUP_TIME",
+      "value": 5000,
+      "originator": "6c4ef773-dfb9-44c9-830f-9817bb94053f"
+    },
+    "RCC_PROJECT_LSE": {
+      "name": "RCC_PROJECT_LSE",
+      "value": true,
+      "originator": "6c4ef773-dfb9-44c9-830f-9817bb94053f"
+    }
+  }
+}"""
+"File: .settings/export-settings.store.json" = """
+{
+  "export": {
+    "configurations": {
+      "Open-CMSIS": {
+        "outputPath": "open-cmsis",
+        "toolchain": "AC6",
+        "exportSource": "reuse-local-with-external-refs",
+        "removeBoard": true
+      },
+      "EWARM": {
+        "outputPath": "ewarm",
+        "toolchain": "IAR",
+        "exportSource": "reuse-local-with-external-refs",
+        "removeBoard": false
+      },
+      "CMake": {
+        "outputPath": "cmake",
+        "toolchain": "GCC",
+        "exportSource": "reuse-local-with-external-refs",
+        "removeBoard": true
+      }
+    },
+    "lastUsedFormat": "CMake"
+  },
+  "layout": {
+    "defaultInstallationFolderBase": "misc",
+    "useCustomInstallPaths": true,
+    "customPackPaths": [
+      {
+        "packName": "STMicroelectronics.basic_stdio.2.1.0",
+        "folder": "misc/STMicroelectronics.basic_stdio.2.1.0"
+      },
+      {
+        "packName": "STMicroelectronics.button_hw-part.2.2.0",
+        "folder": "misc/STMicroelectronics.button_hw-part.2.2.0"
+      },
+      {
+        "packName": "STMicroelectronics.CMSIS.6.3.0",
+        "folder": "misc/STMicroelectronics.CMSIS.6.3.0"
+      },
+      {
+        "packName": "STMicroelectronics.crystal_hw-part.2.3.1",
+        "folder": "misc/STMicroelectronics.crystal_hw-part.2.3.1"
+      },
+      {
+        "packName": "STMicroelectronics.esd_hw-part.2.2.0",
+        "folder": "misc/STMicroelectronics.esd_hw-part.2.2.0"
+      },
+      {
+        "packName": "STMicroelectronics.led_hw-part.2.5.0",
+        "folder": "misc/STMicroelectronics.led_hw-part.2.5.0"
+      },
+      {
+        "packName": "STMicroelectronics.led_part_drivers.2.2.0",
+        "folder": "misc/STMicroelectronics.led_part_drivers.2.2.0"
+      },
+      {
+        "packName": "STMicroelectronics.mcp2562fd_hw-part.2.1.0",
+        "folder": "misc/STMicroelectronics.mcp2562fd_hw-part.2.1.0"
+      },
+      {
+        "packName": "STMicroelectronics.nucleo-g564re_hw-board.2.0.0",
+        "folder": "misc/STMicroelectronics.nucleo-g564re_hw-board.2.0.0"
+      },
+      {
+        "packName": "STMicroelectronics.st-link_hw-part.2.1.0",
+        "folder": "misc/STMicroelectronics.st-link_hw-part.2.1.0"
+      },
+      {
+        "packName": "STMicroelectronics.stm32g5xx_dfp.2.0.0",
+        "folder": "misc/STMicroelectronics.stm32g5xx_dfp.2.0.0"
+      },
+      {
+        "packName": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0",
+        "folder": "misc/STMicroelectronics.stm32g5xx_hal_drivers.2.0.0"
+      },
+      {
+        "packName": "STMicroelectronics.syscalls.2.0.2",
+        "folder": "misc/STMicroelectronics.syscalls.2.0.2"
+      }
+    ]
+  },
+  "conflict": {
+    "generated": "DIFF",
+    "all": "OVERWRITE_WITHOUT_BACKUP",
+    "pack": "DIFF",
+    "project_file": "DIFF",
+    "RTE": "DIFF",
+    "user_code": "DIFF"
+  }
+}"""
+"File: .settings/exti.store.json" = """
+{
+  "version": 2,
+  "resourcesAllocations": [],
+  "resourcesNeeds": []
+}"""
+"File: .settings/global-project-components.store.json" = """
+{
+  "activatedServices": [
+    {
+      "id": "HALCore",
+      "name": "HAL common definitions",
+      "configurationId": "ac3b9c88-6461-4c3d-b2d5-3c1ce377bea7",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660"
+    },
+    {
+      "id": "SystemInit",
+      "name": "HAL System Init",
+      "configurationId": "6f77de66-7fa6-4311-a083-96ab8a774d01",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660"
+    }
+  ]
+}"""
+"File: .settings/nvic.store.json" = """
+{
+  "version": 1,
+  "configurations": [
+    {
+      "projectId": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "core": "Cortex-M33",
+      "context": "NON_SECURE",
+      "instance": "NVIC1",
+      "grouping": 0,
+      "priority_values": {
+        "priority": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "subpriority": [
+          0
+        ]
+      },
+      "interrupts": [
+        {
+          "id": 15,
+          "name": "SysTick",
+          "priority": 15,
+          "subpriority": 0,
+          "used": true
+        }
+      ],
+      "needs": []
+    }
+  ],
+  "resourceNeeds": [],
+  "description": {
+    "instances": []
+  }
+}"""
+"File: .settings/pack-layout.store.json" = """
+{
+  "layout": {
+    "defaultInstallationFolderBase": "misc",
+    "useOverrideInstallPatterns": true,
+    "overrideInstallPatterns": [
+      {
+        "pattern": "(STMicroelectronics|ARM)\\\\.CMSIS-NN\\\\..*",
+        "folder": "arch/cmsis_nn"
+      },
+      {
+        "pattern": "(STMicroelectronics|ARM)\\\\.CMSIS-Compiler\\\\..*",
+        "folder": "arch/cmsis_compiler"
+      },
+      {
+        "pattern": "(STMicroelectronics|ARM)\\\\.CMSIS-DSP\\\\..*",
+        "folder": "arch/cmsis_dsp"
+      },
+      {
+        "pattern": "(STMicroelectronics|ARM)\\\\.CMSIS\\\\..*",
+        "folder": "arch/cmsis"
+      },
+      {
+        "pattern": "(STMicroelectronics|ARM)\\\\..*CMSIS.*",
+        "folder": "arch"
+      },
+      {
+        "pattern": "STMicroelectronics\\\\.(.*)_hal_drivers.*",
+        "folder": "\\\\1_drivers"
+      },
+      {
+        "pattern": "STMicroelectronics\\\\.(.*_dfp).*",
+        "folder": "\\\\1"
+      },
+      {
+        "pattern": "STMicroelectronics\\\\.utility.*",
+        "folder": "utilities"
+      },
+      {
+        "pattern": "STMicroelectronics\\\\.mw_([^.]+)\\\\..*",
+        "folder": "middleware/\\\\1"
+      },
+      {
+        "pattern": "STMicroelectronics.filex\\\\..*",
+        "folder": "middleware/filex"
+      },
+      {
+        "pattern": "STMicroelectronics.freertos\\\\..*",
+        "folder": "middleware/freertos"
+      },
+      {
+        "pattern": "STMicroelectronics.levelx\\\\..*",
+        "folder": "middleware/levelx"
+      },
+      {
+        "pattern": "STMicroelectronics.lwip\\\\..*",
+        "folder": "middleware/lwip"
+      },
+      {
+        "pattern": "STMicroelectronics.mbedtls\\\\..*",
+        "folder": "middleware/mbedtls"
+      },
+      {
+        "pattern": "STMicroelectronics.mcuboot\\\\..*",
+        "folder": "middleware/mcuboot"
+      },
+      {
+        "pattern": "STMicroelectronics.stcryptolib\\\\..*",
+        "folder": "middleware/stcryptolib"
+      },
+      {
+        "pattern": "STMicroelectronics.stfcf\\\\..*",
+        "folder": "middleware/stfcf"
+      },
+      {
+        "pattern": "STMicroelectronics.stm32_touchsensing_library\\\\..*",
+        "folder": "middleware/stm32_touchsensing_library"
+      },
+      {
+        "pattern": "STMicroelectronics.usbpd\\\\..*",
+        "folder": "middleware/usbpd"
+      },
+      {
+        "pattern": "STMicroelectronics.usbx\\\\..*",
+        "folder": "middleware/usbx"
+      },
+      {
+        "pattern": "STMicroelectronics.adv_trace\\\\..*",
+        "folder": "utilities/adv_trace"
+      },
+      {
+        "pattern": "STMicroelectronics.basic_stdio\\\\..*",
+        "folder": "utilities/basic_stdio"
+      },
+      {
+        "pattern": "STMicroelectronics.eeprom_emulation\\\\..*",
+        "folder": "utilities/eeprom_emulation"
+      },
+      {
+        "pattern": "STMicroelectronics.sequencer\\\\..*",
+        "folder": "utilities/sequencer"
+      },
+      {
+        "pattern": "STMicroelectronics.syscalls\\\\..*",
+        "folder": "utilities/syscalls"
+      },
+      {
+        "pattern": "STMicroelectronics.thread_safe_libc\\\\..*",
+        "folder": "utilities/thread_safe_libc"
+      }
+    ],
+    "overridePackMappingRules": [
+      {
+        "selectors": [
+          {
+            "packVendor": "ARM"
+          },
+          {
+            "packName": "*CMSIS*"
+          }
+        ],
+        "path": "arch/{{packName}}"
+      },
+      {
+        "selectors": [],
+        "path": "misc/{{packVendor}}.{{packName}}.{{packVersion}}"
+      }
+    ],
+    "overrideGeneratorMappingRules": [
+      {
+        "selectors": [
+          {
+            "packType": "HAL"
+          }
+        ],
+        "path": "{{APPprj}}/../generated/hal/"
+      },
+      {
+        "selectors": [
+          {
+            "packType": "PARTDRV"
+          }
+        ],
+        "path": "{{APPprj}}/../generated/parts/{{packFriendlyName}}"
+      },
+      {
+        "selectors": [
+          {
+            "packType": "UTILITY"
+          }
+        ],
+        "path": "{{APPprj}}/../generated/{{parent}}/{{packFriendlyName}}"
+      },
+      {
+        "selectors": [
+          {
+            "packType": "MW"
+          }
+        ],
+        "path": "{{APPprj}}/../generated/{{parent}}/{{packFriendlyName}}"
+      },
+      {
+        "selectors": [
+          {
+            "generator": "*"
+          }
+        ],
+        "path": "{{APPprj}}/../generated/{{packName}}"
+      }
+    ]
+  }
+}"""
+"File: .settings/pinout.store.json" = """
+{
+  "version": 10,
+  "pinout-configuration": {
+    "userConfigurations": [
+      {
+        "pin": {
+          "name": "PA13(JTMS/SWDIO)",
+          "position": "59",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "f"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 13,
+          "port": "A"
+        },
+        "signal": {
+          "instance": "DEBUG",
+          "name": "DEBUG_SWDIO",
+          "type": "alternate",
+          "alternateFunctionId": "AF0"
+        },
+        "pinned": true
+      },
+      {
+        "pin": {
+          "name": "PA14(JTCK/SWCLK)",
+          "position": "60",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "f"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 14,
+          "port": "A"
+        },
+        "signal": {
+          "instance": "DEBUG",
+          "name": "DEBUG_SWCLK",
+          "type": "alternate",
+          "alternateFunctionId": "AF0"
+        },
+        "pinned": true
+      },
+      {
+        "pin": {
+          "name": "PA3",
+          "position": "18",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "a"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "TT",
+          "index": 3,
+          "port": "A"
+        },
+        "signal": {
+          "instance": "LPUART1",
+          "name": "LPUART1_RX",
+          "type": "alternate",
+          "alternateFunctionId": "AF3"
+        },
+        "pinned": true
+      },
+      {
+        "pin": {
+          "name": "PB3(JTDO/TRACESWO)",
+          "position": "57",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "f"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 3,
+          "port": "B"
+        },
+        "signal": {
+          "instance": "DEBUG",
+          "name": "DEBUG_TRACESWO",
+          "type": "alternate",
+          "alternateFunctionId": "AF0"
+        },
+        "pinned": true
+      },
+      {
+        "pin": {
+          "name": "PG3",
+          "position": "42",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "f"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 3,
+          "port": "G"
+        },
+        "signal": {
+          "instance": "GPIOG",
+          "name": "GPIO",
+          "type": "user_gpio"
+        },
+        "pinned": true
+      }
+    ],
+    "needConfigurations": [
+      {
+        "id": "c90dafeb-4940-499c-908c-d4a66d879629",
+        "needId": "c90dafeb-4940-499c-908c-d4a66d879629",
+        "pin": {
+          "name": "PA2",
+          "position": "16",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "a"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "TT",
+          "index": 2,
+          "port": "A"
+        },
+        "signal": {
+          "instance": "USART2",
+          "name": "USART2_TX",
+          "type": "alternate",
+          "alternateFunctionId": "AF7"
+        },
+        "pinned": true,
+        "ownedByUser": true
+      },
+      {
+        "id": "d2ca5fe5-79ab-4014-9f9c-afbb2248930d",
+        "needId": "d2ca5fe5-79ab-4014-9f9c-afbb2248930d",
+        "pin": {
+          "name": "PC13",
+          "position": "1",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "t"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 13,
+          "port": "C"
+        },
+        "signal": {
+          "instance": "PLAY1",
+          "name": "PLAY1_IN4",
+          "type": "alternate",
+          "alternateFunctionId": "AF14"
+        },
+        "pinned": true,
+        "ownedByUser": true
+      },
+      {
+        "id": "9d6f632b-508b-47d2-8fea-3fd4332988ec",
+        "needId": "9d6f632b-508b-47d2-8fea-3fd4332988ec",
+        "pin": {
+          "name": "PC14-OSC32_IN(OSC32_IN)",
+          "position": "3",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 14,
+          "port": "C"
+        },
+        "signal": {
+          "instance": "RCC",
+          "name": "RCC_OSC32_IN",
+          "type": "additional"
+        },
+        "pinned": false,
+        "ownedByUser": false
+      },
+      {
+        "id": "a7fe4c12-27ac-4e92-8d20-82799487e29c",
+        "needId": "a7fe4c12-27ac-4e92-8d20-82799487e29c",
+        "pin": {
+          "name": "PC15-OSC32_OUT(OSC32_OUT)",
+          "position": "4",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 15,
+          "port": "C"
+        },
+        "signal": {
+          "instance": "RCC",
+          "name": "RCC_OSC32_OUT",
+          "type": "additional"
+        },
+        "pinned": false,
+        "ownedByUser": false
+      },
+      {
+        "id": "f37ff8e2-b139-4a9c-9a89-bbf5c2449fed",
+        "needId": "f37ff8e2-b139-4a9c-9a89-bbf5c2449fed",
+        "pin": {
+          "name": "PD11",
+          "position": "39",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "a"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "TT",
+          "index": 11,
+          "port": "D"
+        },
+        "signal": {
+          "instance": "PLAY1",
+          "name": "PLAY1_OUT0",
+          "type": "alternate",
+          "alternateFunctionId": "AF14"
+        },
+        "pinned": true,
+        "ownedByUser": true
+      }
+    ]
+  },
+  "pinout-excluded-pins": [],
+  "pinout-labels": [
+    {
+      "position": "28",
+      "labels": [
+        "VREFP_MCU"
+      ]
+    },
+    {
+      "position": "29",
+      "labels": [
+        "VREFM_MCU"
+      ]
+    },
+    {
+      "position": "7",
+      "labels": [
+        "VDDMCU_7"
+      ]
+    },
+    {
+      "position": "17",
+      "labels": [
+        "VDDMCU_17"
+      ]
+    },
+    {
+      "position": "38",
+      "labels": [
+        "VDDMCU_38"
+      ]
+    },
+    {
+      "position": "55",
+      "labels": [
+        "VDDMCU_55"
+      ]
+    },
+    {
+      "position": "27",
+      "labels": [
+        "VDDA"
+      ]
+    },
+    {
+      "position": "5",
+      "labels": [
+        "VCAP_MCU_5"
+      ]
+    },
+    {
+      "position": "36",
+      "labels": [
+        "VCAP_MCU_36"
+      ]
+    },
+    {
+      "position": "52",
+      "labels": [
+        "USB_FS_P"
+      ]
+    },
+    {
+      "position": "51",
+      "labels": [
+        "USB_FS_N"
+      ]
+    },
+    {
+      "position": "42",
+      "labels": [
+        "PG3"
+      ]
+    },
+    {
+      "position": "41",
+      "labels": [
+        "PG2"
+      ]
+    },
+    {
+      "position": "64",
+      "labels": [
+        "PE2"
+      ]
+    },
+    {
+      "position": "40",
+      "labels": [
+        "PD12"
+      ]
+    },
+    {
+      "position": "39",
+      "labels": [
+        "PD11"
+      ]
+    },
+    {
+      "position": "1",
+      "labels": [
+        "PC13"
+      ]
+    },
+    {
+      "position": "44",
+      "labels": [
+        "PC12"
+      ]
+    },
+    {
+      "position": "43",
+      "labels": [
+        "PC11"
+      ]
+    },
+    {
+      "position": "46",
+      "labels": [
+        "PC7"
+      ]
+    },
+    {
+      "position": "45",
+      "labels": [
+        "PC6"
+      ]
+    },
+    {
+      "position": "13",
+      "labels": [
+        "PC3"
+      ]
+    },
+    {
+      "position": "12",
+      "labels": [
+        "PC2"
+      ]
+    },
+    {
+      "position": "11",
+      "labels": [
+        "PC1"
+      ]
+    },
+    {
+      "position": "10",
+      "labels": [
+        "PC0"
+      ]
+    },
+    {
+      "position": "35",
+      "labels": [
+        "PB15"
+      ]
+    },
+    {
+      "position": "34",
+      "labels": [
+        "PB14"
+      ]
+    },
+    {
+      "position": "31",
+      "labels": [
+        "PB11"
+      ]
+    },
+    {
+      "position": "30",
+      "labels": [
+        "PB10"
+      ]
+    },
+    {
+      "position": "63",
+      "labels": [
+        "PB9"
+      ]
+    },
+    {
+      "position": "49",
+      "labels": [
+        "PB7"
+      ]
+    },
+    {
+      "position": "48",
+      "labels": [
+        "PB6"
+      ]
+    },
+    {
+      "position": "47",
+      "labels": [
+        "PB5"
+      ]
+    },
+    {
+      "position": "58",
+      "labels": [
+        "PB4"
+      ]
+    },
+    {
+      "position": "57",
+      "labels": [
+        "PB3"
+      ]
+    },
+    {
+      "position": "25",
+      "labels": [
+        "PB2"
+      ]
+    },
+    {
+      "position": "24",
+      "labels": [
+        "PB1"
+      ]
+    },
+    {
+      "position": "23",
+      "labels": [
+        "PB0"
+      ]
+    },
+    {
+      "position": "61",
+      "labels": [
+        "PA15"
+      ]
+    },
+    {
+      "position": "60",
+      "labels": [
+        "PA14"
+      ]
+    },
+    {
+      "position": "59",
+      "labels": [
+        "PA13"
+      ]
+    },
+    {
+      "position": "50",
+      "labels": [
+        "PA10"
+      ]
+    },
+    {
+      "position": "54",
+      "labels": [
+        "PA9"
+      ]
+    },
+    {
+      "position": "53",
+      "labels": [
+        "PA8"
+      ]
+    },
+    {
+      "position": "22",
+      "labels": [
+        "PA7"
+      ]
+    },
+    {
+      "position": "21",
+      "labels": [
+        "PA6"
+      ]
+    },
+    {
+      "position": "20",
+      "labels": [
+        "PA5"
+      ]
+    },
+    {
+      "position": "19",
+      "labels": [
+        "PA4"
+      ]
+    },
+    {
+      "position": "15",
+      "labels": [
+        "PA1"
+      ]
+    },
+    {
+      "position": "14",
+      "labels": [
+        "PA0"
+      ]
+    },
+    {
+      "position": "2",
+      "labels": [
+        "NRST"
+      ]
+    },
+    {
+      "position": "9",
+      "labels": [
+        "NetR4_1"
+      ]
+    },
+    {
+      "position": "8",
+      "labels": [
+        "NetR3_1"
+      ]
+    },
+    {
+      "position": "4",
+      "labels": [
+        "NetR2_1"
+      ]
+    },
+    {
+      "position": "3",
+      "labels": [
+        "NetR1_1"
+      ]
+    },
+    {
+      "position": "6",
+      "labels": [
+        "GND_6"
+      ]
+    },
+    {
+      "position": "37",
+      "labels": [
+        "GND_37"
+      ]
+    },
+    {
+      "position": "56",
+      "labels": [
+        "GND_56"
+      ]
+    },
+    {
+      "position": "33",
+      "labels": [
+        "FDCAN_TX"
+      ]
+    },
+    {
+      "position": "32",
+      "labels": [
+        "FDCAN_RX"
+      ]
+    },
+    {
+      "position": "16",
+      "labels": [
+        "DBG_VCP_TX"
+      ]
+    },
+    {
+      "position": "18",
+      "labels": [
+        "DBG_VCP_RX"
+      ]
+    },
+    {
+      "position": "62",
+      "labels": [
+        "BOOT"
+      ]
+    },
+    {
+      "position": "26",
+      "labels": [
+        "AGND"
+      ]
+    }
+  ],
+  "pinout-gpio-assignations": [
+    {
+      "gpioGroupId": "default_gpio_group_id",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "swInstanceId": "8f68d291-d471-4343-b15c-0dbaf8ff6de1",
+      "instanceName": "GPIO"
+    }
+  ],
+  "pinout-gpio-groups": [
+    {
+      "id": "default_gpio_group_id",
+      "name": "gpio_default",
+      "pins": [
+        {
+          "name": "PG3",
+          "position": "42",
+          "type": "gpio",
+          "powerSource": "VDD",
+          "ioStructureOptions": [
+            "f"
+          ],
+          "ioType": "I/O",
+          "ioStructure": "FT",
+          "index": 3,
+          "port": "G"
+        }
+      ]
+    }
+  ],
+  "pinout-gpio-needs": [
+    {
+      "id": "c90dafeb-4940-499c-908c-d4a66d879629",
+      "needId": "c90dafeb-4940-499c-908c-d4a66d879629",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "componentInstanceId": "22b6e57b-7b49-41dc-bbc9-d2becab5cb55",
+      "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:UART@2.0.0#HAL CORE GPIO DMA Init and UART",
+      "signal": "USART2_TX",
+      "instanceName": "USART2"
+    },
+    {
+      "id": "d2ca5fe5-79ab-4014-9f9c-afbb2248930d",
+      "needId": "d2ca5fe5-79ab-4014-9f9c-afbb2248930d",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "componentInstanceId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+      "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:PLAY@2.0.0#HAL CORE GPIO Init and PLAY",
+      "signal": "PLAY1_IN4",
+      "instanceName": "PLAY1"
+    },
+    {
+      "id": "f37ff8e2-b139-4a9c-9a89-bbf5c2449fed",
+      "needId": "f37ff8e2-b139-4a9c-9a89-bbf5c2449fed",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "componentInstanceId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+      "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:PLAY@2.0.0#HAL CORE GPIO Init and PLAY",
+      "signal": "PLAY1_OUT0",
+      "instanceName": "PLAY1"
+    },
+    {
+      "id": "9d6f632b-508b-47d2-8fea-3fd4332988ec",
+      "needId": "9d6f632b-508b-47d2-8fea-3fd4332988ec",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "componentInstanceId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+      "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:RCC@2.0.0#HAL CORE Init GPIO and RCC",
+      "signal": "RCC_OSC32_IN",
+      "instanceName": "RCC"
+    },
+    {
+      "id": "a7fe4c12-27ac-4e92-8d20-82799487e29c",
+      "needId": "a7fe4c12-27ac-4e92-8d20-82799487e29c",
+      "softwareProjectId": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "componentInstanceId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+      "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:RCC@2.0.0#HAL CORE Init GPIO and RCC",
+      "signal": "RCC_OSC32_OUT",
+      "instanceName": "RCC"
+    }
+  ],
+  "pinout-user-settings": {}
+}"""
+"File: NUCLEO-G564RE_project/.settings/hw-composition.store.json" = """
+{
+  "name": "NUCLEO-G564RE_project",
+  "boards": [
+    {
+      "type": "NORMAL",
+      "uid": "d20ee0e3-df70-4cde-a49d-777ea8f6c65d",
+      "boardUID": "STMicroelectronics.nucleo-g564re_hw-board.2.0.0$STMicroelectronics::NUCLEO-G564RE@NUG564RE$CR1",
+      "removedParts": []
+    }
+  ],
+  "version": 3,
+  "constraints": [
+    {
+      "part": {
+        "enabled": true,
+        "reference": "B1",
+        "pin": "3",
+        "name": "KSC721JLFS"
+      },
+      "device": {
+        "pin": "1"
+      },
+      "signals": [
+        {
+          "type": "GPIO",
+          "direction": "output"
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "B1",
+        "pin": "4",
+        "name": "KSC721JLFS"
+      },
+      "device": {
+        "pin": "1"
+      },
+      "signals": [
+        {
+          "type": "GPIO",
+          "direction": "output"
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "LD1",
+        "pin": "2",
+        "name": "19-213SYGC/S530-E2/5T"
+      },
+      "device": {
+        "pin": "42"
+      },
+      "signals": [
+        {
+          "type": "GPIO",
+          "direction": "input"
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "U13",
+        "pin": "L2",
+        "name": "STLINK-V3EC"
+      },
+      "device": {
+        "pin": "59"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "Debug TAP",
+          "busMode": "Serial Wire Debug Master with SWO",
+          "busVersion": "1.0.0",
+          "signalType": "SWDIO",
+          "compatibleConfigurations": [
+            {
+              "signalType": "SWDIO",
+              "mode": "Serial Wire Debug Slave with SWO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "U13",
+        "pin": "M11",
+        "name": "STLINK-V3EC"
+      },
+      "device": {
+        "pin": "60"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "Debug TAP",
+          "busMode": "Serial Wire Debug Master with SWO",
+          "busVersion": "1.0.0",
+          "signalType": "SWCLK",
+          "compatibleConfigurations": [
+            {
+              "signalType": "SWCLK",
+              "mode": "Serial Wire Debug Slave with SWO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "U13",
+        "pin": "D12",
+        "name": "STLINK-V3EC"
+      },
+      "device": {
+        "pin": "57"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "Debug TAP",
+          "busMode": "Serial Wire Debug Master with SWO",
+          "busVersion": "1.0.0",
+          "signalType": "SWO",
+          "compatibleConfigurations": [
+            {
+              "signalType": "SWO",
+              "mode": "Serial Wire Debug Slave with SWO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "U13",
+        "pin": "C10",
+        "name": "STLINK-V3EC"
+      },
+      "device": {
+        "pin": "16"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "Serial",
+          "busMode": "Asynchronous",
+          "busVersion": "1.0.0",
+          "signalType": "RX",
+          "compatibleConfigurations": [
+            {
+              "signalType": "TX",
+              "mode": "Asynchronous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "U13",
+        "pin": "A7",
+        "name": "STLINK-V3EC"
+      },
+      "device": {
+        "pin": "18"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "Serial",
+          "busMode": "Asynchronous",
+          "busVersion": "1.0.0",
+          "signalType": "TX",
+          "compatibleConfigurations": [
+            {
+              "signalType": "RX",
+              "mode": "Asynchronous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "X2",
+        "pin": "1",
+        "name": "NX1610SE-32.768KHz-EXS00A-MU01499"
+      },
+      "device": {
+        "pin": "4"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "External Clock",
+          "busMode": "Resonator",
+          "busVersion": "1.0.0",
+          "signalType": "RES",
+          "compatibleConfigurations": [
+            {
+              "signalType": "OSC_IN",
+              "mode": "Resonator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "X2",
+        "pin": "2",
+        "name": "NX1610SE-32.768KHz-EXS00A-MU01499"
+      },
+      "device": {
+        "pin": "3"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "External Clock",
+          "busMode": "Resonator",
+          "busVersion": "1.0.0",
+          "signalType": "RES",
+          "compatibleConfigurations": [
+            {
+              "signalType": "OSC_IN",
+              "mode": "Resonator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "X3",
+        "pin": "1",
+        "name": "NX2016SA-24MHz-EXS00A-CS10820"
+      },
+      "device": {
+        "pin": "8"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "External Clock",
+          "busMode": "Resonator",
+          "busVersion": "1.0.0",
+          "signalType": "RES",
+          "compatibleConfigurations": [
+            {
+              "signalType": "OSC_IN",
+              "mode": "Resonator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": {
+        "enabled": true,
+        "reference": "X3",
+        "pin": "3",
+        "name": "NX2016SA-24MHz-EXS00A-CS10820"
+      },
+      "device": {
+        "pin": "9"
+      },
+      "signals": [
+        {
+          "type": "BUS",
+          "busType": "External Clock",
+          "busMode": "Resonator",
+          "busVersion": "1.0.0",
+          "signalType": "RES",
+          "compatibleConfigurations": [
+            {
+              "signalType": "OSC_IN",
+              "mode": "Resonator"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}"""
+"File: NUCLEO-G564RE_project/NUCLEO-G564RE_project.hw" = "{}"
+"File: NUCLEO-G564RE_project/project.cube" = """
+{
+  "traits": [
+    {
+      "id": "0f9bb151-ce5e-4d89-926e-6f8d0e2fa004",
+      "name": "hardware",
+      "files": [
+        "NUCLEO-G564RE_project.hw"
+      ]
+    }
+  ],
+  "children": []
+}"""
+"File: hal_play_gate_xor.csolution.yml" = """
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/csolution.schema.json
+solution:
+  target-types:
+    - type: NUCLEO-G564RE
+      board: NUCLEO-G564RE:NUG564RE$CR1
+      device: STM32G564RET3
+  output-dirs:
+    tmpdir: build/tmp
+    outdir: $SolutionDir()$/build/$Project$.$BuildType$
+  generators:
+    base-dir: $ProjectDir()$/generated
+    options:
+      - generator: stm32g5xx_hal_mx2codegen
+        path: $SolutionDir()$/../generated/hal/
+      - generator: syscalls_mx2codegen
+        path: $SolutionDir()$/../generated/utilities/syscalls
+      - generator: led_mx2codegen
+        path: $SolutionDir()$/../generated/parts/led
+      - generator: basic_stdio_mx2codegen
+        path: $SolutionDir()$/../generated/utilities/basic_stdio
+  build-types:
+    - type: debug_GCC
+      compiler: GCC
+    - type: release_GCC
+      compiler: GCC
+    - type: debug_IAR
+      compiler: IAR
+    - type: release_IAR
+      compiler: IAR
+    - type: debug_AC6
+      compiler: AC6
+    - type: release_AC6
+      compiler: AC6
+  projects:
+    - project: project/hal_play_gate_xor.cproject.yml
+  packs:
+    - pack: STMicroelectronics::basic_stdio@2.1.0
+    - pack: STMicroelectronics::button_hw-part@2.2.0
+    - pack: STMicroelectronics::CMSIS@6.3.0
+    - pack: STMicroelectronics::crystal_hw-part@2.3.1
+    - pack: STMicroelectronics::esd_hw-part@2.2.0
+    - pack: STMicroelectronics::led_hw-part@2.5.0
+    - pack: STMicroelectronics::led_part_drivers@2.2.0
+    - pack: STMicroelectronics::mcp2562fd_hw-part@2.1.0
+    - pack: STMicroelectronics::nucleo-g564re_hw-board@2.0.0
+    - pack: STMicroelectronics::st-link_hw-part@2.1.0
+    - pack: STMicroelectronics::stm32g5xx_dfp@2.0.0
+    - pack: STMicroelectronics::stm32g5xx_hal_drivers@2.0.0
+    - pack: STMicroelectronics::syscalls@2.0.2
+"""
+"File: project.cube" = """
+{
+  "traits": [
+    {
+      "id": "3aa8fcbf-b7e2-4c18-b16d-bf11a48b5df6",
+      "name": "application",
+      "files": [
+        "hal_play_gate_xor.csolution.yml"
+      ]
+    }
+  ],
+  "children": [
+    "NUCLEO-G564RE_project/NUCLEO-G564RE_project.hw"
+  ]
+}"""
+"File: project/.settings/middleware-utilities-resource-manager.store.json" = """
+{
+  "version": 1,
+  "$type": "https://st.com/schema/middleware-utilities#//",
+  "id": "3405b208-5118-462b-9d66-9ac6ec181c96",
+  "middleware": [
+    "USBX",
+    "USBPD",
+    "STFCF",
+    "STCryptoLib",
+    "Open_Bootloader",
+    "LevelX",
+    "FreeRTOS",
+    "FileX"
+  ],
+  "utilities": [
+    "Thread_Safe_LibC",
+    "Syscalls",
+    "Sequencer",
+    "EEPROM_Emulation",
+    "Basic_STDIO",
+    "Advanced_Trace"
+  ]
+}"""
+"File: project/.settings/part-resource-manager.store.json" = """
+{
+  "version": 1,
+  "$type": "https://st.com/schema/parts#//",
+  "id": "626df366-fe55-49ba-ac4b-d635898255e8",
+  "boundList": [
+    {
+      "partInstanceId": "d20ee0e3-df70-4cde-a49d-777ea8f6c65d_LD1",
+      "swInstanceId": "7e26bfea-4fd0-496e-8bf0-96e4c3e00be3"
+    }
+  ]
+}"""
+"File: project/.settings/peripherals.store.json" = """
+{
+  "configuration": {
+    "MPU": {
+      "driverId": "STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX MPU",
+      "driverConfigurationId": "2062d096-de99-4715-8436-50c9b393e280"
+    },
+    "ICACHE": {
+      "driverId": "STMicroelectronics::Device:STM32CubeMX2 Config:ICACHE",
+      "driverConfigurationId": "e823492e-144d-43b7-9205-e651bd773607"
+    },
+    "RCC": {
+      "driverId": "STMicroelectronics::Device:STM32CubeMX2 Config:RCC",
+      "driverConfigurationId": "6c4ef773-dfb9-44c9-830f-9817bb94053f"
+    },
+    "NVIC": {
+      "driverId": "STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX NVIC",
+      "driverConfigurationId": "abf84bfd-1daa-49a5-8988-b7e68bffc45d"
+    },
+    "USART2": {
+      "driverId": "STMicroelectronics::Device:STM32CubeMX2 Config:UART",
+      "driverConfigurationId": "22b6e57b-7b49-41dc-bbc9-d2becab5cb55",
+      "mode": "Async"
+    },
+    "PLAY1": {
+      "driverConfigurationId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+      "driverId": "STMicroelectronics::Device:STM32CubeMX2 Config:PLAY"
+    }
+  }
+}"""
+"File: project/.settings/sw-composition.store.json" = """
+{
+  "componentModel": {
+    "version": 2,
+    "$type": "http://st.com/schema/sw-composer#//SWComposition",
+    "id": "0a72557b-dcd6-4534-96ca-13e0763c0bad",
+    "components": [
+      {
+        "$type": "http://st.com/schema/sw-composer#//SingleInstanceSWComponent",
+        "id": "61e39faa-4d0f-4f9c-a347-329350f6137b",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:CORE@2.0.0#HAL Generated code",
+        "label": "STM32CubeMX2 Config:CORE",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "751d4dd6-9db1-4aae-90be-8a825776a4de",
+        "componentDescriptionId": "STMicroelectronics.CMSIS.6.3.0$STMicroelectronics::CMSIS:CORE@6.2.0#ARMv6_7_8-M Device",
+        "label": "CORE",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "2a0d3594-6d27-4d33-8647-9f7c40fc45ed",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:UTILS@2.0.0#STM32G5",
+        "label": "STM32 LL:UTILS",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "22bead83-f997-43a9-a4cd-dc39a9263f54",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Codegen:Generated Code@2.0.0#HAL Common",
+        "label": "STM32CubeMX2 Codegen:Generated Code",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//MultiInstanceSWComponent",
+        "id": "78ad7690-011e-4356-9efe-d56c51c9a81f",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX MPU@2.0.0#HAL CORE Init and CORTEX",
+        "label": "STM32CubeMX2 Config:CORTEX MPU",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//MultiInstanceSWComponent",
+        "id": "59501213-1d40-453d-bf0f-999471fd9d2b",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:ICACHE@2.0.0#HAL CORE Init and ICACHE",
+        "label": "STM32CubeMX2 Config:ICACHE",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SingleInstanceSWComponent",
+        "id": "b3a41b54-9f85-41ae-a489-6b3c4d3c6403",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:RCC@2.0.0#HAL CORE Init GPIO and RCC",
+        "label": "STM32CubeMX2 Config:RCC",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//MultiInstanceSWComponent",
+        "id": "af4d1a2c-c019-4b8d-8e08-6dabd9f67862",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX NVIC@2.0.0#HAL CORE Init and CORTEX",
+        "label": "STM32CubeMX2 Config:CORTEX NVIC",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SingleInstanceSWComponent",
+        "id": "6be0e841-412d-474f-b19d-ddf306cc340d",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:System@2.0.0#HAL System Init",
+        "label": "STM32CubeMX2 Config:System",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SingleInstanceSWComponent",
+        "id": "17da2be3-65e2-4aba-bb7c-1950deb9128e",
+        "componentDescriptionId": "STMicroelectronics.syscalls.2.0.2$STMicroelectronics::Utility:STM32CubeMX2 Config:syscalls@1.0.0#Syscalls Config",
+        "label": "STM32CubeMX2 Config:syscalls",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "7361d0ab-3f49-4a13-a59f-29340efe04ba",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_dfp.2.0.0$STMicroelectronics::Device:Startup@2.0.0#STM32G5[3456]",
+        "label": "Startup",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//MultiInstanceSWComponent",
+        "id": "9c6bb45a-080b-49e5-babe-d1d2f2d01720",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:GPIO@2.0.0#HAL GPIO Init",
+        "label": "STM32CubeMX2 Config:GPIO",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//MultiInstanceSWComponent",
+        "id": "2cbf5cbf-d6c4-4c00-8c59-0b83ba5d59aa",
+        "componentDescriptionId": "STMicroelectronics.led_part_drivers.2.2.0$STMicroelectronics::Board Part:STM32CubeMX2 Config:LED@1.1.0#LED CFG Condition",
+        "label": "STM32CubeMX2 Config:LED",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//MultiInstanceSWComponent",
+        "id": "216921b5-3bad-4012-8ded-114eebf2292c",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:UART@2.0.0#HAL CORE GPIO DMA Init and UART",
+        "label": "STM32CubeMX2 Config:UART",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SingleInstanceSWComponent",
+        "id": "dac2fab9-2bbe-4e34-a952-139bf5722af7",
+        "componentDescriptionId": "STMicroelectronics.basic_stdio.2.1.0$STMicroelectronics::Utility:STM32CubeMX2 Config:Basic stdio@1.0.0#Basic stdio Config",
+        "label": "STM32CubeMX2 Config:Basic stdio",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//MultiInstanceSWComponent",
+        "id": "f6cd49f9-bb18-4442-a552-71b6b9afbb99",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:PLAY@2.0.0#HAL CORE GPIO Init and PLAY",
+        "label": "STM32CubeMX2 Config:PLAY",
+        "expanded": true,
+        "userAdded": true
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "08b11a83-5e70-4165-8f65-3dcefc71b5d7",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:DMA@2.0.0#HAL DMA",
+        "label": "STM32 HAL:DMA",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "9976c0f4-56bc-4388-abb4-debe1fbad67c",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:Q@2.0.0#HAL CORE",
+        "label": "STM32 HAL:Q",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "8380ff90-b0ef-48ab-8363-55cb311fce8b",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:UART@2.0.0#HAL UART",
+        "label": "STM32 HAL:UART",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "c99e845e-1e7a-4215-a9da-3b2978009195",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:Common@2.0.0#CMSIS Core",
+        "label": "STM32 LL:Common",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "d804ab3d-1269-4181-a24b-c2f069b7d160",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:DMA@2.0.0#LL",
+        "label": "STM32 LL:DMA",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "2126c26c-9005-47e6-b967-969597daab42",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:USART@2.0.0#LL",
+        "label": "STM32 LL:USART",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "62413feb-3051-42ca-8105-c8c42a8cef32",
+        "componentDescriptionId": "STMicroelectronics.basic_stdio.2.1.0$STMicroelectronics::Utility:Basic stdio:Core@1.1.0#interface",
+        "label": "Basic stdio:Core",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "dbcf878a-70ea-4e8a-a8b8-92b25346f09f",
+        "componentDescriptionId": "STMicroelectronics.basic_stdio.2.1.0$STMicroelectronics::Utility:Basic stdio:itf_io&UART@1.1.0#STM32 HAL UART",
+        "label": "Basic stdio:UART",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "49d24cdf-cb44-420f-9bfd-8b22bca47737",
+        "componentDescriptionId": "STMicroelectronics.led_part_drivers.2.2.0$STMicroelectronics::Board Part:LED:GPIO@1.0.0#HAL GPIO",
+        "label": "LED:GPIO",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "5554543d-2c31-4d20-83bb-6a4f980c7ca8",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:CORTEX@2.0.0#HAL CORTEX",
+        "label": "STM32 HAL:CORTEX",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "07042957-a673-44d8-9984-92108fae44dc",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:Core@2.0.0#HAL Common",
+        "label": "STM32 HAL:Core",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "8975beba-fdde-469d-857e-952f042b2e05",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:FLASH_ITF@2.0.0#HAL FLASH_ITF",
+        "label": "STM32 HAL:FLASH_ITF",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "8652410c-a41b-4816-baba-56188e766a2c",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:GPIO@2.0.0#HAL GPIO",
+        "label": "STM32 HAL:GPIO",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "b4258057-b104-45c9-a046-ecb73581d057",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:ICACHE@2.0.0#HAL ICACHE",
+        "label": "STM32 HAL:ICACHE",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "c1f08aae-49b6-48e1-9587-6df0f1e93998",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:PLAY@2.0.0#HAL PLAY",
+        "label": "STM32 HAL:PLAY",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "5dd7a70c-1206-4e56-89b6-89d3767123a1",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:PWR@2.0.0#HAL PWR",
+        "label": "STM32 HAL:PWR",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "60ec4f62-d22f-4532-81f1-d835daa631da",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:RCC@2.0.0#HAL RCC",
+        "label": "STM32 HAL:RCC",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "6910d98b-05d1-4e43-8d5c-19f37f5645c7",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 HAL:timebases&SYSTICK@2.0.0#Timebase NONE",
+        "label": "STM32 HAL:SYSTICK",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "2acca0e6-568c-4656-8751-4fbb2c0182aa",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:BUS@2.0.0#LL",
+        "label": "STM32 LL:BUS",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "c4ddca71-9f63-405e-81c5-531b0b2ca4ab",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:EXTI@2.0.0#LL",
+        "label": "STM32 LL:EXTI",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "15796829-36b2-4d89-883a-6b38dbdefddc",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:FLASH@2.0.0#LL",
+        "label": "STM32 LL:FLASH",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "5ff29a30-9e5e-4c96-9596-4bc28118ec5e",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:GPIO@2.0.0#LL",
+        "label": "STM32 LL:GPIO",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "7ca2d273-6adc-4255-b0e2-ad703320d09a",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:ICACHE@2.0.0#LL",
+        "label": "STM32 LL:ICACHE",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "ac2ac0c2-e637-4d05-8f33-9511314ee759",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:PLAY@2.0.0#LL",
+        "label": "STM32 LL:PLAY",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "4dee1fde-204a-41df-8ffe-dd3b33dc60a4",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:PWR@2.0.0#LL",
+        "label": "STM32 LL:PWR",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "2880b602-e5f2-44f5-97cd-3ee1e828c7f3",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:RCC@2.0.0#LL",
+        "label": "STM32 LL:RCC",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "bed67811-dc10-411f-b2ba-09d1d2d15eeb",
+        "componentDescriptionId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:SBS@2.0.0#LL",
+        "label": "STM32 LL:SBS",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "063e8a13-63dd-4cfd-aecb-aee9a559d084",
+        "componentDescriptionId": "STMicroelectronics.syscalls.2.0.2$STMicroelectronics::Utility:syscalls&Standalone syscalls@1.0.0",
+        "label": "syscalls:Standalone syscalls",
+        "expanded": true,
+        "userAdded": false
+      },
+      {
+        "$type": "http://st.com/schema/sw-composer#//SWComponent",
+        "id": "98ae94ba-4fa8-40fa-b6dd-a8cdc17169c4",
+        "componentDescriptionId": "STMicroelectronics.syscalls.2.0.2$STMicroelectronics::Utility:sysmem&Standalone sysmem@1.0.0",
+        "label": "sysmem:Standalone sysmem",
+        "expanded": true,
+        "userAdded": false
+      }
+    ]
+  }
+}"""
+"File: project/.settings/sw-configuration.store.json" = """
+{
+  "software": {
+    "model": {
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:CORE@2.0.0#HAL Generated code": [
+        {
+          "index": 0,
+          "instanceId": "ac3b9c88-6461-4c3d-b2d5-3c1ce377bea7",
+          "entity": "globalProjectComponent",
+          "settings": {
+            "parameters": {
+              "common": {
+                "prefetch_enable": true,
+                "check_param": false,
+                "secure_check_param": false,
+                "check_process_state": false,
+                "assert_dbg_param": false,
+                "assert_dbg_state": false,
+                "hal_mutex": false,
+                "timebase_feature": {
+                  "hal_timebase_selection": "SYSTICK"
+                }
+              },
+              "used_components": false,
+              "adc_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_adc_dma": false
+              },
+              "aes_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_aes_rng_recovery": true,
+                "use_hal_aes_suspend_resume": false,
+                "use_hal_aes_ccm_algo": false,
+                "use_hal_aes_ctr_algo": false,
+                "use_hal_aes_dma": false,
+                "use_hal_aes_ecb_cbc_algo": false,
+                "use_hal_aes_gcm_gmac_algo": false
+              },
+              "ccb_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "use_hal_ccb_rng_recovery": true,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "comp_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_comp_exti": false,
+                "use_hal_comp_window_mode": false
+              },
+              "cordic_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_cordic_dma": false
+              },
+              "crc_feature": {
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "crs_feature": {
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "get_last_errors": false,
+                "use_register_callback": false
+              },
+              "dac_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_dac_dma": false
+              },
+              "dcache_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "dma_feature": {
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "dts_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "exti_feature": {
+                "use_register_callback": false,
+                "user_data": false
+              },
+              "fdcan_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "flash_feature": {
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "use_hal_flash_ob_bank1_edata": false,
+                "use_hal_flash_ob_bank2_edata": false,
+                "use_hal_flash_edata_bank1_page_nbr": 0,
+                "use_hal_flash_edata_bank2_page_nbr": 0,
+                "use_hal_flash_ecc": false,
+                "use_hal_flash_erase_bank": false,
+                "use_hal_flash_erase_by_addr": false,
+                "use_hal_flash_erase_page": false,
+                "use_hal_flash_mass_erase": false,
+                "use_hal_flash_program_by_addr": false
+              },
+              "fmac_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_fmac_dma": false
+              },
+              "gpio_feature": {
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "hash_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_hash_dma": false
+              },
+              "hcd_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "use_hal_hcd_usb_double_buffer": false,
+                "use_hal_hcd_usb_ep_type_isoc": false,
+                "use_hal_hcd_max_channel_nb": 16
+              },
+              "hrtim_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_hrtim_global_callbacks": true,
+                "use_hal_hrtim_timer_callbacks": true,
+                "use_hal_hrtim_capture_compare_callbacks": true,
+                "use_hal_hrtim_xbar_ovr_callbacks": true,
+                "use_hal_hrtim_output_callbacks": true,
+                "use_hal_hrtim_dma": false
+              },
+              "i2c_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_i2c_dma": false
+              },
+              "i2s_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "use_hal_i2s_ovr_udr_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_i2s_dma": false
+              },
+              "i3c_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_i3c_dma": false
+              },
+              "icache_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false
+              },
+              "iwdg_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "use_hal_iwdg_hardware_start": false,
+                "use_hal_iwdg_time_unit": "HAL_IWDG_TIME_UNIT_MS"
+              },
+              "lptim_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_lptim_dma": false
+              },
+              "opamp_feature": {
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_opamp_calibrate_parallel": false
+              },
+              "pcd_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "use_hal_pcd_usb_lpm": false,
+                "use_hal_pcd_usb_bcd": false,
+                "use_hal_pcd_usb_ep_type_isoc": false,
+                "use_hal_pcd_usb_double_buffer": false,
+                "use_hal_pcd_max_endpoint_nb": 8
+              },
+              "pka_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "use_hal_pka_rng_recovery": true,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "play_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "rcc_feature": {
+                "use_hal_rcc_reset_periph_clock_management": false,
+                "use_hal_rcc_reset_rtc_domain": false
+              },
+              "rng_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO"
+              },
+              "smartcard_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_smartcard_dma": false,
+                "use_hal_smartcard_fifo": false
+              },
+              "smbus_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "use_master_alert_callback": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "get_last_errors": false,
+                "use_hal_smbus_dma": false
+              },
+              "spi_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_spi_crc": false,
+                "use_hal_spi_dma": false
+              },
+              "tim_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_tim_dma": false
+              },
+              "uart_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_uart_dma": false
+              },
+              "ucpd_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_ucpd_power_delivery": false
+              },
+              "usart_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_usart_dma": false,
+                "use_hal_usart_fifo": false
+              },
+              "wwdg_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_wwdg_hardware_start": false,
+                "use_hal_wwdg_time_unit": "HAL_WWDG_TIME_UNIT_MS"
+              },
+              "xspi_feature": {
+                "use_register_callback": false,
+                "user_data": false,
+                "get_last_errors": false,
+                "clk_enable_model": "HAL_CLK_ENABLE_NO",
+                "use_hal_xspi_dma": false,
+                "use_hal_xspi_hyperbus": false
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX MPU@2.0.0#HAL CORE Init and CORTEX": [
+        {
+          "index": 1,
+          "instanceId": "2062d096-de99-4715-8436-50c9b393e280",
+          "entity": "peripheral.cortex_mpu",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [],
+                "layer": "HAL",
+                "init_type": "called",
+                "note": "When the instruction cache is enabled and your application uses the OTP/RO data area, enable the MPU and define 0x08FFFE00-0x08FFFFFF as a non-cacheable, read-only region."
+              },
+              "basic": {
+                "mpu_enabled": true,
+                "default_map_enabled": true,
+                "during_hardfault": true,
+                "enable_mem_management_fault": true
+              },
+              "additional": {
+                "attributes": [
+                  {
+                    "_foreignKey": "ATTR_0",
+                    "memory_type": "NORMAL",
+                    "write_policy": "NCACHEABLE"
+                  },
+                  {
+                    "_foreignKey": "ATTR_1",
+                    "memory_type": "DEVICE",
+                    "device_attribute": "NGNRNE"
+                  },
+                  {
+                    "_foreignKey": "ATTR_2",
+                    "memory_type": "DEVICE",
+                    "device_attribute": "NGNRNE"
+                  },
+                  {
+                    "_foreignKey": "ATTR_3",
+                    "memory_type": "DEVICE",
+                    "device_attribute": "NGNRNE"
+                  },
+                  {
+                    "_foreignKey": "ATTR_4",
+                    "memory_type": "DEVICE",
+                    "device_attribute": "NGNRNE"
+                  },
+                  {
+                    "_foreignKey": "ATTR_5",
+                    "memory_type": "DEVICE",
+                    "device_attribute": "NGNRNE"
+                  },
+                  {
+                    "_foreignKey": "ATTR_6",
+                    "memory_type": "DEVICE",
+                    "device_attribute": "NGNRNE"
+                  },
+                  {
+                    "_foreignKey": "ATTR_7",
+                    "memory_type": "DEVICE",
+                    "device_attribute": "NGNRNE"
+                  }
+                ],
+                "regions": [
+                  {
+                    "_foreignKey": "REGION_0",
+                    "access_permission": "ALL_RO",
+                    "attribute_number": 0,
+                    "base_address": 150986752,
+                    "instruction_access": false,
+                    "limit_address": 150994943,
+                    "use_region": true
+                  },
+                  {
+                    "_foreignKey": "REGION_1",
+                    "access_permission": "ONLY_PRIV_RW",
+                    "attribute_number": 0,
+                    "base_address": 0,
+                    "instruction_access": true,
+                    "limit_address": 31,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_2",
+                    "access_permission": "ONLY_PRIV_RW",
+                    "attribute_number": 0,
+                    "base_address": 0,
+                    "instruction_access": true,
+                    "limit_address": 31,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_3",
+                    "access_permission": "ONLY_PRIV_RW",
+                    "attribute_number": 0,
+                    "base_address": 0,
+                    "instruction_access": true,
+                    "limit_address": 31,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_4",
+                    "access_permission": "ONLY_PRIV_RW",
+                    "attribute_number": 0,
+                    "base_address": 0,
+                    "instruction_access": true,
+                    "limit_address": 31,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_5",
+                    "access_permission": "ONLY_PRIV_RW",
+                    "attribute_number": 0,
+                    "base_address": 0,
+                    "instruction_access": true,
+                    "limit_address": 31,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_6",
+                    "access_permission": "ONLY_PRIV_RW",
+                    "attribute_number": 0,
+                    "base_address": 0,
+                    "instruction_access": true,
+                    "limit_address": 31,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_7",
+                    "access_permission": "ONLY_PRIV_RW",
+                    "attribute_number": 0,
+                    "base_address": 0,
+                    "instruction_access": true,
+                    "limit_address": 31,
+                    "use_region": false
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:ICACHE@2.0.0#HAL CORE Init and ICACHE": [
+        {
+          "index": 2,
+          "instanceId": "e823492e-144d-43b7-9205-e651bd773607",
+          "entity": "peripheral.icache",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [],
+                "layer": "HAL",
+                "init_type": "called"
+              },
+              "basic": {
+                "associativity_mode": "2WAYS"
+              },
+              "additional": {
+                "remap_regions": [
+                  {
+                    "_foreignKey": "REGION_0",
+                    "base_address": 0,
+                    "master_port": 1,
+                    "output_burst": "WRAP",
+                    "remap_address": 0,
+                    "size": 2,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_1",
+                    "base_address": 0,
+                    "master_port": 1,
+                    "output_burst": "WRAP",
+                    "remap_address": 0,
+                    "size": 2,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_2",
+                    "base_address": 0,
+                    "master_port": 1,
+                    "output_burst": "WRAP",
+                    "remap_address": 0,
+                    "size": 2,
+                    "use_region": false
+                  },
+                  {
+                    "_foreignKey": "REGION_3",
+                    "base_address": 0,
+                    "master_port": 1,
+                    "output_burst": "WRAP",
+                    "remap_address": 0,
+                    "size": 2,
+                    "use_region": false
+                  }
+                ],
+                "monitors": {
+                  "hit_monitor": false,
+                  "miss_monitor": false
+                },
+                "double_ecc_error": false,
+                "enable_ecc": false,
+                "single_ecc_error": false
+              },
+              "system": {
+                "nvic": {
+                  "enable_interruption": false,
+                  "chose_error_interrupt": {
+                    "cache_error": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:RCC@2.0.0#HAL CORE Init GPIO and RCC": [
+        {
+          "index": 3,
+          "instanceId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+          "entity": "peripheral.rcc",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [],
+                "layer": "HAL",
+                "init_type": "called"
+              },
+              "basic": {
+                "periph_clocks_init": 0,
+                "voltage_scaling": "VOLT_SCALE_0",
+                "flash_latency": 6,
+                "flash_programming_delay": 3,
+                "hse": {
+                  "state": "OFF",
+                  "enable_css": false,
+                  "startup_time": 100
+                },
+                "lse": {
+                  "state": "ON",
+                  "drive_capability": "MEDIUMLOW",
+                  "enable_css": false,
+                  "startup_time": 5000
+                },
+                "system_clock_frequency": "280 MHz"
+              },
+              "additional": {
+                "hsi": {
+                  "enable_in_stop_mode": false
+                },
+                "clk_outputs": {
+                  "mco1": false,
+                  "mco2": false
+                },
+                "debug_trace_clk_mode": "AUTO",
+                "audio_clock": {
+                  "enable": false
+                }
+              },
+              "system": {
+                "nvic": {
+                  "enable_interruption": false,
+                  "enable_hse_css_nmi": false
+                },
+                "gpio": {
+                  "lse_in": {
+                    "needs": [
+                      {
+                        "needType": "need.pinout.signals",
+                        "projectUri": "cube:3aa8fcbf-b7e2-4c18-b16d-bf11a48b5df6/3bf29495-08b5-4ce4-af23-86e1f5684660",
+                        "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:RCC@2.0.0#HAL CORE Init GPIO and RCC",
+                        "componentInstanceId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+                        "selector": "OSC32_IN",
+                        "id": "9d6f632b-508b-47d2-8fea-3fd4332988ec",
+                        "owner": "RCC",
+                        "constraints": {
+                          "mode": {
+                            "const": "ANALOG"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "lse_out": {
+                    "needs": [
+                      {
+                        "needType": "need.pinout.signals",
+                        "projectUri": "cube:3aa8fcbf-b7e2-4c18-b16d-bf11a48b5df6/3bf29495-08b5-4ce4-af23-86e1f5684660",
+                        "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:RCC@2.0.0#HAL CORE Init GPIO and RCC",
+                        "componentInstanceId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+                        "selector": "OSC32_OUT",
+                        "id": "a7fe4c12-27ac-4e92-8d20-82799487e29c",
+                        "owner": "RCC",
+                        "constraints": {
+                          "mode": {
+                            "const": "ANALOG"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "runtime": {
+                "crypto_reset": false
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX NVIC@2.0.0#HAL CORE Init and CORTEX": [
+        {
+          "index": 4,
+          "instanceId": "abf84bfd-1daa-49a5-8988-b7e68bffc45d",
+          "entity": "peripheral.cortex_nvic",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [],
+                "layer": "HAL",
+                "init_type": "called"
+              },
+              "additional": {
+                "enable_exception_debugmon": false
+              },
+              "system": {
+                "nvic": {
+                  "enable_exception_debugmon": false,
+                  "enable_management_pendsv": false,
+                  "enable_management_svc": false
+                }
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:System@2.0.0#HAL System Init": [
+        {
+          "index": 5,
+          "instanceId": "6f77de66-7fa6-4311-a083-96ab8a774d01",
+          "entity": "globalProjectComponent",
+          "settings": {
+            "parameters": {
+              "system_configuration": {
+                "icache_enable": true,
+                "rcc_rst": false,
+                "use_vdd_value": false
+              },
+              "generated_function_calls_not_ranked": [
+                {
+                  "_foreignKey": "MPU",
+                  "callable": true,
+                  "generated": true,
+                  "hw_instance": "MPU",
+                  "layer": "HAL",
+                  "mode": "",
+                  "name": "mx_cortex_mpu_init",
+                  "peripheral": "CORTEX MPU"
+                },
+                {
+                  "_foreignKey": "NVIC",
+                  "callable": true,
+                  "generated": true,
+                  "hw_instance": "NVIC",
+                  "layer": "HAL",
+                  "mode": "",
+                  "name": "mx_cortex_nvic_init",
+                  "peripheral": "CORTEX NVIC"
+                },
+                {
+                  "_foreignKey": "ICACHE",
+                  "callable": true,
+                  "generated": true,
+                  "hw_instance": "ICACHE",
+                  "layer": "HAL",
+                  "mode": "",
+                  "name": "mx_icache_init",
+                  "peripheral": "ICACHE"
+                },
+                {
+                  "_foreignKey": "RCC",
+                  "callable": true,
+                  "generated": true,
+                  "hw_instance": "RCC",
+                  "layer": "HAL",
+                  "mode": "",
+                  "name": "mx_rcc_init",
+                  "peripheral": "RCC"
+                }
+              ],
+              "generated_function_calls": [
+                {
+                  "_foreignKey": "gpio_default",
+                  "_rank": 0,
+                  "callable": true,
+                  "generated": true,
+                  "hw_instance": "gpio_default",
+                  "layer": "HAL",
+                  "mode": "",
+                  "name": "mx_gpio_default_init",
+                  "peripheral": "GPIO"
+                },
+                {
+                  "_foreignKey": "USART2",
+                  "_rank": 1,
+                  "callable": true,
+                  "generated": true,
+                  "hw_instance": "USART2",
+                  "layer": "HAL",
+                  "mode": "UART",
+                  "name": "mx_usart2_uart_init",
+                  "peripheral": "UART"
+                },
+                {
+                  "_foreignKey": "PLAY1",
+                  "_rank": 2,
+                  "callable": false,
+                  "generated": true,
+                  "hw_instance": "PLAY1",
+                  "layer": "HAL",
+                  "mode": "",
+                  "name": "mx_play1_init",
+                  "peripheral": "PLAY"
+                }
+              ],
+              "code_generation": {
+                "isr_handler": false,
+                "optim_enable": true,
+                "strategy": "HW",
+                "periph_init": 0,
+                "ll_timeout_mechanism": 0,
+                "exti_callback_user_data": false
+              },
+              "debug": {
+                "assert_dbg_param": false,
+                "assert_dbg_state": false
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.syscalls.2.0.2$STMicroelectronics::Utility:STM32CubeMX2 Config:syscalls@1.0.0#Syscalls Config": [
+        {
+          "index": 6,
+          "instanceId": "f047a9ea-849c-4e3a-b29a-e87118956b03",
+          "entity": "unknown",
+          "settings": {
+            "parameters": {
+              "info": {
+                "description": "The syscalls utility provide minimal newlib/GCC integration with core syscall stubs and protected heap management for safe dynamic memory and standard library use."
+              },
+              "basic": {
+                "syscalls": {
+                  "syscalls_usage_pattern": "Standalone"
+                },
+                "sysmem": {
+                  "sysmem_usage_pattern": "Standalone"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:GPIO@2.0.0#HAL GPIO Init": [
+        {
+          "index": 7,
+          "instanceId": "8f68d291-d471-4343-b15c-0dbaf8ff6de1",
+          "entity": "gpio.groups",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [
+                  "mx_gpio_status_led"
+                ],
+                "layer": "HAL",
+                "init_type": "called"
+              },
+              "pins": [
+                {
+                  "_foreignKey": "PG3",
+                  "basic": {
+                    "mode": "OUTPUT",
+                    "pull": "NO",
+                    "enable_exti": false,
+                    "output_active_state": "SET",
+                    "output_init_state": "RESET",
+                    "output_type": "PUSHPULL",
+                    "speed": "LOW"
+                  },
+                  "label_name": []
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.led_part_drivers.2.2.0$STMicroelectronics::Board Part:STM32CubeMX2 Config:LED@1.1.0#LED CFG Condition": [
+        {
+          "index": 8,
+          "instanceId": "7e26bfea-4fd0-496e-8bf0-96e4c3e00be3",
+          "entity": "partInfo",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [
+                  "MX_STATUS_LED"
+                ],
+                "interface": "GPIO"
+              },
+              "resourcesAllocation": {
+                "gpioCfg": {
+                  "pinCfg": {
+                    "bindingId": "5760d137-7449-4916-a6d9-ad09c84820d5",
+                    "bindingType": "bind.gpio.config",
+                    "selection": "PG3",
+                    "gpioGroup": "default_gpio_group_id"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:UART@2.0.0#HAL CORE GPIO DMA Init and UART": [
+        {
+          "index": 9,
+          "instanceId": "22b6e57b-7b49-41dc-bbc9-d2becab5cb55",
+          "entity": "peripheral.usart",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [],
+                "layer": "HAL",
+                "init_type": "called",
+                "function_type": "UART"
+              },
+              "basic": {
+                "mode": "async",
+                "baud_rate": 115200,
+                "word_length": "8",
+                "parity": "NONE",
+                "stop_bit": "1",
+                "direction": "TX",
+                "hw_flow_ctl": "NONE"
+              },
+              "additional": {
+                "over_sampling": "16",
+                "clock_prescaler": 1,
+                "enable_stop_mode": false,
+                "enable_tx_pin_level_invert": false,
+                "enable_rx_pin_level_invert": false,
+                "enable_data_invert": false,
+                "enable_tx_rx_swap": false,
+                "enable_msb_first": false,
+                "enable_fifo_mode": false,
+                "enable_receiver_timeout": false,
+                "enable_rs485_mode": false,
+                "one_bit_sampling": false,
+                "set_config_auto_baud_rate": "DISABLE"
+              },
+              "system": {
+                "gpio": {
+                  "gpio_tx": {
+                    "needs": [
+                      {
+                        "needType": "need.pinout.signals",
+                        "projectUri": "cube:3aa8fcbf-b7e2-4c18-b16d-bf11a48b5df6/3bf29495-08b5-4ce4-af23-86e1f5684660",
+                        "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:UART@2.0.0#HAL CORE GPIO DMA Init and UART",
+                        "componentInstanceId": "22b6e57b-7b49-41dc-bbc9-d2becab5cb55",
+                        "selector": "TX",
+                        "id": "c90dafeb-4940-499c-908c-d4a66d879629",
+                        "owner": "USART2",
+                        "constraints": {
+                          "mode": {
+                            "const": "ALTERNATE"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "dma": {
+                  "enable_dma_tx": false
+                },
+                "nvic": {
+                  "enable_interruption": false
+                }
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.basic_stdio.2.1.0$STMicroelectronics::Utility:STM32CubeMX2 Config:Basic stdio@1.0.0#Basic stdio Config": [
+        {
+          "index": 10,
+          "instanceId": "cbd5733c-d948-4d3a-bd10-6c3489daba01",
+          "entity": "unknown",
+          "settings": {
+            "parameters": {
+              "info": {
+                "description": "The basic_stdio is a generic module provided to help the integration of a system trace inside an application by redirecting printf output to interfaces such as UART or ITM",
+                "recommendation": "Transmission requires selecting and properly configuring one of the output peripherals—either UART or ITM with debug trace components activated, or your customized output peripheral."
+              },
+              "resourcesAllocation": {
+                "output_interface": "UART",
+                "uart_instance": {
+                  "bindingId": "863a2c25-0db0-4ae8-a8c2-3083c657fa57",
+                  "bindingType": "bind.peripheral.config",
+                  "selection": "USART2"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:PLAY@2.0.0#HAL CORE GPIO Init and PLAY": [
+        {
+          "index": 11,
+          "instanceId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+          "entity": "peripheral.play",
+          "settings": {
+            "parameters": {
+              "info": {
+                "labels": [
+                  "mx_example_play"
+                ],
+                "layer": "HAL",
+                "init_type": "enabled"
+              },
+              "basic": {
+                "input_finder": {
+                  "input_finder_search": {
+                    "queryId": "8e9a9b83-d83a-4fce-91ef-2b3df83e38ef",
+                    "id": "play_in0_0",
+                    "direction": "input",
+                    "source": "PLAY1_IN0",
+                    "type": "input interconnect",
+                    "instance": "PLAY1",
+                    "ip_signal": "play_in0_0",
+                    "source_destination": [
+                      "PLAY1_IN0"
+                    ],
+                    "entity": "peripheral.interconnect.input interconnect"
+                  },
+                  "input_finder_corresponding_mux": "IN0"
+                },
+                "in_config": [
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in0_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN0",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in0_0",
+                      "source_destination": [
+                        "PLAY1_IN0"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "36c6e575-eadb-4e12-8db1-af171420de99"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 0
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in1_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN1",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in1_0",
+                      "source_destination": [
+                        "PLAY1_IN1"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "a7272508-1b21-486c-b46b-ec388448db91"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 1
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in2_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN2",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in2_0",
+                      "source_destination": [
+                        "PLAY1_IN2"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "e29cae09-303c-48ef-9dfd-19084a76f11f"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 2
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in3_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN3",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in3_0",
+                      "source_destination": [
+                        "PLAY1_IN3"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "96d3c5e0-b648-4244-bdb2-17dde83ccbed"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 3
+                  },
+                  {
+                    "enable": true,
+                    "user_label": "User button",
+                    "input_src": {
+                      "id": "play_in4_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN4",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in4_0",
+                      "source_destination": [
+                        "PLAY1_IN4"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "7307457b-c7a3-4952-9397-c46744ccff3a"
+                    },
+                    "min_pulse_width": 100,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 4
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in5_1",
+                      "direction": "input",
+                      "source": "comp4_out",
+                      "type": "input interconnect",
+                      "instance": "COMP4",
+                      "ip_signal": "play_in5_1",
+                      "source_destination": [
+                        "comp4_out"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "ab6b9d91-effe-481f-9bdb-0de0eda1f747"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 5
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in6_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN6",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in6_0",
+                      "source_destination": [
+                        "PLAY1_IN6"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "3e9ed72c-21e3-412f-a39c-8c0dabf4b6a2"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 6
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in7_1",
+                      "direction": "input",
+                      "source": "adc1_awd1",
+                      "type": "input interconnect",
+                      "instance": "ADC1",
+                      "ip_signal": "play_in7_1",
+                      "source_destination": [
+                        "adc1_awd1"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "d36cc31f-1a2b-4beb-969e-755183a45ceb"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 7
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in8_1",
+                      "direction": "input",
+                      "source": "adc1_awd2",
+                      "type": "input interconnect",
+                      "instance": "ADC1",
+                      "ip_signal": "play_in8_1",
+                      "source_destination": [
+                        "adc1_awd2"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "a0631ec9-e3b8-47ae-99c7-a20b5d45aead"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 8
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in9_1",
+                      "direction": "input",
+                      "source": "usart1_tx_out",
+                      "type": "input interconnect",
+                      "instance": "USART1",
+                      "ip_signal": "play_in9_1",
+                      "source_destination": [
+                        "usart1_tx_out"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "5a4cb2af-7a19-43fb-99e5-ecc80a98e966"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 9
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in10_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN10",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in10_0",
+                      "source_destination": [
+                        "PLAY1_IN10"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "85cf7f2f-2e98-4464-9de0-c6bc22bb5cfe"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 10
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in11_1",
+                      "direction": "input",
+                      "source": "NMI",
+                      "type": "input interconnect",
+                      "ip_signal": "play_in11_1",
+                      "source_destination": [
+                        "NMI"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "2ca2997d-e6d1-4492-be50-685e621c46f2"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 11
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in12_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN12",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in12_0",
+                      "source_destination": [
+                        "PLAY1_IN12"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "7ce48a73-748b-4d50-aa9b-d59578dcb96c"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 12
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in13_0",
+                      "direction": "input",
+                      "source": "PLAY1_IN13",
+                      "type": "input interconnect",
+                      "instance": "PLAY1",
+                      "ip_signal": "play_in13_0",
+                      "source_destination": [
+                        "PLAY1_IN13"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "11c6ef22-8807-46df-97d3-e544c46551e7"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 13
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in14_1",
+                      "direction": "input",
+                      "source": "spi1_mosi",
+                      "type": "input interconnect",
+                      "instance": "SPI1",
+                      "ip_signal": "play_in14_1",
+                      "source_destination": [
+                        "spi1_mosi"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "e6654ca8-a0e2-4451-9eec-b935a98aa100"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 14
+                  },
+                  {
+                    "enable": false,
+                    "user_label": "",
+                    "input_src": {
+                      "id": "play_in15_1",
+                      "direction": "input",
+                      "source": "spi1_sclk",
+                      "type": "input interconnect",
+                      "instance": "SPI1",
+                      "ip_signal": "play_in15_1",
+                      "source_destination": [
+                        "spi1_sclk"
+                      ],
+                      "entity": "peripheral.interconnect.input interconnect",
+                      "queryId": "b3c782ba-1ad2-4995-ba60-21a6884ab179"
+                    },
+                    "min_pulse_width": 0,
+                    "mode": "BYPASSED",
+                    "_foreignKey": 15
+                  }
+                ],
+                "lut_config": [
+                  {
+                    "enable": true,
+                    "lut_input_0": {
+                      "enable": true,
+                      "in0_lut_input": "FILTER",
+                      "in0_filter_id": "4"
+                    },
+                    "lut_input_1": {
+                      "enable": true,
+                      "in1_lut_input": "SWTRIG",
+                      "in1_swtrig_id": "0"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "A ^ B",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 0,
+                    "truth_table": 26214
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 1,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 2,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 3,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 4,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 5,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 6,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 7,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 8,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 9,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 10,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 11,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 12,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 13,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 14,
+                    "truth_table": 0
+                  },
+                  {
+                    "enable": false,
+                    "lut_input_0": {
+                      "enable": false,
+                      "in0_lut_input": "REGISTERED"
+                    },
+                    "lut_input_1": {
+                      "enable": false,
+                      "in1_lut_input": "REGISTERED"
+                    },
+                    "lut_input_2": {
+                      "enable": false,
+                      "in2_lut_input": "REGISTERED"
+                    },
+                    "lut_input_3": {
+                      "enable": false,
+                      "in3_lut_input": "REGISTERED"
+                    },
+                    "truth_table_expr": "",
+                    "clk_gate_source": "OFF",
+                    "_foreignKey": 15,
+                    "truth_table": 0
+                  }
+                ],
+                "out_config": [
+                  {
+                    "_foreignKey": "OUT0",
+                    "enable": true,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": "Output signal"
+                  },
+                  {
+                    "_foreignKey": "OUT1",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT2",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT3",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT4",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT5",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT6",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT7",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT8",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT9",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT10",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT11",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT12",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT13",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT14",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  },
+                  {
+                    "_foreignKey": "OUT15",
+                    "enable": false,
+                    "lut_output": "0",
+                    "output_type": "DIRECT",
+                    "user_label": ""
+                  }
+                ]
+              },
+              "system": {
+                "gpio": {
+                  "gpio_in_settings": {
+                    "in_0": {
+                      "gpio_in0_enable": false
+                    },
+                    "in_1": {
+                      "gpio_in1_enable": false
+                    },
+                    "in_10": {
+                      "gpio_in10_enable": false
+                    },
+                    "in_12": {
+                      "gpio_in12_enable": false
+                    },
+                    "in_13": {
+                      "gpio_in13_enable": false
+                    },
+                    "in_2": {
+                      "gpio_in2_enable": false
+                    },
+                    "in_3": {
+                      "gpio_in3_enable": false
+                    },
+                    "in_4": {
+                      "gpio_in4_enable": true,
+                      "gpio_in4": {
+                        "needs": [
+                          {
+                            "needType": "need.pinout.signals",
+                            "projectUri": "cube:3aa8fcbf-b7e2-4c18-b16d-bf11a48b5df6/3bf29495-08b5-4ce4-af23-86e1f5684660",
+                            "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:PLAY@2.0.0#HAL CORE GPIO Init and PLAY",
+                            "componentInstanceId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+                            "selector": "IN4",
+                            "id": "d2ca5fe5-79ab-4014-9f9c-afbb2248930d",
+                            "owner": "PLAY1",
+                            "constraints": {
+                              "mode": {
+                                "const": "ALTERNATE"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "in_6": {
+                      "gpio_in6_enable": false
+                    }
+                  },
+                  "gpio_out_settings": {
+                    "out_0": {
+                      "gpio_out0_enable": true,
+                      "gpio_out0": {
+                        "needs": [
+                          {
+                            "needType": "need.pinout.signals",
+                            "projectUri": "cube:3aa8fcbf-b7e2-4c18-b16d-bf11a48b5df6/3bf29495-08b5-4ce4-af23-86e1f5684660",
+                            "componentId": "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32CubeMX2 Config:PLAY@2.0.0#HAL CORE GPIO Init and PLAY",
+                            "componentInstanceId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+                            "selector": "OUT0",
+                            "id": "f37ff8e2-b139-4a9c-9a89-bbf5c2449fed",
+                            "owner": "PLAY1",
+                            "constraints": {
+                              "mode": {
+                                "const": "ALTERNATE"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "out_1": {
+                      "gpio_out1_enable": false
+                    },
+                    "out_12": {
+                      "gpio_out12_enable": false
+                    },
+                    "out_2": {
+                      "gpio_out2_enable": false
+                    },
+                    "out_3": {
+                      "gpio_out3_enable": false
+                    },
+                    "out_5": {
+                      "gpio_out5_enable": false
+                    }
+                  }
+                },
+                "exti": {
+                  "enable": false
+                },
+                "nvic": {
+                  "enable": false
+                }
+              }
+            }
+          }
+        }
+      ],
+      "STMicroelectronics.stm32g5xx_hal_drivers.2.0.0$STMicroelectronics::Device:STM32 LL:GPIO@2.0.0#LL": [
+        {
+          "index": 0,
+          "needId": "c90dafeb-4940-499c-908c-d4a66d879629",
+          "rootId": "22b6e57b-7b49-41dc-bbc9-d2becab5cb55",
+          "needType": "need.pinout.signals",
+          "parentId": "22b6e57b-7b49-41dc-bbc9-d2becab5cb55",
+          "settings": {
+            "label_name": [],
+            "basic": {
+              "mode": "ALTERNATE",
+              "pull": "NO",
+              "enable_exti": false,
+              "output_type": "PUSHPULL",
+              "speed": "LOW"
+            }
+          }
+        },
+        {
+          "index": 1,
+          "needId": "d2ca5fe5-79ab-4014-9f9c-afbb2248930d",
+          "rootId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+          "needType": "need.pinout.signals",
+          "parentId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+          "settings": {
+            "label_name": [],
+            "basic": {
+              "mode": "ALTERNATE",
+              "pull": "DOWN",
+              "enable_exti": false,
+              "output_type": "PUSHPULL",
+              "speed": "HIGH"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "needId": "f37ff8e2-b139-4a9c-9a89-bbf5c2449fed",
+          "rootId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+          "needType": "need.pinout.signals",
+          "parentId": "66a00139-b32d-43b7-bde8-fa737e35d92c",
+          "settings": {
+            "label_name": [],
+            "basic": {
+              "mode": "ALTERNATE",
+              "pull": "NO",
+              "enable_exti": false,
+              "output_type": "PUSHPULL",
+              "speed": "HIGH"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "needId": "9d6f632b-508b-47d2-8fea-3fd4332988ec",
+          "rootId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+          "needType": "need.pinout.signals",
+          "parentId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+          "settings": {
+            "label_name": []
+          }
+        },
+        {
+          "index": 4,
+          "needId": "a7fe4c12-27ac-4e92-8d20-82799487e29c",
+          "rootId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+          "needType": "need.pinout.signals",
+          "parentId": "6c4ef773-dfb9-44c9-830f-9817bb94053f",
+          "settings": {
+            "label_name": []
+          }
+        }
+      ]
+    },
+    "version": 2
+  }
+}"""
+"File: project/hal_play_gate_xor.cproject.yml" = """
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/cproject.schema.json
+project:
+  processor:
+    trustzone: off
+    dsp: on
+  rte:
+    base-dir: $SolutionDir()$/../user_modifiable
+  generators:
+    base-dir: generated
+  output:
+    base-name: $Project$
+    type:
+      - elf
+      - bin
+      - hex
+  setups:
+    - setup: release_IAR
+      misc:
+        - C:
+            - --debug
+            - -Ohz
+            - --dlib_config DLib_Config_Full.h
+            - --no_wrap_diagnostics
+            - --vla
+            - --enable_restrict
+            - -e
+            - --require_prototypes
+          CPP:
+            - --debug
+            - -Ohz
+            - --dlib_config DLib_Config_Full.h
+            - --no_wrap_diagnostics
+            - --vla
+            - --enable_restrict
+            - -e
+            - --require_prototypes
+          for-compiler: IAR
+          Link-C:
+            - --skip_dynamic_initialization
+            - --inline
+            - --map=$Project$.$BuildType$+$TargetType$.map
+          Link-CPP:
+            - --skip_dynamic_initialization
+            - --inline
+            - --map=$Project$.$BuildType$+$TargetType$.map
+      for-context:
+        - .release_IAR
+    - setup: release_GCC
+      misc:
+        - ASM:
+            - --specs=nano.specs
+            - --specs=nosys.specs
+          C:
+            - -Os
+            - -fdata-sections
+            - -ffunction-sections
+            - -std=gnu11
+            - -Wall
+            - -fstack-usage
+            - --specs=nano.specs
+            - --specs=nosys.specs
+            - -g
+            - -Werror=implicit-function-declaration
+          CPP:
+            - -Os
+            - -fdata-sections
+            - -ffunction-sections
+            - -fno-cxa-atexit
+            - -fno-rtti
+            - -fno-exceptions
+            - -std=gnu++14
+            - -Wall
+            - -fstack-usage
+            - --specs=nano.specs
+            - --specs=nosys.specs
+            - -g
+            - -Werror=implicit-function-declaration
+          for-compiler: GCC
+          Link-C:
+            - -Wl,-Map=$OutDir()$/$Project$.map
+            - -Wl,--gc-sections
+            - -Wl,--start-group -lc -lm -Wl,--end-group
+            - -static
+            - --specs=nano.specs
+            - --specs=nosys.specs
+          Link-CPP:
+            - -Wl,-Map=$OutDir()$/$Project$.map
+            - -Wl,--gc-sections
+            - -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+            - -static
+            - --specs=nano.specs
+            - --specs=nosys.specs
+      for-context:
+        - .release_GCC
+    - setup: debug_GCC
+      misc:
+        - ASM:
+            - -g3
+            - --specs=nano.specs
+            - --specs=nosys.specs
+          C:
+            - -g3
+            - -O0
+            - -fdata-sections
+            - -ffunction-sections
+            - -std=gnu11
+            - -Wall
+            - -fstack-usage
+            - --specs=nano.specs
+            - --specs=nosys.specs
+            - -Werror=implicit-function-declaration
+          CPP:
+            - -g3
+            - -O0
+            - -fdata-sections
+            - -ffunction-sections
+            - -fno-cxa-atexit
+            - -fno-rtti
+            - -fno-exceptions
+            - -std=gnu++14
+            - -Wall
+            - -fstack-usage
+            - --specs=nano.specs
+            - --specs=nosys.specs
+            - -Werror=implicit-function-declaration
+          for-compiler: GCC
+          Link-C:
+            - -Wl,-Map=$OutDir()$/$Project$.map
+            - -Wl,--gc-sections
+            - -Wl,--start-group -lc -lm -Wl,--end-group
+            - -static
+            - --specs=nano.specs
+            - --specs=nosys.specs
+          Link-CPP:
+            - -Wl,-Map=$OutDir()$/$Project$.map
+            - -Wl,--gc-sections
+            - -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+            - -static
+            - --specs=nano.specs
+            - --specs=nosys.specs
+      for-context:
+        - .debug_GCC
+    - setup: release_AC6
+      misc:
+        - ASM:
+            - -Oz
+            - -g
+          C:
+            - -Oz
+            - -std=gnu11
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -g
+            - -Wmissing-prototypes
+          CPP:
+            - -Oz
+            - -std=gnu++14
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -g
+            - -Wmissing-prototypes
+          for-compiler: AC6
+          Link-C:
+            - --map
+            - --library_type=microlib
+            - --symbols
+            - --show_full_path
+            - --inline
+            - --any_contingency
+          Link-CPP:
+            - --map
+            - --library_type=microlib
+            - --symbols
+            - --show_full_path
+            - --inline
+            - --any_contingency
+      for-context:
+        - .release_AC6
+    - setup: debug_AC6
+      misc:
+        - ASM:
+            - -g
+            - -O0
+          C:
+            - -g
+            - -O0
+            - -std=gnu11
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -Wmissing-prototypes
+          CPP:
+            - -g
+            - -O0
+            - -std=gnu++14
+            - -fno-exceptions
+            - -fno-rtti
+            - -funsigned-char
+            - -Wmissing-prototypes
+          for-compiler: AC6
+          Link-C:
+            - --map
+            - --library_type=microlib
+            - --symbols
+            - --show_full_path
+            - --inline
+            - --any_contingency
+          Link-CPP:
+            - --map
+            - --library_type=microlib
+            - --symbols
+            - --show_full_path
+            - --inline
+            - --any_contingency
+      for-context:
+        - .debug_AC6
+    - setup: debug_IAR
+      misc:
+        - C:
+            - --debug
+            - -On
+            - --dlib_config DLib_Config_Full.h
+            - --no_wrap_diagnostics
+            - --vla
+            - --enable_restrict
+            - -e
+            - --require_prototypes
+          CPP:
+            - --debug
+            - -On
+            - --dlib_config DLib_Config_Full.h
+            - --no_wrap_diagnostics
+            - --vla
+            - --enable_restrict
+            - -e
+            - --require_prototypes
+          for-compiler: IAR
+          Link-C:
+            - --skip_dynamic_initialization
+            - --inline
+            - --map=$Project$.$BuildType$+$TargetType$.map
+          Link-CPP:
+            - --skip_dynamic_initialization
+            - --inline
+            - --map=$Project$.$BuildType$+$TargetType$.map
+      for-context:
+        - .debug_IAR
+  components:
+    - component: STMicroelectronics::Board Part:LED:GPIO@1.0.0
+    - component: STMicroelectronics::Board Part:STM32CubeMX2 Config:LED@1.1.0
+    - component: STMicroelectronics::CMSIS:CORE@6.2.0
+    - component: STMicroelectronics::Device:Startup@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:Core@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:CORTEX@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:DMA@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:FLASH_ITF@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:GPIO@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:ICACHE@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:PLAY@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:PWR@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:Q@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:RCC@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:timebases&SYSTICK@2.0.0
+    - component: STMicroelectronics::Device:STM32 HAL:UART@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:BUS@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:Common@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:DMA@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:EXTI@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:FLASH@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:GPIO@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:ICACHE@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:PLAY@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:PWR@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:RCC@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:SBS@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:USART@2.0.0
+    - component: STMicroelectronics::Device:STM32 LL:UTILS@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Codegen:Generated Code@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORE@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX MPU@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:CORTEX NVIC@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:GPIO@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:ICACHE@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:PLAY@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:RCC@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:System@2.0.0
+    - component: STMicroelectronics::Device:STM32CubeMX2 Config:UART@2.0.0
+    - component: STMicroelectronics::Utility:Basic stdio:Core@1.1.0
+    - component: STMicroelectronics::Utility:Basic stdio:itf_io&UART@1.1.0
+    - component: STMicroelectronics::Utility:STM32CubeMX2 Config:Basic stdio@1.0.0
+    - component: STMicroelectronics::Utility:STM32CubeMX2 Config:syscalls@1.0.0
+    - component: STMicroelectronics::Utility:syscalls&Standalone syscalls@1.0.0
+    - component: STMicroelectronics::Utility:sysmem&Standalone sysmem@1.0.0
+  define:
+    - USE_TRACE: 0
+  groups:
+    - files:
+        - file: ../../application/example.c
+          category: source
+        - file: ../../application/main.c
+          category: source
+        - file: ../../application/example.h
+          category: header
+        - file: ../../application/main.h
+          category: header
+        - file: ../../README.md
+          category: doc
+      group: UserCode
+"""
+"File: project/project.cube" = """
+{
+  "traits": [
+    {
+      "id": "3bf29495-08b5-4ce4-af23-86e1f5684660",
+      "name": "component",
+      "files": [
+        "hal_play_gate_xor.cproject.yml"
+      ]
+    }
+  ],
+  "children": []
+}"""
+
+["Project Description"]
+workingAreaId = "74b4a012-1f6f-4983-ab48-3c98eeb611ef"
+version = "1"
+mx2Version = "1.1.1"
+isLinkedIoc2 = true
+isReadOnlyIoc2 = true

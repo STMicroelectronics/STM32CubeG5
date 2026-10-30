@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:33:20.104Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9f8eb5d932cc595b354240ec28ea591180e6bfe3de5a88accbdb57d1e478f0ac"
+      },
+      "file": "hal_sbs_fpu_interrupt.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4758f657b8856dea857ef532f6332efd6643c98e1ecac50a1800ee6556051327"
+      },
+      "file": "project/hal_sbs_fpu_interrupt.cproject.yml"
+    }
+  ]
+}

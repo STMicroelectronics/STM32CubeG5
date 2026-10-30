@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:47:43.532Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d93de4eed9940624d1d14369a94e204c1b18614fb6a71131058f046624ad1bac"
+      },
+      "file": "hal_tim_encoder_index_pulse_on_compare.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_tim_encoder_index_pulse_on_compare.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "96293e68c442d1755df7f8e13e282502c7034f85cc52ff91bc5becd03b87c896"
+      },
+      "file": "project/hal_tim_encoder_index_pulse_on_compare.ewp"
+    }
+  ]
+}

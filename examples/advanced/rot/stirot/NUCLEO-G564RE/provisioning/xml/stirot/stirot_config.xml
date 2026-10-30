@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SCHVerif.xsd">
+<Obdata>
+	<Info>
+		<Title>STiRoT configuration</Title>
+		<ObDestAddress>0x0FFD0200</ObDestAddress>
+		<DoEncryption>1</DoEncryption>
+		<GlobalAlign>16</GlobalAlign>
+		<FlashStart>0x0C000000</FlashStart>
+		<FlashSize>0x80000</FlashSize>
+		<FlashSectorSize>0x2000</FlashSectorSize>
+		<OBKStart>0x0FFD0900</OBKStart>
+		<OBKSize>0x2F0</OBKSize>
+		<OBKSectorSize>0x10</OBKSectorSize>
+		<AuthOBKStart>0xFFD0900</AuthOBKStart>
+		<AuthOBKSize>0x2F0</AuthOBKSize>
+	</Info>
+	<Hash>	
+	</Hash>
+	<List>
+		<Name>Number of images</Name>
+		<Value>0x1</Value>
+		<Width>1</Width>
+		<Default>0x01</Default>
+		<Hidden>1</Hidden>
+		<Val>0x01, application image only</Val>
+		<Val>0x02, application and data images</Val>
+		<Dependency>Image</Dependency>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</List>
+	<List>
+		<Name>System Clock selection</Name>
+		<Value>0x02</Value>
+		<Width>1</Width>
+		<Hidden>0</Hidden>
+		<Default>0x01</Default>
+		<Val>0x00,STiROT clock configured @ 256Mhz</Val>
+		<Val>0x01,STiROT clock configured @ 450Mhz</Val>
+		<Val>0x02,STiROT clock configured @ 800Mhz</Val>
+		<Tooltip>Configured the clock during STiROT execution depending on the voltage supply level and the range of temperature supported</Tooltip>
+	</List>
+	<Bool>
+		<Name>Is the application full secure?</Name>
+		<Value>0x01</Value>
+		<Width>1</Width>
+		<Default>0x01</Default>
+		<True>0x01</True>
+		<False>0x00</False>
+		<Hidden>1</Hidden>
+		<Dependency>Secure</Dependency>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Bool>
+	<Bool>
+		<Name>Jump into ST bootloader when no valid image</Name>
+		<Value>0x01</Value>
+		<Width>1</Width>
+		<Hidden>0</Hidden>
+		<Default>0x00</Default>
+		<True>0x01</True>
+		<False>0x00</False>
+		<Tooltip>Tick the box if STiROT is allowed to jump into ST bootloader when the authenticity and the integrity of at least 1 image is not verified</Tooltip>
+	</Bool>
+	<Data>
+		<Name>Application image installation slot offset</Name>
+		<Value>0x0</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00000000</Default>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Application image download slot offset</Name>
+		<Value>0x70000</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x001E0000</Default>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Application image slot size</Name>
+		<Value>0x10000</Value>
+		<Width>4</Width>
+		<Default>0x00020000</Default>
+		<Hidden>1</Hidden>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Data image installation slot offset in HDPL2 OBKeys</Name>
+		<Value>0x0</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00000000</Default>
+		<Dependency>Image,0x02</Dependency>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Data image installation slot size in HDPL2 OBKeys</Name>
+		<Value>0x0</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x000002F0</Default>
+		<Dependency>Image,0x02</Dependency>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Data image download slot offset</Name>
+		<Value>0x0</Value>
+		<Width>4</Width>
+		<Default>0x001DE000</Default>
+		<Hidden>1</Hidden>
+		<Dependency>Image,0x02</Dependency>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Data image download slot size</Name>
+		<Value>0x0</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00002000</Default>
+		<Dependency>Image,0x02</Dependency>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Size of the secure area inside the application image installation slot</Name>
+		<Value>0x10000</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00020000</Default>
+		<Dependency>Secure,0x00</Dependency>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</Data>
+	<Data>
+		<Name>Reserved</Name>
+		<Value>0x00000000</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x00000000</Default>
+		<Tooltip>Reserved: do not set</Tooltip>
+	</Data>
+	<Bool>
+		<Name>SRAM2 ECC management activation</Name>
+		<Value>0x00000000</Value>
+		<Width>4</Width>
+		<Hidden>0</Hidden>
+		<Default>0x00000000</Default>
+		<True>0x00000000</True>
+		<False>0x00000040</False>
+		<Tooltip>If selected, ECC (Error Code Correction) will be managed. ECC is a mechanism to prevent mechanisms prevent external attacks.</Tooltip>
+	</Bool>
+	<List>
+		<Name>Product state minimal allowed</Name>
+		<Value>0x0000ED00</Value>
+		<Width>4</Width>
+		<Hidden>1</Hidden>
+		<Default>0x0000ED00</Default>
+		<Val>0x0000ED00,Open</Val>
+		<Val>0x00001700,Provisioning</Val>
+		<Val>0x00002E00,Provisioned</Val>
+		<Val>0x0000C600,TZ-Closed</Val>
+		<Val>0x00007200,Closed</Val>
+		<Val>0x00005C00,Locked</Val>
+		<Tooltip>Field updated by the scripts. Do not edit manually.</Tooltip>
+	</List>
+	<File>
+		<Name>Encryption key</Name>
+		<Value>./../../keys/stirot_encryption.pem</Value>
+		<Align>4</Align>
+		<KeyType>ecdsa-p256</KeyType>
+		<Type />
+		<Hidden>0</Hidden>
+		<Default>.\STiRoT_Encryption.pem</Default>
+		<Tooltip>Select the key used to encrypt application and data images.</Tooltip>
+	</File>
+	<File>
+		<Name>Authentication key</Name>
+		<Value>./../../keys/stirot_authentication.pem</Value>
+		<Align>4</Align>
+		<KeyType>ecdsa-p256</KeyType>
+		<Type>Public</Type>
+		<Hidden>0</Hidden>
+		<Default>.\STiRoT_Authentication.pem</Default>
+		<Tooltip>Select the key used to authenticate application and data images.</Tooltip>
+	</File>
+	<Bool>
+		<Name>Activate internal tampers</Name>
+		<Value>0x00</Value>
+		<Width>1</Width>
+		<Hidden>0</Hidden>
+		<Default>0x00</Default>
+		<True>0x00</True>
+		<False>0xC3</False>
+		<Tooltip>Tick the box if STiROT is allowed activate internal tampers during its execution</Tooltip>
+	</Bool>
+	<Bool>
+		<Name>Enable fast Wake-up</Name>
+		<Value>0xC3</Value>
+		<Width>1</Width>
+		<Hidden>0</Hidden>
+		<Default>0xC3</Default>
+		<True>0xC3</True>
+		<False>0x00</False>
+		<Tooltip>Tick the box if STiROT is allowed to wake-up from standbye without verifying the image to boot</Tooltip>
+	</Bool>
+	<Output>
+		<Name>Output File</Name>
+		<Value>./../../obk/stirot_config.obk</Value>
+		<Default>.\STiRoT_Config.obk</Default>
+		<Tooltip>Select the output file .obk including STiRoT configuration</Tooltip>
+	</Output>	
+</Obdata>
+</Root>

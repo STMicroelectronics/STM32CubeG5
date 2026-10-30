@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:12:44.548Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "56f8c73894f0628c196fb211847ef221671f61e45e422551fe0b5277eeea19e9"
+      },
+      "file": "rgbled_multi_color_set.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/rgbled_multi_color_set.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "64e8f0b176daef26a78a7b75cb4906e58975f1c1a13e5ad05f568856c37fa4a1"
+      },
+      "file": "project/rgbled_multi_color_set.ewp"
+    }
+  ]
+}

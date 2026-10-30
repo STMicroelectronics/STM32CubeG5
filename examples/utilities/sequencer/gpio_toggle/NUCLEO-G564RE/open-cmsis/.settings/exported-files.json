@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:42:29.375Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "255a1750be4f455ddc3f3d85a4b564efca2d73e8eeb6220854fb7880bdeb7674"
+      },
+      "file": "sequencer_gpio_toggle.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "db2359c9a5e054b6bab252921a0c705ca157ca5aa676e422d11d921613c61159"
+      },
+      "file": "project/sequencer_gpio_toggle.cproject.yml"
+    }
+  ]
+}

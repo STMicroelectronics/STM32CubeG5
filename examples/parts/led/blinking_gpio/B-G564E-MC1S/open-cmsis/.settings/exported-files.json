@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T06:04:11.611Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ac3be0f7d076ceea5e8ca981174a10ac5770902b9b26bae1127d1ba1e9a9357a"
+      },
+      "file": "led_blinking_gpio.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "84201c63a3a90f22d9e602098ad027da6db4865af33673adcb10ea5d1f058abc"
+      },
+      "file": "project/led_blinking_gpio.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T17:43:00.994Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "71920d64416adffa3224b33bcaa378daced3cef8c459f14a5bbe7a195ae02ceb"
+      },
+      "file": "hal_cortex_systick_delay.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_cortex_systick_delay.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3cefb989d072e4173887ebb78692e09888c8304e4970804daedb42e00a7864a4"
+      },
+      "file": "project/hal_cortex_systick_delay.ewp"
+    }
+  ]
+}

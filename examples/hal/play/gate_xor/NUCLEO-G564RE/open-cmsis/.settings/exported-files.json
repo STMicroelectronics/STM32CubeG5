@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:40:34.736Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2708d9283e323119ecb2eaf29acd02f175f940d5cc1c161c385f55388cb932f9"
+      },
+      "file": "hal_play_gate_xor.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c7836d36737f165e9afa086278235bb49653851455f952d5b18627a172ef092a"
+      },
+      "file": "project/hal_play_gate_xor.cproject.yml"
+    }
+  ]
+}

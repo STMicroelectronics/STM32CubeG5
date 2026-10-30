@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/csolution.schema.json
+solution:
+  target-types:
+    - type: NUCLEO-G564RE
+      device: STM32G564RET3
+  output-dirs:
+    tmpdir: build/tmp
+    outdir: $SolutionDir()$/build/$Project$.$BuildType$
+  generators:
+    base-dir: $ProjectDir()$/generated
+    options:
+      - generator: stm32g5xx_hal_mx2codegen
+        path: $SolutionDir()$/../generated/hal/
+      - generator: syscalls_mx2codegen
+        path: $SolutionDir()$/../generated/utilities/syscalls
+      - generator: led_mx2codegen
+        path: $SolutionDir()$/../generated/parts/led
+      - generator: stcryptolib_mx2codegen
+        path: $SolutionDir()$/../generated/middleware/stcryptolib
+      - generator: basic_stdio_mx2codegen
+        path: $SolutionDir()$/../generated/utilities/basic_stdio
+  build-types:
+    - type: release_AC6
+      compiler: AC6
+  packs:
+    - pack: STMicroelectronics::CMSIS
+      path: ../../../../../../arch/cmsis
+    - pack: STMicroelectronics::basic_stdio
+      path: ../../../../../../utilities/basic_stdio
+    - pack: STMicroelectronics::led_part_drivers
+      path: ../../../../../../part_drivers/led
+    - pack: STMicroelectronics::stcryptolib
+      path: ../../../../../../middleware/stcryptolib
+    - pack: STMicroelectronics::stm32g5xx_dfp
+      path: ../../../../../../stm32g5xx_dfp
+    - pack: STMicroelectronics::stm32g5xx_hal_drivers
+      path: ../../../../../../stm32g5xx_drivers
+    - pack: STMicroelectronics::syscalls
+      path: ../../../../../../utilities/syscalls
+  projects:
+    - project: project/stcryptolib_integrity_hash_shake.cproject.yml

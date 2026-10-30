@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:00:46.103Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9d6f57c703c013b31c920f5d8ababf20f7f1c68bcb0dc4e9876e2bf5d1943e37"
+      },
+      "file": "hal_ramcfg_ecc_error_detection.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_ramcfg_ecc_error_detection.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "664ff274379fe84805ae91420eaf81d2cb8e34394cd7c635ee35a98971923c9e"
+      },
+      "file": "project/hal_ramcfg_ecc_error_detection.ewp"
+    }
+  ]
+}

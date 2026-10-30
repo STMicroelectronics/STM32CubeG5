@@ -1,0 +1,210 @@
+/**
+  ******************************************************************************
+  * @file           : mx_adc1.c
+  * @brief          : ADC1 Peripheral initialization
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2026 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the mx_stm32g5xx_hal_drivers_license.md file
+  * in the same directory as the generated code.
+  * If no mx_stm32g5xx_hal_drivers_license.md file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+
+/* Includes ------------------------------------------------------------------*/
+#include "mx_adc1.h"
+#include "mx_hal_def.h" /* For ADC multimode, include linked ADC instance */
+
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private functions prototype------------------------------------------------*/
+/* Exported variables by reference--------------------------------------------*/
+static hal_adc_handle_t hADC1;
+
+static hal_dma_handle_t hGPDMA1_CH0;
+
+/******************************************************************************/
+/* Exported functions for ADC1 in HAL layer */
+/******************************************************************************/
+hal_adc_handle_t *mx_adc1_init(void)
+{
+  if (HAL_ADC_Init(&hADC1, HAL_ADC1) != HAL_OK)
+  {
+    return NULL;
+  }
+
+    HAL_RCC_ADC12_EnableClock();
+
+  if (HAL_RCC_ADC_SetKernelClkSource(HAL_RCC_ADC_CLK_SRC_TIM) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Multimode:
+     This ADC instance is selected as master instance.
+     Configuration applied to this ADC instance and linked ADC slave instance:
+     ADC2
+     Some parameters are imposed by ADC master (sequencer regular and-or injected), some others remain instance wise.
+  */
+
+  /* Initialize and get other ADC handle */
+  hal_adc_handle_t *p_handle_other_adc = mx_adc2_init();
+
+  if (p_handle_other_adc == NULL)
+  {
+    return NULL;
+  }
+
+  /* Link ADC handles */
+  if (HAL_ADC_SetLinkNextHandle(&hADC1, p_handle_other_adc) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  hal_adc_config_t adc_config;
+  hal_adc_channel_config_t adc_channel_config;
+
+  adc_config.resolution          = HAL_ADC_RESOLUTION_12_BIT;
+  adc_config.sampling_mode       = HAL_ADC_SAMPLING_MODE_NORMAL;
+  if (HAL_ADC_SetConfig(&hADC1, &adc_config) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /****************************************************************************/
+  /* Configuration of basic features (mandatory)                              */
+  /****************************************************************************/
+
+  /* ==================== Group Regular ====================*/
+  hal_adc_reg_config_t reg_config;
+  reg_config.trigger_src        = HAL_ADC_REG_TRIG_TIM2_TRGO;
+  reg_config.trigger_edge       = HAL_ADC_REG_TRIG_EDGE_RISING;
+  reg_config.sequencer_length   = 1;
+  reg_config.sequencer_discont  = HAL_ADC_REG_SEQ_DISCONT_DISABLE;
+  reg_config.continuous         = HAL_ADC_REG_CONV_SINGLE;
+  reg_config.overrun            = HAL_ADC_REG_OVR_DATA_OVERWRITTEN;
+  if (HAL_ADC_REG_SetConfig(&hADC1, &reg_config) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  adc_channel_config.group           = HAL_ADC_GROUP_REGULAR;
+  adc_channel_config.sequencer_rank  = 1;
+  adc_channel_config.sampling_time   = HAL_ADC_SAMPLING_TIME_848CYCLES_5;
+  adc_channel_config.input_mode      = HAL_ADC_IN_SINGLE_ENDED;
+  if (HAL_ADC_SetConfigChannel(&hADC1, HAL_ADC_CHANNEL_1, &adc_channel_config) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Multimode: configured by ADC master only */
+  hal_adc_mm_config_t adc_mm_config;
+  adc_mm_config.mode = HAL_ADC_MM_DUAL_REG_INT_INJ_SIM;
+  adc_mm_config.reg_data_format = HAL_ADC_MM_REG_DATA_EACH_ADC;
+  adc_mm_config.interl_delay = HAL_ADC_MM_INTERL_DELAY_1CYCLE;
+  if (HAL_ADC_MM_SetConfig(&hADC1, &adc_mm_config) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /****************************************************************************/
+  /* Configuration of additional features (optional)                          */
+  /****************************************************************************/
+
+  /* ### ADC1 GPIO Configuration ########################### */
+  /* GPIO Clocks activation */
+  HAL_RCC_GPIOA_EnableClock();
+
+  hal_gpio_config_t  gpio_config;
+
+  /**
+    [GPIO Pin] ------> [Signal Name]
+
+       PA1     ------>   ADC1_INP2
+    **/
+  gpio_config.mode        = HAL_GPIO_MODE_ANALOG;
+  gpio_config.pull        = HAL_GPIO_PULL_NO;
+  HAL_GPIO_Init(HAL_GPIOA, HAL_GPIO_PIN_1, &gpio_config);
+
+  /* Enable the interruption for ADC */
+  HAL_CORTEX_NVIC_SetPriority(ADC1_IRQn, HAL_CORTEX_NVIC_PREEMP_PRIORITY_0, HAL_CORTEX_NVIC_SUB_PRIORITY_0);
+  HAL_CORTEX_NVIC_EnableIRQ(ADC1_IRQn);
+
+  /* Configure the GPDMA1_CH0 DMA channel for ADC1 */
+  if (HAL_DMA_Init(&hGPDMA1_CH0, HAL_GPDMA1_CH0) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  HAL_RCC_GPDMA1_EnableClock();
+
+  hal_dma_direct_xfer_config_t xfer_cfg_adc1_dma;
+  xfer_cfg_adc1_dma.request         = HAL_GPDMA1_REQUEST_ADC1;
+  xfer_cfg_adc1_dma.direction       = HAL_DMA_DIRECTION_PERIPH_TO_MEMORY;
+  xfer_cfg_adc1_dma.src_inc         = HAL_DMA_SRC_ADDR_FIXED;
+  xfer_cfg_adc1_dma.dest_inc        = HAL_DMA_DEST_ADDR_INCREMENTED;
+  xfer_cfg_adc1_dma.src_data_width  = HAL_DMA_SRC_DATA_WIDTH_WORD;
+  xfer_cfg_adc1_dma.dest_data_width = HAL_DMA_DEST_DATA_WIDTH_WORD;
+  xfer_cfg_adc1_dma.priority        = HAL_DMA_PRIORITY_LOW_WEIGHT_LOW;
+
+  if (HAL_DMA_SetConfigPeriphDirectXfer(&hGPDMA1_CH0, &xfer_cfg_adc1_dma) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  /* Enable the interruption for GPDMA1_CH0 */
+  HAL_CORTEX_NVIC_SetPriority(GPDMA1_CH0_IRQn, HAL_CORTEX_NVIC_PREEMP_PRIORITY_0, HAL_CORTEX_NVIC_SUB_PRIORITY_0);
+  HAL_CORTEX_NVIC_EnableIRQ(GPDMA1_CH0_IRQn);
+
+  /* Link DMA handle to ADC handle */
+  if (HAL_ADC_REG_SetDMA(&hADC1, &hGPDMA1_CH0) != HAL_OK)
+  {
+    return NULL;
+  }
+
+  return &hADC1;
+}
+
+void mx_adc1_deinit(void)
+{
+  (void)HAL_ADC_DeInit(&hADC1);
+
+  /* Disable the interruption for ADC */
+  HAL_CORTEX_NVIC_DisableIRQ(ADC1_IRQn);
+
+  /* De-initialize all GPIOA pins associated with ADC1 */
+  HAL_GPIO_DeInit(HAL_GPIOA, HAL_GPIO_PIN_1);
+
+  /* De-initialize the DMA channel */
+  HAL_DMA_DeInit(&hGPDMA1_CH0);
+
+  /* Disable the interruption for DMA */
+  HAL_CORTEX_NVIC_DisableIRQ(GPDMA1_CH0_IRQn);
+}
+
+hal_adc_handle_t *mx_adc1_gethandle(void)
+{
+  return &hADC1;
+}
+
+/******************************************************************************/
+/*                           ADC1 global interrupt                            */
+/******************************************************************************/
+void ADC1_IRQHandler(void)
+{
+  HAL_ADC_IRQHandler(&hADC1);
+}
+
+/******************************************************************************/
+/*                     GPDMA1 channel 0 global interrupt                      */
+/******************************************************************************/
+void GPDMA1_CH0_IRQHandler(void)
+{
+  HAL_DMA_IRQHandler(&hGPDMA1_CH0);
+}

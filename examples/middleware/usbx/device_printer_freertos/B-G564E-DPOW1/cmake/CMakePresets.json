@@ -1,0 +1,42 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/${presetName}"
+        },
+        {
+            "name": "release_GCC_B-G564E-DPOW1",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "${presetName}",
+                "TOOLCHAIN_FILE": "GCC.14.3.1.cmake"
+            },
+            "inherits": "default"
+        },
+        {
+            "name": "debug_GCC_B-G564E-DPOW1",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "${presetName}",
+                "TOOLCHAIN_FILE": "GCC.14.3.1.cmake"
+            },
+            "inherits": "default"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "configurePreset": "default"
+        },
+        {
+            "name": "release_GCC_B-G564E-DPOW1",
+            "configurePreset": "release_GCC_B-G564E-DPOW1"
+        },
+        {
+            "name": "debug_GCC_B-G564E-DPOW1",
+            "configurePreset": "debug_GCC_B-G564E-DPOW1"
+        }
+    ]
+}

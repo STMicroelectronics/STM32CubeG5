@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T23:59:37.029Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "16535affd4581cbf58d14238aa1d076f10a423cb413d24bc7c4a0ef3e5af8b99"
+      },
+      "file": "hal_tim_oc_toggle.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3fcf48dd133d4fe079881d793f164fb6faa239c57f1315adf97655fe7e62bab1"
+      },
+      "file": "project/hal_tim_oc_toggle.cproject.yml"
+    }
+  ]
+}

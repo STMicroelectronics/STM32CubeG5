@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:06:03.534Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8ae0255f868a6acd1f3fda1cfb9f04f16a64437daaca6bf53974cedf5f64fe9a"
+      },
+      "file": "hal_rcc_lse_config.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "973b49ca0d30cfbbb650850483fc7adf2753ca139c515b2bb4b801f8ded15d24"
+      },
+      "file": "project/hal_rcc_lse_config.cproject.yml"
+    }
+  ]
+}

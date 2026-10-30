@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T01:18:28.979Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4a65d7e7db393adcd5ecef98b5597226fb93a0ff97cba2af1702e7806917243e"
+      },
+      "file": "ll_adc_temperature_sensor.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8460220220f0adc6fac2195aafcd7aa02c5931787fa52070e366bfe027ea51d6"
+      },
+      "file": "project/ll_adc_temperature_sensor.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:00:20.953Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e2c120a844a53b6fba3464955eac54c2db72c6ba5f8a48601b9230c073bbda06"
+      },
+      "file": "hal_ramcfg_ecc_error_detection.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f8d9902072947d87a4b3b8f2ac8716f9f2ccaeb05bb0e484cab43db9f2fc263a"
+      },
+      "file": "project/hal_ramcfg_ecc_error_detection.cproject.yml"
+    }
+  ]
+}

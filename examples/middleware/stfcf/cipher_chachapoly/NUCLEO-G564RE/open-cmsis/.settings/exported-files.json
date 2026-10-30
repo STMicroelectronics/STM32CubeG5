@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T04:38:57.363Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "af2a7b84bd8b631c44ce66ee146a677974dbede2877cef86121b4748cb018514"
+      },
+      "file": "stfcf_cipher_chachapoly.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "032a18937a91b4cc4f81e71ef983d513c62e5e62bab85f015f350feed28e8ee7"
+      },
+      "file": "project/stfcf_cipher_chachapoly.cproject.yml"
+    }
+  ]
+}

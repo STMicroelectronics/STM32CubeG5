@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:31:39.611Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "89371ac28154d4b45517f0bbc70b8bced256fe4fb22ccbc550a737905ecc084c"
+      },
+      "file": "hal_play_counter_3bits.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_play_counter_3bits.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "de956688634643f94d5bbeea3cfac84dc5f91496b21bb126ce0578d3d8b013f4"
+      },
+      "file": "project/hal_play_counter_3bits.ewp"
+    }
+  ]
+}

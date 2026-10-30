@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T05:41:13.219Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "550e3ae70529456397daae76deca46a9c5fac64abbd038ad7f87e4d9ee6a309d"
+      },
+      "file": "usbx_host_hid_freertos.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/usbx_host_hid_freertos.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9f04f607e89d63f35f845ca9384fed75b75b69e2578ace1be40fd2d78db1dbdf"
+      },
+      "file": "project/usbx_host_hid_freertos.ewp"
+    }
+  ]
+}

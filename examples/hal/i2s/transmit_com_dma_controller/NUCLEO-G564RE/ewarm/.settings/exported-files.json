@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T19:52:22.203Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d09dfd76c0d3ee481973a1552e98db3a9a480af74f9b2da3413d01e73c792a92"
+      },
+      "file": "hal_i2s_transmit_com_dma_controller.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_i2s_transmit_com_dma_controller.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5baa4d374172d2d475413ac9ac569dbb31f04f9e3a153e3a91d69fbab0bf149f"
+      },
+      "file": "project/hal_i2s_transmit_com_dma_controller.ewp"
+    }
+  ]
+}

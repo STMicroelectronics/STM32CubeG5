@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:49:00.306Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a7f1682f8a124aeab8121683a47606f7c6aaa27b6ee1b5b70a9f72e0c32b97e3"
+      },
+      "file": "ll_tamp_erase_backup_registers.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "63d9e4434483192127414a6e1ccdd1122b5adb7476dbcf1ce26e41642ed0b3de"
+      },
+      "file": "project/ll_tamp_erase_backup_registers.cproject.yml"
+    }
+  ]
+}

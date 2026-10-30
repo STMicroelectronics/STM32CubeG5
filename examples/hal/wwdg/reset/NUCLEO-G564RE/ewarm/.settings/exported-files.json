@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T00:49:36.660Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "04e1c52a73d322bd13aaeef9502c0d0590d9bca2bb1cbf216231550afdf40c49"
+      },
+      "file": "hal_wwdg_reset.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_wwdg_reset.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d2df926f91a41748da5909c8d14c7b0bd760bc323659255ea1ab1ded281df2df"
+      },
+      "file": "project/hal_wwdg_reset.ewp"
+    }
+  ]
+}

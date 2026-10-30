@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T03:11:21.962Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0c9031786583e3d7c505d8178963eef941a527e20db39cb8b5053d23a543402b"
+      },
+      "file": "filex_nor_multi_access_freertos.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/filex_nor_multi_access_freertos.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "fe023c7c3916626f42adddf7748351abcdbcf293f70107e25928aca95b5caf17"
+      },
+      "file": "project/filex_nor_multi_access_freertos.ewp"
+    }
+  ]
+}

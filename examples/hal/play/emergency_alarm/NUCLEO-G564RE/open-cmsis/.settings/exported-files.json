@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:37:08.380Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c0ef9af153bebb526e8a74e0aeb84d78ab205fdf2170494ad8e6f102e2c5ab80"
+      },
+      "file": "hal_play_emergency_alarm.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "dd2d10cd11a4184331e4005a54190e682d7661174fd25a5445858a015ba23b83"
+      },
+      "file": "project/hal_play_emergency_alarm.cproject.yml"
+    }
+  ]
+}

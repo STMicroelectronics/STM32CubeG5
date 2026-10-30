@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="3537.5px" preserveAspectRatio="none" style="width:3062px;height:3537px;background:#EEEBDC;" version="1.1" viewBox="0 0 3062 3537" width="3062.5px" zoomAndPan="magnify"><defs/><g><rect fill="#EEEBDC" height="86.2793" style="stroke:#00000000;stroke-width:3.125;" width="1012.5" x="1012.5" y="31.25"/><text fill="#000000" font-family="sans-serif" font-size="43.75" font-weight="bold" lengthAdjust="spacing" textLength="981.25" x="1028.125" y="92.2913">Nominal SMBUS communication in dma mode</text><rect fill="#DDDDDD" height="3381.2744" style="stroke:#181818;stroke-width:1.5625;" width="2415.625" x="65.625" y="139.4043"/><text fill="#000000" font-family="sans-serif" font-size="40.625" font-weight="bold" lengthAdjust="spacing" textLength="328.125" x="1109.375" y="181.5765">Controller Board</text><rect fill="#DDDDDD" height="3381.2744" style="stroke:#181818;stroke-width:1.5625;" width="362.5" x="2612.5" y="139.4043"/><text fill="#000000" font-family="sans-serif" font-size="40.625" font-weight="bold" lengthAdjust="spacing" textLength="343.75" x="2621.875" y="181.5765">Responder Board</text><rect height="2283.2764" style="stroke:#FFA500;stroke-width:4.6875;fill:none;" width="2937.5" x="46.875" y="729.1748"/><line style="stroke:#000000;stroke-width:1.5625;fill:none;stroke-dasharray:5.0,5.0;" x1="237.5" x2="237.5" y1="297.0459" y2="3417.2607"/><line style="stroke:#000000;stroke-width:1.5625;fill:none;stroke-dasharray:5.0,5.0;" x1="1126.5625" x2="1126.5625" y1="297.0459" y2="3417.2607"/><line style="stroke:#000000;stroke-width:1.5625;fill:none;stroke-dasharray:5.0,5.0;" x1="1765.625" x2="1765.625" y1="297.0459" y2="3417.2607"/><line style="stroke:#000000;stroke-width:1.5625;fill:none;stroke-dasharray:5.0,5.0;" x1="2250" x2="2250" y1="297.0459" y2="3417.2607"/><line style="stroke:#000000;stroke-width:1.5625;fill:none;stroke-dasharray:5.0,5.0;" x1="2793.75" x2="2793.75" y1="297.0459" y2="3417.2607"/><rect fill="#90EE90" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="193.75" x="140.625" y="203.0029"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="150" x="162.5" y="263.8062">Example</text><rect fill="#90EE90" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="193.75" x="140.625" y="3414.1357"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="150" x="162.5" y="3474.939">Example</text><rect fill="#ADD8E6" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="365.625" x="945.3125" y="203.0029"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="321.875" x="967.1875" y="263.8062">HAL SMBUS Driver</text><rect fill="#ADD8E6" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="365.625" x="945.3125" y="3414.1357"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="321.875" x="967.1875" y="3474.939">HAL SMBUS Driver</text><rect fill="#E2E2F0" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="343.75" x="1593.75" y="203.0029"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="300" x="1615.625" y="263.8062">I2Cx_IRQHandler</text><rect fill="#E2E2F0" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="343.75" x="1593.75" y="3414.1357"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="300" x="1615.625" y="3474.939">I2Cx_IRQHandler</text><rect fill="#ADD8E6" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="312.5" x="2093.75" y="203.0029"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="268.75" x="2115.625" y="263.8062">HAL DMA Driver</text><rect fill="#ADD8E6" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="312.5" x="2093.75" y="3414.1357"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="268.75" x="2115.625" y="3474.939">HAL DMA Driver</text><rect fill="#90EE90" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="193.75" x="2696.875" y="203.0029"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="150" x="2718.75" y="263.8062">Example</text><rect fill="#90EE90" height="90.918" rx="7.8125" ry="7.8125" style="stroke:#181818;stroke-width:1.5625;" width="193.75" x="2696.875" y="3414.1357"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="150" x="2718.75" y="3474.939">Example</text><rect fill="#EEEEEE" height="9.375" style="stroke:#EEEEEE;stroke-width:3.125;" width="3040.625" x="0" y="394.4702"/><line style="stroke:#000000;stroke-width:3.125;" x1="0" x2="3040.625" y1="394.4702" y2="394.4702"/><line style="stroke:#000000;stroke-width:3.125;" x1="0" x2="3040.625" y1="403.8452" y2="403.8452"/><rect fill="#EEEEEE" height="76.0986" style="stroke:#000000;stroke-width:6.25;" width="475" x="1282.8125" y="359.5459"/><text fill="#000000" font-family="sans-serif" font-size="40.625" font-weight="bold" lengthAdjust="spacing" textLength="418.75" x="1301.5625" y="414.2181">example.c /app_init()</text><path d="M253.125,482.5195 L253.125,551.2695 L1059.375,551.2695 L1059.375,513.7695 L1028.125,482.5195 L253.125,482.5195 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><path d="M1028.125,482.5195 L1028.125,513.7695 L1059.375,513.7695 L1028.125,482.5195 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="740.625" x="271.875" y="530.5847">Step 1: initializes the SMBUS and DMA instances.</text><rect fill="#EEEEEE" height="9.375" style="stroke:#EEEEEE;stroke-width:3.125;" width="3040.625" x="0" y="634.8755"/><line style="stroke:#000000;stroke-width:3.125;" x1="0" x2="3040.625" y1="634.8755" y2="634.8755"/><line style="stroke:#000000;stroke-width:3.125;" x1="0" x2="3040.625" y1="644.2505" y2="644.2505"/><rect fill="#EEEEEE" height="76.0986" style="stroke:#000000;stroke-width:6.25;" width="562.5" x="1239.0625" y="599.9512"/><text fill="#000000" font-family="sans-serif" font-size="40.625" font-weight="bold" lengthAdjust="spacing" textLength="506.25" x="1257.8125" y="654.6234">example.c /app_process()</text><path d="M46.875,729.1748 L600,729.1748 L600,755.2734 L568.75,786.5234 L46.875,786.5234 L46.875,729.1748 " fill="#FFA500" style="stroke:#FFA500;stroke-width:4.6875;"/><rect fill="none" height="2283.2764" style="stroke:#FFA500;stroke-width:4.6875;" width="2937.5" x="46.875" y="729.1748"/><text fill="#000000" font-family="sans-serif" font-size="40.625" font-weight="bold" lengthAdjust="spacing" textLength="412.5" x="93.75" y="774.472">Routine transmission</text><path d="M253.125,802.1484 L253.125,870.8984 L1221.875,870.8984 L1221.875,833.3984 L1190.625,802.1484 L253.125,802.1484 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><path d="M1190.625,802.1484 L1190.625,833.3984 L1221.875,833.3984 L1190.625,802.1484 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="903.125" x="271.875" y="850.2136">Step 2: transmits a buffer in a non-blocking mode using DMA.</text><polygon fill="#000000" points="1090.625,941.748,1121.875,954.248,1090.625,966.748,1103.125,954.248" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="237.5" x2="1109.375" y1="954.248" y2="954.248"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="796.875" x="268.75" y="939.7583">HAL_SMBUS_MASTER_SEQ_Transmit_DMA()</text><polygon fill="#000000" points="2212.5,1032.666,2243.75,1045.166,2212.5,1057.666,2225,1045.166" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="1128.125" x2="2231.25" y1="1045.166" y2="1045.166"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="475" x="1159.375" y="1030.6763">HAL_DMA_StartPeriphXfer()</text><polygon fill="#000000" points="1162.5,1123.584,1131.25,1136.084,1162.5,1148.584,1150,1136.084" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="1143.75" x2="2246.875" y1="1136.084" y2="1136.084"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="146.875" x="1190.625" y="1121.5942">HAL_OK</text><polygon fill="#000000" points="271.875,1214.502,240.625,1227.002,271.875,1239.502,259.375,1227.002" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="253.125" x2="1125" y1="1227.002" y2="1227.002"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="146.875" x="300" y="1212.5122">HAL_OK</text><path d="M253.125,1345.752 L253.125,1414.502 L1181.25,1414.502 L1181.25,1377.002 L1150,1345.752 L253.125,1345.752 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><path d="M1150,1345.752 L1150,1377.002 L1181.25,1377.002 L1150,1345.752 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="862.5" x="271.875" y="1393.8171">Step 3: waits for the I2C interrupt: write transfer completed.</text><ellipse cx="2792.1875" cy="1495.5078" fill="none" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:4.6875;"/><line style="stroke:#000000;stroke-width:3.125;" x1="2770.3125" x2="2739.0625" y1="1497.8516" y2="1485.3516"/><line style="stroke:#000000;stroke-width:3.125;" x1="2770.3125" x2="2739.0625" y1="1497.8516" y2="1510.3516"/><line style="stroke:#000000;stroke-width:3.125;" x1="1128.125" x2="2773.4375" y1="1497.8516" y2="1497.8516"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="296.875" x="1159.375" y="1483.3618">data over SMBUS</text><polygon fill="#000000" points="1162.5,1576.2695,1131.25,1588.7695,1162.5,1601.2695,1150,1588.7695" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="1143.75" x2="1762.5" y1="1588.7695" y2="1588.7695"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="543.75" x="1190.625" y="1574.2798">HAL_SMBUS_EV_IRQHandler()</text><polygon fill="#000000" points="271.875,1667.1875,240.625,1679.6875,271.875,1692.1875,259.375,1679.6875" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="253.125" x2="1125" y1="1679.6875" y2="1679.6875"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="700" x="300" y="1665.1978">HAL_SMBUS_MASTER_TxCpltCallback()</text><path d="M253.125,1798.4375 L253.125,1867.1875 L1215.625,1867.1875 L1215.625,1829.6875 L1184.375,1798.4375 L253.125,1798.4375 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><path d="M1184.375,1798.4375 L1184.375,1829.6875 L1215.625,1829.6875 L1184.375,1798.4375 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="896.875" x="271.875" y="1846.5027">Step 4: receives a buffer in a non-blocking mode using DMA.</text><polygon fill="#000000" points="1090.625,1938.0371,1121.875,1950.5371,1090.625,1963.0371,1103.125,1950.5371" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="237.5" x2="1109.375" y1="1950.5371" y2="1950.5371"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="781.25" x="268.75" y="1936.0474">HAL_SMBUS_MASTER_SEQ_Receive_DMA()</text><polygon fill="#000000" points="2212.5,2028.9551,2243.75,2041.4551,2212.5,2053.9551,2225,2041.4551" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="1128.125" x2="2231.25" y1="2041.4551" y2="2041.4551"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="475" x="1159.375" y="2026.9653">HAL_DMA_StartPeriphXfer()</text><polygon fill="#000000" points="1162.5,2119.873,1131.25,2132.373,1162.5,2144.873,1150,2132.373" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="1143.75" x2="2246.875" y1="2132.373" y2="2132.373"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="146.875" x="1190.625" y="2117.8833">HAL_OK</text><polygon fill="#000000" points="271.875,2210.791,240.625,2223.291,271.875,2235.791,259.375,2223.291" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="253.125" x2="1125" y1="2223.291" y2="2223.291"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="146.875" x="300" y="2208.8013">HAL_OK</text><path d="M253.125,2342.041 L253.125,2410.791 L1178.125,2410.791 L1178.125,2373.291 L1146.875,2342.041 L253.125,2342.041 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><path d="M1146.875,2342.041 L1146.875,2373.291 L1178.125,2373.291 L1146.875,2342.041 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="859.375" x="271.875" y="2390.1062">Step 5: waits for the I2C interrupt: read transfer completed.</text><ellipse cx="1126.5625" cy="2491.7969" fill="none" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:4.6875;"/><line style="stroke:#000000;stroke-width:3.125;" x1="1145.3125" x2="1176.5625" y1="2494.1406" y2="2481.6406"/><line style="stroke:#000000;stroke-width:3.125;" x1="1145.3125" x2="1176.5625" y1="2494.1406" y2="2506.6406"/><line style="stroke:#000000;stroke-width:3.125;" x1="1128.125" x2="2790.625" y1="2494.1406" y2="2494.1406"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="296.875" x="1190.625" y="2479.6509">data over SMBUS</text><polygon fill="#000000" points="1162.5,2572.5586,1131.25,2585.0586,1162.5,2597.5586,1150,2585.0586" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="1143.75" x2="1762.5" y1="2585.0586" y2="2585.0586"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="543.75" x="1190.625" y="2570.5688">HAL_SMBUS_EV_IRQHandler()</text><polygon fill="#000000" points="271.875,2663.4766,240.625,2675.9766,271.875,2688.4766,259.375,2675.9766" style="stroke:#000000;stroke-width:3.125;"/><line style="stroke:#000000;stroke-width:3.125;" x1="253.125" x2="1125" y1="2675.9766" y2="2675.9766"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="706.25" x="300" y="2661.4868">HAL_SMBUS_MASTER_RxCpltCallback()</text><path d="M253.125,2794.7266 L253.125,2863.4766 L1134.375,2863.4766 L1134.375,2825.9766 L1103.125,2794.7266 L253.125,2794.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><path d="M1103.125,2794.7266 L1103.125,2825.9766 L1134.375,2825.9766 L1103.125,2794.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.5625;"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="815.625" x="271.875" y="2842.7917">Step 6: checks that the sent and received buffer match.</text><line style="stroke:#000000;stroke-width:3.125;" x1="237.5" x2="368.75" y1="2946.8262" y2="2946.8262"/><line style="stroke:#000000;stroke-width:3.125;" x1="368.75" x2="368.75" y1="2946.8262" y2="2987.4512"/><line style="stroke:#000000;stroke-width:3.125;" x1="240.625" x2="368.75" y1="2987.4512" y2="2987.4512"/><polygon fill="#000000" points="271.875,2974.9512,240.625,2987.4512,271.875,2999.9512,259.375,2987.4512" style="stroke:#000000;stroke-width:3.125;"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacing" textLength="362.5" x="268.75" y="2932.3364">HandleTransferCplt()</text><rect fill="#FFA500" height="62.5" style="stroke:#181818;stroke-width:1.5625;" width="2859.375" x="84.375" y="3049.9512"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="487.5" x="1270.3125" y="3094.8914">Steps repeated if no error occurs.</text><rect fill="#EEEEEE" height="9.375" style="stroke:#EEEEEE;stroke-width:3.125;" width="3040.625" x="0" y="3203.9185"/><line style="stroke:#000000;stroke-width:3.125;" x1="0" x2="3040.625" y1="3203.9185" y2="3203.9185"/><line style="stroke:#000000;stroke-width:3.125;" x1="0" x2="3040.625" y1="3213.2935" y2="3213.2935"/><rect fill="#EEEEEE" height="91.8213" style="stroke:#000000;stroke-width:6.25;" width="387.5" x="1326.5625" y="3161.1328"/><text fill="#000000" font-family="sans-serif" font-size="53.125" font-weight="bold" lengthAdjust="spacing" textLength="343.75" x="1345.3125" y="3228.7811">main.c /main()</text><path d="M253.125,3299.8291 L253.125,3368.5791 L1100,3368.5791 L1100,3331.0791 L1068.75,3299.8291 L253.125,3299.8291 " fill="#FFFFE0" style="stroke:#181818;stroke-width:1.5625;"/><path d="M1068.75,3299.8291 L1068.75,3331.0791 L1100,3331.0791 L1068.75,3299.8291 " fill="#FFFFE0" style="stroke:#181818;stroke-width:1.5625;"/><text fill="#000000" font-family="sans-serif" font-size="31.25" lengthAdjust="spacing" textLength="781.25" x="271.875" y="3347.8943">reports the success status by turning on the status led.</text><!--MD5=[478996c18aba58b3dbf00775f43d5ddf]
+@startuml SMBUS-two-boards-com-dma_NominalCase.svg
+' style
+skinparam backgroundColor #EEEBDC
+skinparam ParticipantPadding 20
+skinparam ParticipantFontSize 12
+skinparam BoxPadding 20
+skinparam backgroundColor #EEEBDC
+skinparam dpi 300
+
+skinparam sequence {
+    ArrowColor black
+    ActorBorderColor DeepSkyBlue
+    LifeLineBorderColor black
+    LifeLineBackgroundColor #A9DCDF
+    ArrowThickness 1
+}
+
+' chart
+title   **Nominal SMBUS communication in dma mode**
+
+box "Controller Board"
+    participant "Example" as CtrlEx #LightGreen
+    participant "HAL SMBUS Driver" as CtrlHAL #LightBlue
+    participant "I2Cx_IRQHandler" as CtrlIRQ
+    participant "HAL DMA Driver" as CtrlHALDMA #LightBlue
+end box
+
+box "Responder Board"
+    participant "Example" as RespEx #LightGreen
+end box
+
+== example.c /app_init() ==
+skinparam NoteFontSize 10
+note right CtrlEx
+    Step 1: initializes the SMBUS and DMA instances.
+endnote
+
+== example.c /app_process() ==
+skinparam SequenceGroupBackgroundColor #Orange
+skinparam SequenceGroupBorderColor #Orange
+group Routine transmission
+    note right CtrlEx
+        Step 2: transmits a buffer in a non-blocking mode using DMA.
+    endnote
+    CtrlEx -> CtrlHAL       : <size:12> HAL_SMBUS_MASTER_SEQ_Transmit_DMA() </size>
+    CtrlHAL -> CtrlHALDMA   : <size:12> HAL_DMA_StartPeriphXfer() </size>
+    CtrlHAL <- - CtrlHALDMA  : <size:12> HAL_OK </size>
+    CtrlEx <- - CtrlHAL      : <size:12> HAL_OK </size>
+
+    |||
+
+    note right CtrlEx
+        Step 3: waits for the I2C interrupt: write transfer completed.
+    endnote
+    CtrlHAL ->>o RespEx     : <size:12> data over SMBUS </size>
+    CtrlHAL <- CtrlIRQ      : <size:12> HAL_SMBUS_EV_IRQHandler() </size>
+    CtrlHAL -> CtrlEx       : <size:12> HAL_SMBUS_MASTER_TxCpltCallback() </size>
+
+    |||
+
+    note right CtrlEx
+        Step 4: receives a buffer in a non-blocking mode using DMA.
+    endnote
+    CtrlEx -> CtrlHAL       : <size:12> HAL_SMBUS_MASTER_SEQ_Receive_DMA() </size>
+    CtrlHAL -> CtrlHALDMA   : <size:12> HAL_DMA_StartPeriphXfer() </size>
+    CtrlHAL <- - CtrlHALDMA  : <size:12> HAL_OK </size>
+    CtrlEx <- - CtrlHAL      : <size:12> HAL_OK </size>
+
+    |||
+
+    note right CtrlEx
+        Step 5: waits for the I2C interrupt: read transfer completed.
+    endnote
+    CtrlHAL o<<- RespEx     : <size:12> data over SMBUS </size>
+    CtrlHAL <- CtrlIRQ      : <size:12> HAL_SMBUS_EV_IRQHandler() </size>
+    CtrlHAL -> CtrlEx       : <size:12> HAL_SMBUS_MASTER_RxCpltCallback() </size>
+
+    |||
+
+    note right CtrlEx
+        Step 6: checks that the sent and received buffer match.
+    endnote
+    CtrlEx -[#black]> CtrlEx : <size:12> HandleTransferCplt() </size>
+
+end
+
+skinparam NoteBackgroundColor #Orange
+rnote across
+    Steps repeated if no error occurs.
+endrnote
+skinparam NoteBackgroundColor #LightYellow
+
+=== main.c /main() ==
+note right CtrlEx
+    reports the success status by turning on the status led.
+endnote
+
+@enduml
+
+@startuml SMBUS-two-boards-com-dma_NominalCase.svg
+skinparam backgroundColor #EEEBDC
+skinparam ParticipantPadding 20
+skinparam ParticipantFontSize 12
+skinparam BoxPadding 20
+skinparam backgroundColor #EEEBDC
+skinparam dpi 300
+
+skinparam sequence {
+    ArrowColor black
+    ActorBorderColor DeepSkyBlue
+    LifeLineBorderColor black
+    LifeLineBackgroundColor #A9DCDF
+    ArrowThickness 1
+}
+
+title   **Nominal SMBUS communication in dma mode**
+
+box "Controller Board"
+    participant "Example" as CtrlEx #LightGreen
+    participant "HAL SMBUS Driver" as CtrlHAL #LightBlue
+    participant "I2Cx_IRQHandler" as CtrlIRQ
+    participant "HAL DMA Driver" as CtrlHALDMA #LightBlue
+end box
+
+box "Responder Board"
+    participant "Example" as RespEx #LightGreen
+end box
+
+== example.c /app_init() ==
+skinparam NoteFontSize 10
+note right CtrlEx
+    Step 1: initializes the SMBUS and DMA instances.
+endnote
+
+== example.c /app_process() ==
+skinparam SequenceGroupBackgroundColor #Orange
+skinparam SequenceGroupBorderColor #Orange
+group Routine transmission
+    note right CtrlEx
+        Step 2: transmits a buffer in a non-blocking mode using DMA.
+    endnote
+    CtrlEx -> CtrlHAL       : <size:12> HAL_SMBUS_MASTER_SEQ_Transmit_DMA() </size>
+    CtrlHAL -> CtrlHALDMA   : <size:12> HAL_DMA_StartPeriphXfer() </size>
+    CtrlHAL <- - CtrlHALDMA  : <size:12> HAL_OK </size>
+    CtrlEx <- - CtrlHAL      : <size:12> HAL_OK </size>
+
+    |||
+
+    note right CtrlEx
+        Step 3: waits for the I2C interrupt: write transfer completed.
+    endnote
+    CtrlHAL ->>o RespEx     : <size:12> data over SMBUS </size>
+    CtrlHAL <- CtrlIRQ      : <size:12> HAL_SMBUS_EV_IRQHandler() </size>
+    CtrlHAL -> CtrlEx       : <size:12> HAL_SMBUS_MASTER_TxCpltCallback() </size>
+
+    |||
+
+    note right CtrlEx
+        Step 4: receives a buffer in a non-blocking mode using DMA.
+    endnote
+    CtrlEx -> CtrlHAL       : <size:12> HAL_SMBUS_MASTER_SEQ_Receive_DMA() </size>
+    CtrlHAL -> CtrlHALDMA   : <size:12> HAL_DMA_StartPeriphXfer() </size>
+    CtrlHAL <- - CtrlHALDMA  : <size:12> HAL_OK </size>
+    CtrlEx <- - CtrlHAL      : <size:12> HAL_OK </size>
+
+    |||
+
+    note right CtrlEx
+        Step 5: waits for the I2C interrupt: read transfer completed.
+    endnote
+    CtrlHAL o<<- RespEx     : <size:12> data over SMBUS </size>
+    CtrlHAL <- CtrlIRQ      : <size:12> HAL_SMBUS_EV_IRQHandler() </size>
+    CtrlHAL -> CtrlEx       : <size:12> HAL_SMBUS_MASTER_RxCpltCallback() </size>
+
+    |||
+
+    note right CtrlEx
+        Step 6: checks that the sent and received buffer match.
+    endnote
+    CtrlEx -[#black]> CtrlEx : <size:12> HandleTransferCplt() </size>
+
+end
+
+skinparam NoteBackgroundColor #Orange
+rnote across
+    Steps repeated if no error occurs.
+endrnote
+skinparam NoteBackgroundColor #LightYellow
+
+=== main.c /main() ==
+note right CtrlEx
+    reports the success status by turning on the status led.
+endnote
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 12:55:52 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

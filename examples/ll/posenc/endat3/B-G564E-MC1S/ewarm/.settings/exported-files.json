@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T02:30:09.677Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "fae400956eb397dce51f26c246b5afd02654038259321996d2df68d23465d2f6"
+      },
+      "file": "ll_posenc_endat3.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1f585d993b25a53d9113cc9d8bfd976126671f50a1775b999a042057551ea72c"
+      },
+      "file": "project/ll_posenc_endat3.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "bb903bebfcfac7247ebd6d42eb85319423a5e1a6e83d9ad8db579a25b7163d6c"
+      },
+      "file": "project/ll_posenc_endat3.ewp"
+    }
+  ]
+}

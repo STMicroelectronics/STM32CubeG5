@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T18:33:42.566Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0730bd61bb05d8b5523ba916df227abfe1def9cf0af2b567032defccc7449a07"
+      },
+      "file": "hal_flash_obk_program.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_flash_obk_program.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b80ed3c166d1a0cabf7e98b1ebd0df6377fceb47a9e8a94e07b02b0c08425e12"
+      },
+      "file": "project/hal_flash_obk_program.ewp"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/2.11.0/tools/projmgr/schemas/csolution.schema.json
+solution:
+  target-types:
+    - type: NUCLEO-G564RE
+      device: STM32G564RET6
+  output-dirs:
+    tmpdir: build/tmp
+    outdir: $SolutionDir()$/build/$Project$.$BuildType$
+  packs:
+    - pack: STMicroelectronics::CMSIS
+      path: ../../../../../../../arch/cmsis
+    - pack: STMicroelectronics::led_part_drivers
+      path: ../../../../../../../part_drivers/led
+    - pack: STMicroelectronics::stm32g5xx_dfp
+      path: ../../../../../../../stm32g5xx_dfp
+    - pack: STMicroelectronics::stm32g5xx_hal_drivers
+      path: ../../../../../../../stm32g5xx_drivers
+    - pack: STMicroelectronics::syscalls
+      path: ../../../../../../../utilities/syscalls
+  build-types:
+    - type: release_AC6
+      compiler: AC6
+  projects:
+    - project: project_ns/hal_gtzc_uart_dma_secure_nonsecure_ns.cproject.yml

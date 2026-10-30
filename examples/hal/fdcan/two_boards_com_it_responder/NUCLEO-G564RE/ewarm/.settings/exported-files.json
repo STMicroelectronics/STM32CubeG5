@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T18:19:19.065Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7c2974ab09afedef770c9d059190a71027ad7fdd1754d6bd183a4b09fc19644e"
+      },
+      "file": "hal_fdcan_two_boards_com_it_responder.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_fdcan_two_boards_com_it_responder.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a39eedac7ad4076df9a3f6d88c2d3c3120c7f19d9bf21f8dd541d93579612790"
+      },
+      "file": "project/hal_fdcan_two_boards_com_it_responder.ewp"
+    }
+  ]
+}

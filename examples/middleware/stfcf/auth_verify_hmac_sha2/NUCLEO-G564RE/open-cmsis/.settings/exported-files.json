@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-19T04:28:10.621Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "86e4bc062be6ca0dfd987eea81f3d91821cea38d3fe92ac850b5e113f0ce2994"
+      },
+      "file": "stfcf_auth_verify_hmac_sha2.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f3f2d4dfd6313ba3d6ae48df13ec15264d0c144b6bd023c6a2e4b991cdea4800"
+      },
+      "file": "project/stfcf_auth_verify_hmac_sha2.cproject.yml"
+    }
+  ]
+}

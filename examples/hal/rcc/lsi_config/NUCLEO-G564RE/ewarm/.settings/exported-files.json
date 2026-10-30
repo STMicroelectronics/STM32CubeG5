@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T22:09:17.753Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b568632502bc984b8a1dc5ae9bfa34f765d2e8e9deb7bbd1195c34fbb6ccffed"
+      },
+      "file": "hal_rcc_lsi_config.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_rcc_lsi_config.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b3036ff1ea88dd1943b114ffd7daa6fdde9c6a6e62ba9d8a43104004d190fd21"
+      },
+      "file": "project/hal_rcc_lsi_config.ewp"
+    }
+  ]
+}

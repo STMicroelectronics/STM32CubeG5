@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T21:03:36.534Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ddabdc4b88dd54b7ece40076838b2d0ec4e50e33d41291d7d80ba4f42e80b6ec"
+      },
+      "file": "hal_opamp_interconnect_adc_dac.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "38b230733400f6b4d39c2e63f5f14e16700ed220d6fcc61b85ca87fb2df2b2cd"
+      },
+      "file": "project/hal_opamp_interconnect_adc_dac.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9fb90abb3737096dc27051a1e7f7866cc55451a0913dc8990ae561f03f1d9a07"
+      },
+      "file": "project/hal_opamp_interconnect_adc_dac.ewp"
+    }
+  ]
+}
